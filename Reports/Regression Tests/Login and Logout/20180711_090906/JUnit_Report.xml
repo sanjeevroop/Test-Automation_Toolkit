@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login and Logout" time="51" tests="1" failures="1" errors="0">
+   <testsuite name="Login and Logout" tests="1" failures="1" errors="0" time="51" timestamp="2018-07-11 09:09:09" hostname="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE" id="Test Suites/Regression Tests/Login and Logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Regression Tests\\Login and Logout\\20180711_090906"/>
+         <property name="logFiles" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Regression Tests\\Login and Logout\\20180711_090906\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Regression Tests\\Login and Logout\\20180711_090906\\1531285799590.png"/>
+         <property name="hostName" value="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="10.136.81.125"/>
+         <property name="sessionId" value="17909631-d435-4f7a-a324-b046478c4814"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2018-07-11 09:09:09 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2018-07-11 09:09:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-07-11 09:09:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-07-11 09:09:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-07-11 09:09:23 - [MESSAGE][PASSED] - Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-07-11 09:09:23 - [TEST_STEP][PASSED] - setText: Text 'Sanjeev@sdworx.com' is set on object 'Object Repository/Login/input_loginfmt'
+
+2018-07-11 09:09:24 - [MESSAGE][PASSED] - Text 'Sanjeev@sdworx.com' is set on object 'Object Repository/Login/input_loginfmt'
+
+2018-07-11 09:09:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/input_idSIButton9' is clicked on
+
+2018-07-11 09:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_idSIButton9' is clicked on
+
+2018-07-11 09:09:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 09:09:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 09:09:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 09:09:28 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout/Logout" classname="Test Cases/Logout/Logout" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Logout/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Logout/a_Logout' located by 'By.xpath: //a[@href = '/Account/SignOut' and (text() = 'Logout' or . = 'Logout')]' not found)"/>
+         <system-out><![CDATA[2018-07-11 09:09:28 - [TEST_CASE][FAILED] - Test Cases/Logout/Logout: Test Cases/Logout/Logout FAILED because (of) Unable to click on object 'Object Repository/Logout/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Logout/a_Logout' located by 'By.xpath: //a[@href = '/Account/SignOut' and (text() = 'Logout' or . = 'Logout')]' not found)
+
+2018-07-11 09:09:28 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Logout/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Logout/a_Logout' located by 'By.xpath: //a[@href = '/Account/SignOut' and (text() = 'Logout' or . = 'Logout')]' not found)
+
+2018-07-11 09:10:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Logout/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Logout/a_Logout' located by 'By.xpath: //a[@href = '/Account/SignOut' and (text() = 'Logout' or . = 'Logout')]' not found)
+[[ATTACHMENT|C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Regression Tests\\Login and Logout\\20180711_090906\\1531285799590.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-11 09:09:28 - [TEST_CASE][FAILED] - Test Cases/Logout/Logout: Test Cases/Logout/Logout FAILED because (of) Unable to click on object 'Object Repository/Logout/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Logout/a_Logout' located by 'By.xpath: //a[@href = '/Account/SignOut' and (text() = 'Logout' or . = 'Logout')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 09:09:09 - [TEST_SUITE][FAILED] - Login and Logout: Test Cases/Logout/Logout FAILED because (of) Unable to click on object 'Object Repository/Logout/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Logout/a_Logout' located by 'By.xpath: //a[@href = '/Account/SignOut' and (text() = 'Logout' or . = 'Logout')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-11 09:09:09 - [TEST_SUITE][FAILED] - Login and Logout: Test Cases/Logout/Logout FAILED because (of) Unable to click on object 'Object Repository/Logout/a_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Logout/a_Logout' located by 'By.xpath: //a[@href = '/Account/SignOut' and (text() = 'Logout' or . = 'Logout')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

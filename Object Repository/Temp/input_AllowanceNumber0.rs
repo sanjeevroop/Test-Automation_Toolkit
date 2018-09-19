@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_AllowanceNumber0</name>
+   <tag></tag>
+   <elementGuidId>7cbdeaf1-6387-479f-9d3f-a614efc97b82</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>validateAllowanceNum()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>AllowanceNumber0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;example_wrapper&quot;)/div[@class=&quot;DTFC_ScrollWrapper&quot;]/div[@class=&quot;DTFC_LeftWrapper&quot;]/div[@class=&quot;DTFC_LeftBodyWrapper&quot;]/div[@class=&quot;DTFC_LeftBodyLiner&quot;]/table[@class=&quot;display table table-striped table-bordered dataTable no-footer DTFC_Cloned&quot;]/tbody[1]/tr[@id=&quot;PensionFirstRow&quot;]/td[3]/input[@id=&quot;AllowanceNumber0&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

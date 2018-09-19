@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login and Logout,Firefox 60.0,,2018-07-11 09:11:28,2018-07-11 09:12:24,55.143s,FAILED
+,,,,,,
+Test Cases/Login/Login,Firefox 60.0,,2018-07-11 09:11:30,2018-07-11 09:11:51,21.723s,PASSED
+openBrowser,Firefox 60.0,,2018-07-11 09:11:31,2018-07-11 09:11:45,13.970s,PASSED
+navigateToUrl,Firefox 60.0,,2018-07-11 09:11:45,2018-07-11 09:11:46,1.216s,PASSED
+setText,Firefox 60.0,,2018-07-11 09:11:46,2018-07-11 09:11:48,1.739s,PASSED
+click,Firefox 60.0,,2018-07-11 09:11:48,2018-07-11 09:11:48,0.305s,PASSED
+maximizeWindow,Firefox 60.0,,2018-07-11 09:11:48,2018-07-11 09:11:48,0.115s,PASSED
+delay,Firefox 60.0,,2018-07-11 09:11:48,2018-07-11 09:11:51,3.056s,PASSED
+,,,,,,
+Test Cases/Logout/Logout,Firefox 60.0,,2018-07-11 09:11:51,2018-07-11 09:12:23,31.922s,FAILED
+click,Firefox 60.0,,2018-07-11 09:11:52,2018-07-11 09:12:23,31.530s,FAILED

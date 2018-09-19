@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="35" tests="3" failures="0" errors="0">
+   <testsuite name="Test" tests="3" failures="0" errors="0" time="35" timestamp="2018-09-18 14:17:20" hostname="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Test\\20180918_141717"/>
+         <property name="logFiles" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Test\\20180918_141717\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.136.80.126"/>
+         <property name="sessionId" value="1b8e3c2a18373d936ad1ea91aca2de9c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2018-09-18 14:17:21 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2018-09-18 14:17:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-09-18 14:17:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-09-18 14:17:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-09-18 14:17:35 - [MESSAGE][PASSED] - Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-09-18 14:17:35 - [TEST_STEP][PASSED] - setText: Text 'sanjeev.roopnarain@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2018-09-18 14:17:35 - [MESSAGE][PASSED] - Text 'sanjeev.roopnarain@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2018-09-18 14:17:35 - [TEST_STEP][PASSED] - setText: Text 'Password1!' is set on object 'Object Repository/Login/input_Password'
+
+2018-09-18 14:17:36 - [MESSAGE][PASSED] - Text 'Password1!' is set on object 'Object Repository/Login/input_Password'
+
+2018-09-18 14:17:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2018-09-18 14:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dropdown Lists/Select Organisation" classname="Test Cases/Dropdown Lists/Select Organisation" status="PASSED">
+         <system-out><![CDATA[2018-09-18 14:17:41 - [TEST_CASE][PASSED] - Test Cases/Dropdown Lists/Select Organisation: Test Cases/Dropdown Lists/Select Organisation
+
+2018-09-18 14:17:41 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Org Test 1' are selected in object 'Object Repository/Dropdown Lists/Select Organisation/Select Org'  using regular expression
+
+2018-09-18 14:17:42 - [MESSAGE][PASSED] - All options with label 'Org Test 1' are selected in object 'Object Repository/Dropdown Lists/Select Organisation/Select Org'  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Department" classname="Test Cases/Navigations/Navigation - Department" status="PASSED">
+         <system-out><![CDATA[2018-09-18 14:17:42 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Department: Test Cases/Navigations/Navigation - Department
+
+2018-09-18 14:17:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-18 14:17:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-18 14:17:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Departments/span_Your Payroll Rules' is clicked on
+
+2018-09-18 14:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Departments/span_Your Payroll Rules' is clicked on
+
+2018-09-18 14:17:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-18 14:17:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-18 14:17:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Departments/a_Departments' is clicked on
+
+2018-09-18 14:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Departments/a_Departments' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-18 14:17:20 - [TEST_SUITE][PASSED] - Test: Test Cases/Navigations/Navigation - Department]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

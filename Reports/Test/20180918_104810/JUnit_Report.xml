@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="17" tests="2" failures="0" errors="0">
+   <testsuite name="Test" tests="2" failures="0" errors="0" time="17" timestamp="2018-09-18 10:48:14" hostname="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Test\\20180918_104810"/>
+         <property name="logFiles" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Test\\20180918_104810\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.136.81.133"/>
+         <property name="sessionId" value="0fc5a91cd7124919075d7b44f96a20fd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:48:15 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2018-09-18 10:48:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-09-18 10:48:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-09-18 10:48:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-09-18 10:48:25 - [MESSAGE][PASSED] - Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-09-18 10:48:25 - [TEST_STEP][PASSED] - setText: Text 'sanjeev.roopnarain@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2018-09-18 10:48:25 - [MESSAGE][PASSED] - Text 'sanjeev.roopnarain@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2018-09-18 10:48:25 - [TEST_STEP][PASSED] - setText: Text 'Password1!' is set on object 'Object Repository/Login/input_Password'
+
+2018-09-18 10:48:26 - [MESSAGE][PASSED] - Text 'Password1!' is set on object 'Object Repository/Login/input_Password'
+
+2018-09-18 10:48:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2018-09-18 10:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dropdown Lists/Select Organisation" classname="Test Cases/Dropdown Lists/Select Organisation" status="PASSED">
+         <system-out><![CDATA[2018-09-18 10:48:28 - [TEST_CASE][PASSED] - Test Cases/Dropdown Lists/Select Organisation: Test Cases/Dropdown Lists/Select Organisation
+
+2018-09-18 10:48:29 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Org Test 1' are selected in object 'Object Repository/Dropdown Lists/Select Organisation/Select Org'  using regular expression
+
+2018-09-18 10:48:30 - [MESSAGE][PASSED] - All options with label 'Org Test 1' are selected in object 'Object Repository/Dropdown Lists/Select Organisation/Select Org'  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-18 10:48:14 - [TEST_SUITE][PASSED] - Test: Test Cases/Dropdown Lists/Select Organisation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

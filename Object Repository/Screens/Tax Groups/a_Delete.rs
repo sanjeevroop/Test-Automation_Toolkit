@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Delete</name>
+   <tag></tag>
+   <elementGuidId>8a217802-6f83-4cb4-8b02-47840dc4006b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>display-modeda70ea88-f0a1-4e96-9d78-4525ccfbc045  btn btn-default btn-sm disableButton</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>modal</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target</name>
+      <type>Main</type>
+      <value>#RemoveUser</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>Delete('da70ea88-f0a1-4e96-9d78-4525ccfbc045')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Delete</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;example_wrapper&quot;)/div[@class=&quot;DTFC_ScrollWrapper&quot;]/div[@class=&quot;DTFC_LeftWrapper&quot;]/div[@class=&quot;DTFC_LeftBodyWrapper&quot;]/div[@class=&quot;DTFC_LeftBodyLiner&quot;]/table[@class=&quot;display table table-striped table-bordered dataTable no-footer DTFC_Cloned&quot;]/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;sorting_1&quot;]/a[@class=&quot;display-modeda70ea88-f0a1-4e96-9d78-4525ccfbc045  btn btn-default btn-sm disableButton&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

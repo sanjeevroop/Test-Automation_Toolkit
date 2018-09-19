@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cancel</name>
+   <tag></tag>
+   <elementGuidId>a16c5988-2256-42ed-a6aa-4458aa55be7d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>EditCancel('44b132d0-75b9-47ad-b04c-546f3569faf6')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Cancel_44b132d0-75b9-47ad-b04c-546f3569faf6</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cancel-user44b132d0-75b9-47ad-b04c-546f3569faf6 edit-mode44b132d0-75b9-47ad-b04c-546f3569faf6 btn btn-warning btn-sm sortCancel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Cancel </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;example_wrapper&quot;)/div[@class=&quot;DTFC_ScrollWrapper&quot;]/div[@class=&quot;DTFC_LeftWrapper&quot;]/div[@class=&quot;DTFC_LeftBodyWrapper&quot;]/div[@class=&quot;DTFC_LeftBodyLiner&quot;]/table[@class=&quot;display table table-striped table-bordered dataTable no-footer DTFC_Cloned&quot;]/tbody[1]/tr[@class=&quot;even&quot;]/td[@class=&quot;sorting_1&quot;]/button[@id=&quot;Cancel_44b132d0-75b9-47ad-b04c-546f3569faf6&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

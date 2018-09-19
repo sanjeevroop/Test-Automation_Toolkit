@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_dataTables_empty</name>
+   <tag></tag>
+   <elementGuidId>8ec2e91b-44b1-457a-8478-754e84204152</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>valign</name>
+      <type>Main</type>
+      <value>top</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>18</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dataTables_empty</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;example_wrapper&quot;)/div[@class=&quot;DTFC_ScrollWrapper&quot;]/div[@class=&quot;DTFC_LeftWrapper&quot;]/div[@class=&quot;DTFC_LeftBodyWrapper&quot;]/div[@class=&quot;DTFC_LeftBodyLiner&quot;]/table[@class=&quot;table table-striped table-bordered dataTable no-footer DTFC_Cloned&quot;]/tbody[1]/tr[@class=&quot;odd DTFC_NoData&quot;]/td[@class=&quot;dataTables_empty&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

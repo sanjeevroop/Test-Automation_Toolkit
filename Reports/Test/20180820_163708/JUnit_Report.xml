@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="30" tests="3" failures="0" errors="0">
+   <testsuite name="Test" tests="3" failures="0" errors="0" time="30" timestamp="2018-08-20 16:37:10" hostname="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Test\\20180820_163708"/>
+         <property name="logFiles" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Test\\20180820_163708\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.136.80.126"/>
+         <property name="sessionId" value="2d881e16e8032b88801af4ad65032ef2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2018-08-20 16:37:11 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2018-08-20 16:37:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-08-20 16:37:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-08-20 16:37:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-08-20 16:37:22 - [MESSAGE][PASSED] - Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-08-20 16:37:22 - [TEST_STEP][PASSED] - setText: Text 'Sanjeev@sdworx.com' is set on object 'Object Repository/Login/input_loginfmt'
+
+2018-08-20 16:37:23 - [MESSAGE][PASSED] - Text 'Sanjeev@sdworx.com' is set on object 'Object Repository/Login/input_loginfmt'
+
+2018-08-20 16:37:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/input_idSIButton9' is clicked on
+
+2018-08-20 16:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_idSIButton9' is clicked on
+
+2018-08-20 16:37:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-20 16:37:25 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Pay Rate Description" classname="Test Cases/Navigations/Navigation - Pay Rate Description" status="PASSED">
+         <system-out><![CDATA[2018-08-20 16:37:25 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Pay Rate Description: Test Cases/Navigations/Navigation - Pay Rate Description
+
+2018-08-20 16:37:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-20 16:37:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-20 16:37:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Pay Rate Description/a_Your Pay  Benefits' is clicked on
+
+2018-08-20 16:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pay Rate Description/a_Your Pay  Benefits' is clicked on
+
+2018-08-20 16:37:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-20 16:37:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-20 16:37:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Pay Rate Description/a_Company Rates' is clicked on
+
+2018-08-20 16:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pay Rate Description/a_Company Rates' is clicked on
+
+2018-08-20 16:37:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Pay Rate Description/Search Pay Rate Description' is clicked on
+
+2018-08-20 16:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pay Rate Description/Search Pay Rate Description' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Company Pay Rates" classname="Test Cases/Navigations/Navigation - Company Pay Rates" status="PASSED">
+         <system-out><![CDATA[2018-08-20 16:37:36 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Company Pay Rates: Test Cases/Navigations/Navigation - Company Pay Rates
+
+2018-08-20 16:37:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-20 16:37:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-20 16:37:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Company Pay Rates/a_Company Pay Rates' is clicked on
+
+2018-08-20 16:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Company Pay Rates/a_Company Pay Rates' is clicked on
+
+2018-08-20 16:37:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-20 16:37:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-20 16:37:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Company Pay Rates/Search Company Pay Rates' is clicked on
+
+2018-08-20 16:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Company Pay Rates/Search Company Pay Rates' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-20 16:37:10 - [TEST_SUITE][PASSED] - Test: Test Cases/Navigations/Navigation - Company Pay Rates]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

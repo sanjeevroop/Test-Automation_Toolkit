@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Please SelectAccounts E (2)</name>
+   <tag></tag>
+   <elementGuidId>bfb35165-aaf3-44ae-b579-f41f679db94c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;Description0&quot;)[count(. | //select[@id = 'Description0' and @class = 'form-control' and (text() = 'Please SelectAccounts Exec Basic  Below NMW  Junior Executive Manager Supervisor Test Rate 1 ' or . = 'Please SelectAccounts Exec Basic  Below NMW  Junior Executive Manager Supervisor Test Rate 1 ')]) = count(//select[@id = 'Description0' and @class = 'form-control' and (text() = 'Please SelectAccounts Exec Basic  Below NMW  Junior Executive Manager Supervisor Test Rate 1 ' or . = 'Please SelectAccounts Exec Basic  Below NMW  Junior Executive Manager Supervisor Test Rate 1 ')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Description0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please SelectAccounts Exec Basic  Below NMW  Junior Executive Manager Supervisor Test Rate 1 </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Description0&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

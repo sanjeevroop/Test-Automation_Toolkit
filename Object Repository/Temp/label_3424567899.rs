@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_3424567899</name>
+   <tag></tag>
+   <elementGuidId>c1b5b717-7752-47ad-87c6-88c0166d1821</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lblName63916ce5-8ef6-46e7-9a36-3abe72acbd7e</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3424567899</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CorporationReference_63916ce5-8ef6-46e7-9a36-3abe72acbd7e&quot;)/span[@class=&quot;display-mode&quot;]/label[@class=&quot;lblName63916ce5-8ef6-46e7-9a36-3abe72acbd7e&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

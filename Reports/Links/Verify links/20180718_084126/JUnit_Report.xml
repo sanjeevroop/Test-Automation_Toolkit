@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify links" time="312" tests="37" failures="0" errors="0">
+   <testsuite name="Verify links" tests="37" failures="0" errors="0" time="312" timestamp="2018-07-18 08:41:28" hostname="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE" id="Test Suites/Links/Verify links">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Links\\Verify links\\20180718_084126"/>
+         <property name="logFiles" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Links\\Verify links\\20180718_084126\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Links\\Verify links\\20180718_084126\\Screenshot/Department Details Screen/DepartmentDetails1.png"/>
+         <property name="hostName" value="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.136.81.132"/>
+         <property name="sessionId" value="c4775671911d830f71e74fa08cadd174"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:41:29 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2018-07-18 08:41:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-07-18 08:41:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-07-18 08:41:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-07-18 08:41:41 - [MESSAGE][PASSED] - Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-07-18 08:41:41 - [TEST_STEP][PASSED] - setText: Text 'Sanjeev@sdworx.com' is set on object 'Object Repository/Login/input_loginfmt'
+
+2018-07-18 08:41:43 - [MESSAGE][PASSED] - Text 'Sanjeev@sdworx.com' is set on object 'Object Repository/Login/input_loginfmt'
+
+2018-07-18 08:41:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/input_idSIButton9' is clicked on
+
+2018-07-18 08:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_idSIButton9' is clicked on
+
+2018-07-18 08:41:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-18 08:41:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-18 08:41:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:41:47 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Payroll Companies" classname="Test Cases/Navigations/Navigation - Payroll Companies" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:41:47 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Payroll Companies: Test Cases/Navigations/Navigation - Payroll Companies
+
+2018-07-18 08:41:47 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-18 08:41:51 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-18 08:41:51 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Companies/button_Your Setup' is hovered
+
+2018-07-18 08:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Companies/button_Your Setup' is hovered
+
+2018-07-18 08:41:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:41:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:41:55 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Companies/a_Your Payroll' is hovered
+
+2018-07-18 08:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Companies/a_Your Payroll' is hovered
+
+2018-07-18 08:41:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:41:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:41:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Companies/a_Payroll Basic Details' is clicked on
+
+2018-07-18 08:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Companies/a_Payroll Basic Details' is clicked on
+
+2018-07-18 08:41:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Companies/select_Please selectAnnualFort' is clicked on
+
+2018-07-18 08:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Companies/select_Please selectAnnualFort' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - BACS Details" classname="Test Cases/Navigations/Navigation - BACS Details" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:41:58 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - BACS Details: Test Cases/Navigations/Navigation - BACS Details
+
+2018-07-18 08:41:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:42:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - BACS Details/button_Next' is clicked on
+
+2018-07-18 08:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - BACS Details/button_Next' is clicked on
+
+2018-07-18 08:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - BACS Details/input_PayrollCompany.BankAccou' is clicked on
+
+2018-07-18 08:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - BACS Details/input_PayrollCompany.BankAccou' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Calculation Controls" classname="Test Cases/Navigations/Navigation - Calculation Controls" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:42:04 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Calculation Controls: Test Cases/Navigations/Navigation - Calculation Controls
+
+2018-07-18 08:42:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:42:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:42:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Calculation Controls/button_Next' is clicked on
+
+2018-07-18 08:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Calculation Controls/button_Next' is clicked on
+
+2018-07-18 08:42:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Calculation Controls/select_Please selectAnnualPeri' is clicked on
+
+2018-07-18 08:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Calculation Controls/select_Please selectAnnualPeri' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - National Insurance" classname="Test Cases/Navigations/Navigation - National Insurance" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:42:08 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - National Insurance: Test Cases/Navigations/Navigation - National Insurance
+
+2018-07-18 08:42:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:42:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:42:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - National Insurance/button_Next_2' is clicked on
+
+2018-07-18 08:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - National Insurance/button_Next_2' is clicked on
+
+2018-07-18 08:42:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - National Insurance/select_PercentageTable' is clicked on
+
+2018-07-18 08:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - National Insurance/select_PercentageTable' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - AEO Admin Fees" classname="Test Cases/Navigations/Navigation - AEO Admin Fees" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:42:13 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - AEO Admin Fees: Test Cases/Navigations/Navigation - AEO Admin Fees
+
+2018-07-18 08:42:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:42:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - AEO Admin Fees/button_Next' is clicked on
+
+2018-07-18 08:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - AEO Admin Fees/button_Next' is clicked on
+
+2018-07-18 08:42:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - AEO Admin Fees/input_PayrollCompany.CSA' is clicked on
+
+2018-07-18 08:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - AEO Admin Fees/input_PayrollCompany.CSA' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Payroll Cost Code Facets" classname="Test Cases/Navigations/Navigation - Payroll Cost Code Facets" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:42:17 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Payroll Cost Code Facets: Test Cases/Navigations/Navigation - Payroll Cost Code Facets
+
+2018-07-18 08:42:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:42:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:42:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Cost Code Facets/button_Next_3' is clicked on
+
+2018-07-18 08:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Cost Code Facets/button_Next_3' is clicked on
+
+2018-07-18 08:42:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Cost Code Facets/input_PayrollCompany.FacetName' is clicked on
+
+2018-07-18 08:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Cost Code Facets/input_PayrollCompany.FacetName' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Minimum Pay" classname="Test Cases/Navigations/Navigation - Minimum Pay" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:42:21 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Minimum Pay: Test Cases/Navigations/Navigation - Minimum Pay
+
+2018-07-18 08:42:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:42:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:42:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Minimum Pay/button_Next_1' is clicked on
+
+2018-07-18 08:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Minimum Pay/button_Next_1' is clicked on
+
+2018-07-18 08:42:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Minimum Pay/input_PayrollCompany.LivingWag' is clicked on
+
+2018-07-18 08:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Minimum Pay/input_PayrollCompany.LivingWag' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Payroll Calendar" classname="Test Cases/Navigations/Navigation - Payroll Calendar" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:42:25 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Payroll Calendar: Test Cases/Navigations/Navigation - Payroll Calendar
+
+2018-07-18 08:42:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:42:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:42:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Calendar/button_Next_4' is clicked on
+
+2018-07-18 08:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Calendar/button_Next_4' is clicked on
+
+2018-07-18 08:42:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Calendar/input_PayrollCompany.AutoCommi' is clicked on
+
+2018-07-18 08:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Calendar/input_PayrollCompany.AutoCommi' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Tax Groups" classname="Test Cases/Navigations/Navigation - Tax Groups" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:42:28 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Tax Groups: Test Cases/Navigations/Navigation - Tax Groups
+
+2018-07-18 08:42:28 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-18 08:42:32 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-18 08:42:32 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Tax Groups/button_Your Setup' is hovered
+
+2018-07-18 08:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Tax Groups/button_Your Setup' is hovered
+
+2018-07-18 08:42:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:42:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:42:35 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Tax Groups/a_Your Payroll' is hovered
+
+2018-07-18 08:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Tax Groups/a_Your Payroll' is hovered
+
+2018-07-18 08:42:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:42:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:42:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Tax Groups/a_Tax Groups' is clicked on
+
+2018-07-18 08:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Tax Groups/a_Tax Groups' is clicked on
+
+2018-07-18 08:42:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Tax Groups/input' is clicked on
+
+2018-07-18 08:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Tax Groups/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Pay Groups" classname="Test Cases/Navigations/Navigation - Pay Groups" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:42:39 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Pay Groups: Test Cases/Navigations/Navigation - Pay Groups
+
+2018-07-18 08:42:39 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-18 08:42:43 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-18 08:42:43 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Pay Groups/button_Your Setup' is hovered
+
+2018-07-18 08:42:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pay Groups/button_Your Setup' is hovered
+
+2018-07-18 08:42:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:42:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:42:46 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Pay Groups/a_Your Payroll' is hovered
+
+2018-07-18 08:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pay Groups/a_Your Payroll' is hovered
+
+2018-07-18 08:42:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:42:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:42:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Pay Groups/a_Pay Groups' is clicked on
+
+2018-07-18 08:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pay Groups/a_Pay Groups' is clicked on
+
+2018-07-18 08:42:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Pay Groups/input' is clicked on
+
+2018-07-18 08:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pay Groups/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Departments" classname="Test Cases/Navigations/Navigation - Departments" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:42:49 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Departments: Test Cases/Navigations/Navigation - Departments
+
+2018-07-18 08:42:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:42:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:42:52 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Departments/button_Your Setup' is hovered
+
+2018-07-18 08:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Departments/button_Your Setup' is hovered
+
+2018-07-18 08:42:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:42:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:42:55 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Departments/a_Your Payroll' is hovered
+
+2018-07-18 08:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Departments/a_Your Payroll' is hovered
+
+2018-07-18 08:42:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:42:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:42:58 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-18 08:42:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Links\\Verify links\\20180718_084126\\Screenshot/Department Details Screen/DepartmentDetails1.png]]
+
+2018-07-18 08:42:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-18 08:43:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-18 08:43:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Departments/a_Departments' is clicked on
+
+2018-07-18 08:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Departments/a_Departments' is clicked on
+
+2018-07-18 08:43:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Departments/input' is clicked on
+
+2018-07-18 08:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Departments/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Cost Code" classname="Test Cases/Navigations/Navigation - Cost Code" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:43:01 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Cost Code: Test Cases/Navigations/Navigation - Cost Code
+
+2018-07-18 08:43:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:43:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:43:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Cost Code/button_Your Setup' is hovered
+
+2018-07-18 08:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Cost Code/button_Your Setup' is hovered
+
+2018-07-18 08:43:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:06 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Cost Code/a_Your Payroll' is hovered
+
+2018-07-18 08:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Cost Code/a_Your Payroll' is hovered
+
+2018-07-18 08:43:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Cost Code/a_Cost Code' is clicked on
+
+2018-07-18 08:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Cost Code/a_Cost Code' is clicked on
+
+2018-07-18 08:43:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Cost Code/input' is clicked on
+
+2018-07-18 08:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Cost Code/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Payroll Disbursements" classname="Test Cases/Navigations/Navigation - Payroll Disbursements" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:43:09 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Payroll Disbursements: Test Cases/Navigations/Navigation - Payroll Disbursements
+
+2018-07-18 08:43:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:43:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:43:12 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Disbursements/button_Your Setup' is hovered
+
+2018-07-18 08:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Disbursements/button_Your Setup' is hovered
+
+2018-07-18 08:43:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:14 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Disbursements/a_Your Payroll' is hovered
+
+2018-07-18 08:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Disbursements/a_Your Payroll' is hovered
+
+2018-07-18 08:43:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Disbursements/a_Payroll Disbursements' is clicked on
+
+2018-07-18 08:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Disbursements/a_Payroll Disbursements' is clicked on
+
+2018-07-18 08:43:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Disbursements/input' is clicked on
+
+2018-07-18 08:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Disbursements/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Personal Data Codes" classname="Test Cases/Navigations/Navigation - Personal Data Codes" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:43:18 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Personal Data Codes: Test Cases/Navigations/Navigation - Personal Data Codes
+
+2018-07-18 08:43:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:43:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:43:21 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Personal Data Codes/button_Your Setup' is hovered
+
+2018-07-18 08:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Personal Data Codes/button_Your Setup' is hovered
+
+2018-07-18 08:43:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:23 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Personal Data Codes/a_Your Payroll' is hovered
+
+2018-07-18 08:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Personal Data Codes/a_Your Payroll' is hovered
+
+2018-07-18 08:43:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-18 08:43:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-18 08:43:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Personal Data Codes/a_Personnel Data Codes' is clicked on
+
+2018-07-18 08:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Personal Data Codes/a_Personnel Data Codes' is clicked on
+
+2018-07-18 08:43:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Personal Data Codes/input' is clicked on
+
+2018-07-18 08:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Personal Data Codes/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Payroll Category" classname="Test Cases/Navigations/Navigation - Payroll Category" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:43:25 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Payroll Category: Test Cases/Navigations/Navigation - Payroll Category
+
+2018-07-18 08:43:25 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-18 08:43:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-18 08:43:29 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Category/button_Your Setup' is hovered
+
+2018-07-18 08:43:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Category/button_Your Setup' is hovered
+
+2018-07-18 08:43:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:31 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Category/a_Your Payroll' is hovered
+
+2018-07-18 08:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Category/a_Your Payroll' is hovered
+
+2018-07-18 08:43:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Category/a_Payroll Category' is clicked on
+
+2018-07-18 08:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Category/a_Payroll Category' is clicked on
+
+2018-07-18 08:43:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Category/input' is clicked on
+
+2018-07-18 08:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Category/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Payroll Class" classname="Test Cases/Navigations/Navigation - Payroll Class" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:43:34 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Payroll Class: Test Cases/Navigations/Navigation - Payroll Class
+
+2018-07-18 08:43:35 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-18 08:43:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-18 08:43:39 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Class/button_Your Setup' is hovered
+
+2018-07-18 08:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Class/button_Your Setup' is hovered
+
+2018-07-18 08:43:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:41 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Class/a_Your Payroll' is hovered
+
+2018-07-18 08:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Class/a_Your Payroll' is hovered
+
+2018-07-18 08:43:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Class/a_Payroll Class' is clicked on
+
+2018-07-18 08:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Class/a_Payroll Class' is clicked on
+
+2018-07-18 08:43:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Class/input' is clicked on
+
+2018-07-18 08:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Class/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Allowances" classname="Test Cases/Navigations/Navigation - Allowances" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:43:44 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Allowances: Test Cases/Navigations/Navigation - Allowances
+
+2018-07-18 08:43:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:43:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:43:47 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Allowances/button_Your Setup' is hovered
+
+2018-07-18 08:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Allowances/button_Your Setup' is hovered
+
+2018-07-18 08:43:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:49 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Allowances/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Allowances/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:43:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:43:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:43:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Allowances/a_Allowances' is clicked on
+
+2018-07-18 08:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Allowances/a_Allowances' is clicked on
+
+2018-07-18 08:43:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Allowances/p_Pleaselist all gross pay ele' is clicked on
+
+2018-07-18 08:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Allowances/p_Pleaselist all gross pay ele' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Earnings Accumulators" classname="Test Cases/Navigations/Navigation - Earnings Accumulators" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:44:01 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Earnings Accumulators: Test Cases/Navigations/Navigation - Earnings Accumulators
+
+2018-07-18 08:44:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:44:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:44:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Earnings Accumulators/a_Earnings Accumulators' is clicked on
+
+2018-07-18 08:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Earnings Accumulators/a_Earnings Accumulators' is clicked on
+
+2018-07-18 08:44:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Earnings Accumulators/div_C - Add cumulative value' is clicked on
+
+2018-07-18 08:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Earnings Accumulators/div_C - Add cumulative value' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Hours Accumulators" classname="Test Cases/Navigations/Navigation - Hours Accumulators" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:44:05 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Hours Accumulators: Test Cases/Navigations/Navigation - Hours Accumulators
+
+2018-07-18 08:44:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:44:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:44:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Hours Accumulators/a_Hours Accumulators' is clicked on
+
+2018-07-18 08:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Hours Accumulators/a_Hours Accumulators' is clicked on
+
+2018-07-18 08:44:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Hours Accumulators/p_Allowances can be grouped to' is clicked on
+
+2018-07-18 08:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Hours Accumulators/p_Allowances can be grouped to' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Allowance Rate Premia" classname="Test Cases/Navigations/Navigation - Allowance Rate Premia" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:44:09 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Allowance Rate Premia: Test Cases/Navigations/Navigation - Allowance Rate Premia
+
+2018-07-18 08:44:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-18 08:44:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-18 08:44:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:44:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:44:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Allowance Rate Premia/a_Allowance Rate Premia' is clicked on
+
+2018-07-18 08:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Allowance Rate Premia/a_Allowance Rate Premia' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Deduction" classname="Test Cases/Navigations/Navigation - Deduction" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:44:18 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Deduction: Test Cases/Navigations/Navigation - Deduction
+
+2018-07-18 08:44:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:44:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:44:21 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Deduction/button_Your Setup (1)' is hovered
+
+2018-07-18 08:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Deduction/button_Your Setup (1)' is hovered
+
+2018-07-18 08:44:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:44:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:44:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Deduction/a_Your Pay  Benefits (1)' is hovered
+
+2018-07-18 08:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Deduction/a_Your Pay  Benefits (1)' is hovered
+
+2018-07-18 08:44:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:44:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:44:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Deduction/a_Deduction' is clicked on
+
+2018-07-18 08:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Deduction/a_Deduction' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Other Options" classname="Test Cases/Navigations/Navigation - Other Options" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:44:30 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Other Options: Test Cases/Navigations/Navigation - Other Options
+
+2018-07-18 08:44:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:44:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:44:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Other Options (1)/a_Other Options (3)' is clicked on
+
+2018-07-18 08:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Other Options (1)/a_Other Options (3)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Pension" classname="Test Cases/Navigations/Navigation - Pension" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:44:33 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Pension: Test Cases/Navigations/Navigation - Pension
+
+2018-07-18 08:44:33 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-18 08:44:39 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-07-18 08:44:39 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Pension/button_Your Setup' is hovered
+
+2018-07-18 08:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pension/button_Your Setup' is hovered
+
+2018-07-18 08:44:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:44:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:44:41 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Pension/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:44:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pension/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:44:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:44:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:44:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Pension/a_Pension' is clicked on
+
+2018-07-18 08:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pension/a_Pension' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Auto Enrolment Pension Rules" classname="Test Cases/Navigations/Navigation - Auto Enrolment Pension Rules" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:44:45 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Auto Enrolment Pension Rules: Test Cases/Navigations/Navigation - Auto Enrolment Pension Rules
+
+2018-07-18 08:44:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:44:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:44:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Auto Enrolment Pension Rules/a_Auto Enrolment Pension Rules' is clicked on
+
+2018-07-18 08:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Auto Enrolment Pension Rules/a_Auto Enrolment Pension Rules' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Payroll Rates" classname="Test Cases/Navigations/Navigation - Payroll Rates" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:44:48 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Payroll Rates: Test Cases/Navigations/Navigation - Payroll Rates
+
+2018-07-18 08:44:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:44:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:44:51 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Rates/button_Your Setup' is hovered
+
+2018-07-18 08:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Rates/button_Your Setup' is hovered
+
+2018-07-18 08:44:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:44:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:44:53 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Rates/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Rates/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:44:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:44:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:44:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Rates/a_Payroll Rates' is clicked on
+
+2018-07-18 08:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Rates/a_Payroll Rates' is clicked on
+
+2018-07-18 08:44:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Rates/label_Search' is clicked on
+
+2018-07-18 08:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Rates/label_Search' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Derived Rates" classname="Test Cases/Navigations/Navigation - Derived Rates" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:44:57 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Derived Rates: Test Cases/Navigations/Navigation - Derived Rates
+
+2018-07-18 08:44:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Derived Rates/a_Derived Rates' is clicked on
+
+2018-07-18 08:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Derived Rates/a_Derived Rates' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Allowance Rate Parameters" classname="Test Cases/Navigations/Navigation - Allowance Rate Parameters" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:45:00 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Allowance Rate Parameters: Test Cases/Navigations/Navigation - Allowance Rate Parameters
+
+2018-07-18 08:45:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:45:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:45:03 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Allowance Rate Parameters/button_Your Setup' is hovered
+
+2018-07-18 08:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Allowance Rate Parameters/button_Your Setup' is hovered
+
+2018-07-18 08:45:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:05 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Allowance Rate Parameters/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Allowance Rate Parameters/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:45:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Allowance Rate Parameters/a_Allowance  Rate Parameters' is clicked on
+
+2018-07-18 08:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Allowance Rate Parameters/a_Allowance  Rate Parameters' is clicked on
+
+2018-07-18 08:45:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Allowance Rate Parameters/label_Permanent Allowance Inpu' is clicked on
+
+2018-07-18 08:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Allowance Rate Parameters/label_Permanent Allowance Inpu' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Company Pay Rates" classname="Test Cases/Navigations/Navigation - Company Pay Rates" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:45:10 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Company Pay Rates: Test Cases/Navigations/Navigation - Company Pay Rates
+
+2018-07-18 08:45:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:13 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Company Rates/button_Your Setup' is hovered
+
+2018-07-18 08:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Company Rates/button_Your Setup' is hovered
+
+2018-07-18 08:45:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:45:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:45:16 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Company Rates/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Company Rates/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:45:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Company Rates/a_Company Pay Rates' is clicked on
+
+2018-07-18 08:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Company Rates/a_Company Pay Rates' is clicked on
+
+2018-07-18 08:45:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Company Rates/h3_Company Rates' is clicked on
+
+2018-07-18 08:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Company Rates/h3_Company Rates' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Minimum Rates" classname="Test Cases/Navigations/Navigation - Minimum Rates" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:45:22 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Minimum Rates: Test Cases/Navigations/Navigation - Minimum Rates
+
+2018-07-18 08:45:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:24 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Minimum Rates/button_Your Setup' is hovered
+
+2018-07-18 08:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Minimum Rates/button_Your Setup' is hovered
+
+2018-07-18 08:45:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:45:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:45:27 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Minimum Rates/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Minimum Rates/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:45:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Minimum Rates/a_Minimum Rates' is clicked on
+
+2018-07-18 08:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Minimum Rates/a_Minimum Rates' is clicked on
+
+2018-07-18 08:45:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Minimum Rates/label_Minimum Rates input vali' is clicked on
+
+2018-07-18 08:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Minimum Rates/label_Minimum Rates input vali' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Salary Change Reason" classname="Test Cases/Navigations/Navigation - Salary Change Reason" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:45:32 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Salary Change Reason: Test Cases/Navigations/Navigation - Salary Change Reason
+
+2018-07-18 08:45:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:45:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:45:35 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Salary Change Reason/button_Your Setup' is hovered
+
+2018-07-18 08:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Salary Change Reason/button_Your Setup' is hovered
+
+2018-07-18 08:45:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:37 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Salary Change Reason/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Salary Change Reason/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:45:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:45:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:45:40 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Salary Change Reason/a_Lookups' is hovered
+
+2018-07-18 08:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Salary Change Reason/a_Lookups' is hovered
+
+2018-07-18 08:45:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Salary Change Reason/a_Salary Change Reason' is clicked on
+
+2018-07-18 08:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Salary Change Reason/a_Salary Change Reason' is clicked on
+
+2018-07-18 08:45:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Salary Change Reason/label_Search' is clicked on
+
+2018-07-18 08:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Salary Change Reason/label_Search' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Currencies" classname="Test Cases/Navigations/Navigation - Currencies" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:45:43 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Currencies: Test Cases/Navigations/Navigation - Currencies
+
+2018-07-18 08:45:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:45:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:45:47 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Currencies/button_Your Setup' is hovered
+
+2018-07-18 08:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Currencies/button_Your Setup' is hovered
+
+2018-07-18 08:45:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:49 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Currencies/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Currencies/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:45:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:45:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:45:52 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Currencies/a_Lookups' is hovered
+
+2018-07-18 08:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Currencies/a_Lookups' is hovered
+
+2018-07-18 08:45:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:45:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:45:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Currencies/a_Currencies' is clicked on
+
+2018-07-18 08:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Currencies/a_Currencies' is clicked on
+
+2018-07-18 08:45:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:45:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:45:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Currencies/a_Currencies (1)' is clicked on
+
+2018-07-18 08:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Currencies/a_Currencies (1)' is clicked on
+
+2018-07-18 08:45:58 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Navigations/Navigation - Currencies/label_Search): Finding Test Object with id 'Object Repository/Navigations/Navigation - Currencies/label_Search']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Bank Indemnity" classname="Test Cases/Navigations/Navigation - Bank Indemnity" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:45:58 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Bank Indemnity: Test Cases/Navigations/Navigation - Bank Indemnity
+
+2018-07-18 08:45:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:46:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:46:01 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Bank Indemnity/button_Your Setup' is hovered
+
+2018-07-18 08:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Bank Indemnity/button_Your Setup' is hovered
+
+2018-07-18 08:46:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:46:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:46:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Bank Indemnity/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Bank Indemnity/a_Your Pay  Benefits' is hovered
+
+2018-07-18 08:46:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-18 08:46:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-18 08:46:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Bank Indemnity/a_Lookups' is hovered
+
+2018-07-18 08:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Bank Indemnity/a_Lookups' is hovered
+
+2018-07-18 08:46:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:46:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:46:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Bank Indemnity/a_Bank Indemnity' is clicked on
+
+2018-07-18 08:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Bank Indemnity/a_Bank Indemnity' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Statutory Absence Parameters" classname="Test Cases/Navigations/Navigation - Statutory Absence Parameters" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:46:10 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Statutory Absence Parameters: Test Cases/Navigations/Navigation - Statutory Absence Parameters
+
+2018-07-18 08:46:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:46:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:46:12 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/button_Your Setup' is hovered
+
+2018-07-18 08:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/button_Your Setup' is hovered
+
+2018-07-18 08:46:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:46:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:46:14 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Your Absence Rules' is hovered
+
+2018-07-18 08:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Your Absence Rules' is hovered
+
+2018-07-18 08:46:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:46:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:46:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Statutory Absence Parameters' is clicked on
+
+2018-07-18 08:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Statutory Absence Parameters' is clicked on
+
+2018-07-18 08:46:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/h4_SSP' is clicked on
+
+2018-07-18 08:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/h4_SSP' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Holiday Rate Calculation" classname="Test Cases/Navigations/Navigation - Holiday Rate Calculation" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:46:18 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Holiday Rate Calculation: Test Cases/Navigations/Navigation - Holiday Rate Calculation
+
+2018-07-18 08:46:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:46:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:46:20 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Holiday Rate Calculation/button_Your Setup' is hovered
+
+2018-07-18 08:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Holiday Rate Calculation/button_Your Setup' is hovered
+
+2018-07-18 08:46:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-18 08:46:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-18 08:46:21 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Holiday Rate Calculation/a_Your Absence Rules' is hovered
+
+2018-07-18 08:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Holiday Rate Calculation/a_Your Absence Rules' is hovered
+
+2018-07-18 08:46:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-18 08:46:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-18 08:46:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Holiday Rate Calculation/a_Holiday Rate Calculation' is clicked on
+
+2018-07-18 08:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Holiday Rate Calculation/a_Holiday Rate Calculation' is clicked on
+
+2018-07-18 08:46:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Holiday Rate Calculation/label_Accrual Calculation Meth' is clicked on
+
+2018-07-18 08:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Holiday Rate Calculation/label_Accrual Calculation Meth' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigations/Navigation - Payroll Copy" classname="Test Cases/Navigations/Navigation - Payroll Copy" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:46:26 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Payroll Copy: Test Cases/Navigations/Navigation - Payroll Copy
+
+2018-07-18 08:46:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-18 08:46:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-18 08:46:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Navigations/Navigation - Payroll Copy/button_Your Setup' is hovered
+
+2018-07-18 08:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Copy/button_Your Setup' is hovered
+
+2018-07-18 08:46:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-18 08:46:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-18 08:46:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Copy/a_Payroll Copy' is clicked on
+
+2018-07-18 08:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Copy/a_Payroll Copy' is clicked on
+
+2018-07-18 08:46:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigations/Navigation - Payroll Copy/label_Copy From' is clicked on
+
+2018-07-18 08:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payroll Copy/label_Copy From' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout/Logout" classname="Test Cases/Logout/Logout" status="PASSED">
+         <system-out><![CDATA[2018-07-18 08:46:32 - [TEST_CASE][PASSED] - Test Cases/Logout/Logout: Test Cases/Logout/Logout
+
+2018-07-18 08:46:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/a_Logout' is clicked on
+
+2018-07-18 08:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/a_Logout' is clicked on
+
+2018-07-18 08:46:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-18 08:46:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-18 08:41:28 - [TEST_SUITE][PASSED] - Verify links: Test Cases/Logout/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login and Logout" time="30" tests="2" failures="0" errors="0">
+   <testsuite name="Login and Logout" tests="2" failures="0" errors="0" time="30" timestamp="2018-07-11 09:05:14" hostname="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE" id="Test Suites/Regression Tests/Login and Logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Regression Tests\\Login and Logout\\20180711_090511"/>
+         <property name="logFiles" value="C:\\Users\\ROOPNARAS01\\git\\Katalon Studio\\TestAutomation\\Reports\\Regression Tests\\Login and Logout\\20180711_090511\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.136.81.125"/>
+         <property name="sessionId" value="29db34a18aea6c481ea3c778394fab9c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2018-07-11 09:05:14 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2018-07-11 09:05:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-07-11 09:05:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2018-07-11 09:05:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-07-11 09:05:26 - [MESSAGE][PASSED] - Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2018-07-11 09:05:26 - [TEST_STEP][PASSED] - setText: Text 'Sanjeev@sdworx.com' is set on object 'Object Repository/Login/input_loginfmt'
+
+2018-07-11 09:05:27 - [MESSAGE][PASSED] - Text 'Sanjeev@sdworx.com' is set on object 'Object Repository/Login/input_loginfmt'
+
+2018-07-11 09:05:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/input_idSIButton9' is clicked on
+
+2018-07-11 09:05:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_idSIButton9' is clicked on
+
+2018-07-11 09:05:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 09:05:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 09:05:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 09:05:31 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout/Logout" classname="Test Cases/Logout/Logout" status="PASSED">
+         <system-out><![CDATA[2018-07-11 09:05:31 - [TEST_CASE][PASSED] - Test Cases/Logout/Logout: Test Cases/Logout/Logout
+
+2018-07-11 09:05:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/a_Logout' is clicked on
+
+2018-07-11 09:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/a_Logout' is clicked on
+
+2018-07-11 09:05:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-11 09:05:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 09:05:14 - [TEST_SUITE][PASSED] - Login and Logout: Test Cases/Logout/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

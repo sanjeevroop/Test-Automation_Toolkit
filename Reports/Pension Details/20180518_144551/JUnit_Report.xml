@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pension Details" time="69" tests="0" failures="2" errors="0">
+   <testsuite name="Pension Details" tests="0" failures="2" errors="0" time="69" timestamp="2018-05-18 14:45:54" hostname="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE" id="Test Suites/Pension Details">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ROOPNARAS01\\Katalon Studio\\TestAutomation\\Reports\\Pension Details\\20180518_144551"/>
+         <property name="logFiles" value="C:\\Users\\ROOPNARAS01\\Katalon Studio\\TestAutomation\\Reports\\Pension Details\\20180518_144551\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ROOPNARAS01\\Katalon Studio\\TestAutomation\\Reports\\Pension Details\\20180518_144551\\1526640391474.png, C:\\Users\\ROOPNARAS01\\Katalon Studio\\TestAutomation\\Reports\\Pension Details\\20180518_144551\\1526640423155.png"/>
+         <property name="hostName" value="ROOPNARAS01 - 5CG7200TWH.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.136.81.57"/>
+         <property name="sessionId" value="15b105a8f0c14208bb9dbcd6b4dbcdb1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Misc/Login" classname="Test Cases/Misc/Login" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login/a_Pension' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7200TWH', ip: '10.136.81.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ROOPNA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 15b105a8f0c14208bb9dbcd6b4dbcdb1)"/>
+         <system-out><![CDATA[2018-05-18 14:45:55 - [TEST_CASE][FAILED] - Test Cases/Misc/Login: Test Cases/Misc/Login FAILED because (of) Unable to click on object 'Object Repository/Login/a_Pension' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7200TWH', ip: '10.136.81.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ROOPNA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 15b105a8f0c14208bb9dbcd6b4dbcdb1)
+
+2018-05-18 14:45:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://implementationtoolkit.azurewebsites.net/'
+
+2018-05-18 14:46:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationtoolkit.azurewebsites.net/'
+
+2018-05-18 14:46:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://implementationtoolkit.azurewebsites.net/' successfully
+
+2018-05-18 14:46:06 - [MESSAGE][PASSED] - Navigate to 'https://implementationtoolkit.azurewebsites.net/' successfully
+
+2018-05-18 14:46:06 - [TEST_STEP][PASSED] - setText: Text 'Sanjeev@sdworx.com' is set on object 'Object Repository/Login/input_loginfmt (1)'
+
+2018-05-18 14:46:06 - [MESSAGE][PASSED] - Text 'Sanjeev@sdworx.com' is set on object 'Object Repository/Login/input_loginfmt (1)'
+
+2018-05-18 14:46:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/input_idSIButton9 (1)' is clicked on
+
+2018-05-18 14:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_idSIButton9 (1)' is clicked on
+
+2018-05-18 14:46:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-18 14:46:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-18 14:46:11 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Login/button_Your Setup' is hovered
+
+2018-05-18 14:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Your Setup' is hovered
+
+2018-05-18 14:46:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-18 14:46:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-18 14:46:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_Your Setup' is clicked on
+
+2018-05-18 14:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Your Setup' is clicked on
+
+2018-05-18 14:46:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-18 14:46:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-18 14:46:26 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Login/a_Your Pay  Benefits' is hovered
+
+2018-05-18 14:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Your Pay  Benefits' is hovered
+
+2018-05-18 14:46:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-18 14:46:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-18 14:46:31 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login/a_Pension' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7200TWH', ip: '10.136.81.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ROOPNA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 15b105a8f0c14208bb9dbcd6b4dbcdb1)
+
+2018-05-18 14:46:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login/a_Pension' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7200TWH', ip: '10.136.81.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ROOPNA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 15b105a8f0c14208bb9dbcd6b4dbcdb1)
+[[ATTACHMENT|C:\\Users\\ROOPNARAS01\\Katalon Studio\\TestAutomation\\Reports\\Pension Details\\20180518_144551\\1526640391474.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 14:45:55 - [TEST_CASE][FAILED] - Test Cases/Misc/Login: Test Cases/Misc/Login FAILED because (of) Unable to click on object 'Object Repository/Login/a_Pension' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7200TWH', ip: '10.136.81.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ROOPNA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 15b105a8f0c14208bb9dbcd6b4dbcdb1)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add records/Pension Details" classname="Test Cases/Add records/Pension Details" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value 'c4393963-2aa8-4342-93fd-08ed9e25aa4f' of object 'Object Repository/Pension Details/select_000002 - Nadia Payroll0'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Pension Details/select_000002 - Nadia Payroll0' located by 'By.xpath: //select[@id = 'PayrollCompanyList' and @name = 'PayrollCompanyList' and (text() = '000002 - Nadia Payroll
+000003 - Nadia Payroll 3
+' or . = '000002 - Nadia Payroll
+000003 - Nadia Payroll 3
+')]' not found)"/>
+         <system-out><![CDATA[2018-05-18 14:46:31 - [TEST_CASE][FAILED] - Test Cases/Add records/Pension Details: Test Cases/Add records/Pension Details FAILED because (of) Unable to select option by value 'c4393963-2aa8-4342-93fd-08ed9e25aa4f' of object 'Object Repository/Pension Details/select_000002 - Nadia Payroll0'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Pension Details/select_000002 - Nadia Payroll0' located by 'By.xpath: //select[@id = 'PayrollCompanyList' and @name = 'PayrollCompanyList' and (text() = '000002 - Nadia Payroll
+000003 - Nadia Payroll 3
+' or . = '000002 - Nadia Payroll
+000003 - Nadia Payroll 3
+')]' not found)
+
+2018-05-18 14:46:32 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'c4393963-2aa8-4342-93fd-08ed9e25aa4f' of object 'Object Repository/Pension Details/select_000002 - Nadia Payroll0'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Pension Details/select_000002 - Nadia Payroll0' located by 'By.xpath: //select[@id = 'PayrollCompanyList' and @name = 'PayrollCompanyList' and (text() = '000002 - Nadia Payroll
+000003 - Nadia Payroll 3
+' or . = '000002 - Nadia Payroll
+000003 - Nadia Payroll 3
+')]' not found)
+
+2018-05-18 14:47:03 - [MESSAGE][FAILED] - Unable to select option by value 'c4393963-2aa8-4342-93fd-08ed9e25aa4f' of object 'Object Repository/Pension Details/select_000002 - Nadia Payroll0'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Pension Details/select_000002 - Nadia Payroll0' located by 'By.xpath: //select[@id = 'PayrollCompanyList' and @name = 'PayrollCompanyList' and (text() = '000002 - Nadia Payroll
+000003 - Nadia Payroll 3
+' or . = '000002 - Nadia Payroll
+000003 - Nadia Payroll 3
+')]' not found)
+[[ATTACHMENT|C:\\Users\\ROOPNARAS01\\Katalon Studio\\TestAutomation\\Reports\\Pension Details\\20180518_144551\\1526640423155.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 14:46:31 - [TEST_CASE][FAILED] - Test Cases/Add records/Pension Details: Test Cases/Add records/Pension Details FAILED because (of) Unable to select option by value 'c4393963-2aa8-4342-93fd-08ed9e25aa4f' of object 'Object Repository/Pension Details/select_000002 - Nadia Payroll0'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Pension Details/select_000002 - Nadia Payroll0' located by 'By.xpath: //select[@id = 'PayrollCompanyList' and @name = 'PayrollCompanyList' and (text() = '000002 - Nadia Payroll
+000003 - Nadia Payroll 3
+' or . = '000002 - Nadia Payroll
+000003 - Nadia Payroll 3
+')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-18 14:45:54 - [TEST_SUITE][FAILED] - Pension Details: Test Cases/Misc/Login FAILED because (of) Unable to click on object 'Object Repository/Login/a_Pension' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7200TWH', ip: '10.136.81.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ROOPNA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 15b105a8f0c14208bb9dbcd6b4dbcdb1)]]></system-out>
+      <system-err><![CDATA[2018-05-18 14:45:54 - [TEST_SUITE][FAILED] - Pension Details: Test Cases/Misc/Login FAILED because (of) Unable to click on object 'Object Repository/Login/a_Pension' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '5CG7200TWH', ip: '10.136.81.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ROOPNA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 15b105a8f0c14208bb9dbcd6b4dbcdb1)]]></system-err>
+   </testsuite>
+</testsuites>
