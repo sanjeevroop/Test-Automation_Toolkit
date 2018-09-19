@@ -22,6 +22,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
 
 
