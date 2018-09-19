@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - Department Details Cancel - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b608820-100f-44ee-8588-9eee14f5cea1</testCaseGuid>
+   <variable>
+      <defaultValue>'Edit'</defaultValue>
+      <description></description>
+      <id>ff97ad28-efdd-406a-9693-db1cc699313c</id>
+      <masked>false</masked>
+      <name>Var_Edit</name>
+   </variable>
+</TestCaseEntity>
