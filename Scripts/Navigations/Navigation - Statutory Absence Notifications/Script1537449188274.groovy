@@ -31,9 +31,11 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Statutory
 
 WebUI.waitForPageLoad(10)
 
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Statutory Absence Notifications/a_notifications tab'))
+
 //verify page title in div
 WebUI.verifyElementText(findTestObject('Object Repository/Navigations/Navigation - Statutory Absence Parameters/div_pagetitle'), 
-    'STATUTORY ABSENCE PARAMETERS')
+    'STATUTORY ABSENCE NOTIFICATIONS')
 
 WebUI.closeBrowser()
 

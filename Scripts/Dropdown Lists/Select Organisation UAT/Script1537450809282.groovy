@@ -18,22 +18,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Statutory Absence Parameters/span_Your Absence Rules'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Statutory Absence'))
-
-WebUI.waitForPageLoad(10)
-
-//verify page title in div
-WebUI.verifyElementText(findTestObject('Object Repository/Navigations/Navigation - Statutory Absence Parameters/div_pagetitle'), 
-    'STATUTORY ABSENCE PARAMETERS')
-
-WebUI.closeBrowser()
-
+WebUI.selectOptionByLabel(findTestObject('Dropdown Lists/Select Organisation/Select Org'),'SD WORX QA', true)

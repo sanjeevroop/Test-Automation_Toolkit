@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_SSP</name>
+   <name>a_OSP Schemes</name>
    <tag></tag>
-   <elementGuidId>90f4750b-c637-4500-bad6-7c629133713a</elementGuidId>
+   <elementGuidId>be7c3ed5-ae86-467d-92f4-44ed8faed260</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = ' OSP Schemes' or . = ' OSP Schemes')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,20 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SSP</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;divPartialView&quot;)/form[1]/div[@class=&quot;form-horizontal&quot;]/h4[1]</value>
+      <value> OSP Schemes</value>
    </webElementProperties>
 </WebElementEntity>

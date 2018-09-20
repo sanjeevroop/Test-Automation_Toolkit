@@ -13,21 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login/Login - Nischala'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Dropdown Lists/Select Organisation UAT'), [:], FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.waitForPageLoad(10)
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Absence Parameters/span_Your Absence Rules'))
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Absence Parameters/a_Absence Parameters'))
-
-//verify page title
 WebUI.waitForPageLoad(2)
 
-WebUI.verifyTextPresent('DAYS', false) //to change text when absence parameters is back up
-    
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Policy Manager OSP Scheme Details/span_Your Absence Rules'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Policy Manager OSP Scheme Details/a_OSP Schemes'))
+
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - SSP Qualifying Days/a_SSP Qualifying tab'))
+
+WebUI.delay(2)
+
+//verify text
+WebUI.verifyElementText(findTestObject('Object Repository/Navigations/Navigation - SSP Qualifying Days/div_pagetitle'), 
+    'SSP QUALIFYING DAYS')
 
 WebUI.closeBrowser()
 
