@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Next_1</name>
    <tag></tag>
-   <elementGuidId>65477d7f-558c-4f38-8da4-e27e125ec0b7</elementGuidId>
+   <elementGuidId>82265ca8-0c33-47d7-b2fe-7886f96fced1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
