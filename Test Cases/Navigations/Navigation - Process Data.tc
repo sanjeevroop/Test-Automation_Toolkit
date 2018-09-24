@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User should be able to navigate to Process Data Screen</description>
+   <name>Navigation - Process Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>068db4e3-4d11-41bf-a449-f47ec7b93e0c</testCaseGuid>
+</TestCaseEntity>

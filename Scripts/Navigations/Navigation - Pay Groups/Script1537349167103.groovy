@@ -20,11 +20,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/Account/Login?ReturnUrl=%2F')
+
+WebUI.setText(findTestObject('Navigations/Navigation - Tax Groups/input_Email'), 'nadia.fareedun@sdworx.com')
+
+WebUI.setText(findTestObject('Navigations/Navigation - Tax Groups/input_Password'), 'Password5!')
+
+WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/input_btn btn-default'))
+
+WebUI.selectOptionByValue(findTestObject('Navigations/Navigation - Tax Groups/select_Please SelectOrg Test 1'), '5ff3bc22-7cb8-4dac-bddf-c14c8e62cdbb', 
+    true)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Minimum Pay/button_Next'))
-
+WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/a_Your Payroll Rules'))
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Minimum Pay/label_Below School Leaving Age'))
+WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/a_Tax Groups'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/a_Add Tax Group'))
 

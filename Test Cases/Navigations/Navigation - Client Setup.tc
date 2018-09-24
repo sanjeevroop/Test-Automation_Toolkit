@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User should be able to navigate to Client Setup</description>
+   <name>Navigation - Client Setup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5d90f87-9b7c-4595-aae6-b77243b1b431</testCaseGuid>
+</TestCaseEntity>

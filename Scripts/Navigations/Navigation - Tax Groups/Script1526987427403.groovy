@@ -26,24 +26,24 @@ import org.openqa.selenium.Keys as Keys
 
 //WebUI.maximizeWindow()
 
-//WebUI.setText(findTestObject('Navigations/Navigation - Tax Groups/input_loginfmt'), 'Sanjeev@sdworx.com')
+//WebUI.setText(findTestObject('null'), 'Sanjeev@sdworx.com')
 
-//WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/input_idSIButton9'))
+//WebUI.click(findTestObject('null'))
 
 WebUI.delay(4)
 
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Tax Groups/button_Your Setup'))
+WebUI.mouseOver(findTestObject('null'))
 
 //WebUI.delay(3)
 
-//WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/button_Your Setup'))
+//WebUI.click(findTestObject('null'))
 
 WebUI.delay(3)
 
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Tax Groups/a_Your Payroll'))
+WebUI.mouseOver(findTestObject('null'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/a_Tax Groups'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Tax Groups/input'))
+WebUI.click(findTestObject('null'))

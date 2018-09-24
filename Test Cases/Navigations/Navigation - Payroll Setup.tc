@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User should be able to navigate to Payroll Setup</description>
+   <name>Navigation - Payroll Setup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d52a4bc0-9fbf-4e9f-9364-aae84231cdf7</testCaseGuid>
+</TestCaseEntity>

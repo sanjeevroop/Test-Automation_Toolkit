@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Scenario to validate that user can navigate to Pay Groups</description>
    <name>Navigation - Pay Groups</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ff92b8b5-2e1b-465b-9eea-a9d47ae1a545</testCaseGuid>
+   <testCaseGuid>95467e4c-32e9-4920-aea3-19e599d83c30</testCaseGuid>
 </TestCaseEntity>

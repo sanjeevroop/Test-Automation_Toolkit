@@ -21,25 +21,18 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.setText(findTestObject('Navigations/Navigation - Payroll Category/input_loginfmt'), 'Sanjeev@sdworx.com')
-
 //WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/input_idSIButton9'))
+WebUI.delay(2)
 
-WebUI.delay(4)
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Payroll Category/button_Your Setup'))
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/Page_Implementation Toolkit/a_Your Payroll Rules'))
 
 WebUI.delay(2)
 
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/button_Your Setup'))
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Payroll Category/a_Your Payroll'))
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/Page_Implementation Toolkit/a_Payroll Category'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/a_Payroll Category'))
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/Page_Implementation Toolkit/a_Add Category'))
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Payroll Category/input'))

@@ -22,9 +22,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Minimum Pay/button_Next'))
+WebUI.click(findTestObject('Navigations/Navigation - Client Setup/a_Admin'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Minimum Pay/label_Below School Leaving Age'))
+WebUI.click(findTestObject('Navigations/Navigation - Client Setup/a_Payroll  Client Setup'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Navigations/Navigation - Client Setup/a_Add Customer'))
 
