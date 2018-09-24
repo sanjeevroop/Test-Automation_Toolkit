@@ -3,7 +3,13 @@
    <description></description>
    <name>a_Company Rates</name>
    <tag></tag>
-   <elementGuidId>d01c0df0-91c6-4dd5-8d5e-776e7b442201</elementGuidId>
+   <elementGuidId>c5098c87-6a6c-431f-8b02-f2be4bfd714e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = ' Company Rates' or . = ' Company Rates')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -16,22 +22,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/CompanyPayRates</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Company Rates</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;treeview active&quot;]/ul[@class=&quot;treeview-menu menu-open&quot;]/li[6]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

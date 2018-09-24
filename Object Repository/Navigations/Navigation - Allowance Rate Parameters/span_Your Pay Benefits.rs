@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Your Pay  Benefits</name>
+   <name>span_Your Pay Benefits</name>
    <tag></tag>
-   <elementGuidId>1b8759ac-e6d6-4a21-8395-4d7421127432</elementGuidId>
+   <elementGuidId>da953847-e324-47ee-8f15-7fab919215dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Your Pay &amp; Benefits' or . = 'Your Pay &amp; Benefits')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,12 +29,5 @@
       <name>text</name>
       <type>Main</type>
       <value>Your Pay &amp; Benefits</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;treeview&quot;]/a[1]/span[1]</value>
    </webElementProperties>
 </WebElementEntity>

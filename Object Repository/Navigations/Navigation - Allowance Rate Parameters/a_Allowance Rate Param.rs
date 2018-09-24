@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Company Rates</name>
+   <name>a_Allowance Rate Param</name>
    <tag></tag>
-   <elementGuidId>36eae1da-6408-414f-b65b-a361557cbc91</elementGuidId>
+   <elementGuidId>9bfdd539-b0f0-482f-a19a-696c92351485</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = ' Company Rates' or . = ' Company Rates')]</value>
+         <value>//a[(text() = ' Allowance &amp; Rate Param' or . = ' Allowance &amp; Rate Param')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Company Rates</value>
+      <value> Allowance &amp; Rate Param</value>
    </webElementProperties>
 </WebElementEntity>

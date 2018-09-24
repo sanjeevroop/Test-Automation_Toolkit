@@ -19,27 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-//WebUI.openBrowser('')
+WebUI.delay(2)
 
-//WebUI.navigateToUrl('https://login.microsoftonline.com/7ef41b2d-b0df-48c8-8b0c-c6497fdf26ac/oauth2/authorize?client_id=f6722b0a-c5be-4f78-99b5-b3c01917fbfe&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3Dffn_d_sQQ0bsZUb8sn3FjzerOU0prvmNEUjRZylylqtdYjtCI32rE8gy_1Jjw54VeLyMmxJz1HZyx8Y8WXILIWJgXOoqz8xYUgeXL5EXVHA2PbM1GE2S-wRvXCougSzo_OtlxeN_ngsYBJU3l0XEkw&nonce=636667123090883787.ZTdkMjFhNzUtNjYwZC00Y2ZiLThhMjAtMzliOTQwNzMyZjM4NWI0YTE1ZDQtZDYzNy00MWI4LTliYmEtZjZlOWUxM2Q2MjY0&x-client-SKU=ID_NET451&x-client-ver=5.2.1.0')
+WebUI.click(findTestObject('Navigations/Navigation - Auto Enrolment Pension Rules/span_Your Pay Benefits'))
 
-//WebUI.setText(findTestObject('Navigations/Navigation - Auto Enrolment Pension Rules/input_loginfmt'), 'Sanjeev@sdworx.com')
+WebUI.delay(2)
 
-//WebUI.click(findTestObject('Navigations/Navigation - Auto Enrolment Pension Rules/input_idSIButton9'))
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Auto Enrolment Pension Rules/a_ Pension Schemes'))
 
-//WebUI.click(findTestObject('Navigations/Navigation - Auto Enrolment Pension Rules/button_Your Setup'))
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Auto Enrolment Pension Rules/a_Auto Enrolment Pension Rules'))
 
-//WebUI.click(findTestObject('Navigations/Navigation - Auto Enrolment Pension Rules/a_Your Pay  Benefits'))
+WebUI.delay(2)
 
-//WebUI.click(findTestObject('Navigations/Navigation - Auto Enrolment Pension Rules/a_Pension'))
+//verify text
+WebUI.verifyTextPresent('AUTO ENROLMENT PENSION RULES', false)
 
-WebUI.delay(3)
+WebUI.closeBrowser()
 
-WebUI.click(findTestObject('Navigations/Navigation - Auto Enrolment Pension Rules/a_Auto Enrolment Pension Rules'))
-
-//WebUI.click(findTestObject('Navigations/Navigation - Auto Enrolment Pension Rules/div_Payroll Number'))
-
-//WebUI.closeBrowser()
-
-//WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Auto Enrolment Pension Rules/select_Please Select01'))

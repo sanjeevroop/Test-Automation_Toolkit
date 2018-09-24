@@ -18,21 +18,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-//WebUI.openBrowser('')
-
-//WebUI.navigateToUrl('https://login.microsoftonline.com/7ef41b2d-b0df-48c8-8b0c-c6497fdf26ac/oauth2/authorize?client_id=f6722b0a-c5be-4f78-99b5-b3c01917fbfe&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DZdFTXRGHl2O2hzCVugJ-xLD-0RG9pPVJEkkCPa0aJguv7QG2h5KwVN0oDqhchy2nVxHcNXZnCfTKQ2qYOZl4GNiQVDPt6nZXN_9X4m6nGt_qVuE596iZV6kTByncJdBx79ro74gExEMTOGXDZ0ot2A&nonce=636700161491737974.MjAzMTc1MmYtYTcwNi00MDAxLTg2MDQtYTlhODFmMjAxY2NmZDU5ZGE5MzUtNzlmNS00N2U2LThiZGQtMTJiZjNhOWM0MDlk&x-client-SKU=ID_NET451&x-client-ver=5.2.1.0')
-
-//WebUI.setText(findTestObject('Navigations/Navigation - Allowance Rate Parameters/input_loginfmt'), 
-    //'Sanjeev@sdworx.com')
-
-//WebUI.click(findTestObject('Navigations/Navigation - Allowance Rate Parameters/input_idSIButton9'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Navigations/Navigation - Allowance Rate Parameters/span_Your Pay  Benefits'))
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Allowance Rate Parameters/a_Allowance  Rate Param'))
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Allowance Rate Parameters/span_Your Pay Benefits'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Allowance Rate Parameters/a_Allowance Rate Param'))
+
+WebUI.delay(2)
+
+//verify text
+WebUI.verifyTextPresent('ALLOWANCE & RATE PARAMETERS', false)
+
+WebUI.closeBrowser()
 

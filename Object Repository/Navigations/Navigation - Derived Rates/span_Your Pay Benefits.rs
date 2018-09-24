@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Company Rates</name>
+   <name>span_Your Pay Benefits</name>
    <tag></tag>
-   <elementGuidId>36eae1da-6408-414f-b65b-a361557cbc91</elementGuidId>
+   <elementGuidId>a20f0e87-2151-41fe-aeb7-4f224cce6d0f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = ' Company Rates' or . = ' Company Rates')]</value>
+         <value>//span[(text() = 'Your Pay &amp; Benefits' or . = 'Your Pay &amp; Benefits')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +21,13 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Company Rates</value>
+      <value>Your Pay &amp; Benefits</value>
    </webElementProperties>
 </WebElementEntity>

@@ -18,24 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-//WebUI.openBrowser('')
-
-//WebUI.navigateToUrl('https://login.microsoftonline.com/7ef41b2d-b0df-48c8-8b0c-c6497fdf26ac/oauth2/authorize?client_id=f6722b0a-c5be-4f78-99b5-b3c01917fbfe&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3D8WCAApwgHUwEeY8UbydynT9Tw0nlL9XRR2IpB1kAVxalE8gdMpFrLEySi01MokKBwFKsBpcjOcEP64Kfnp7Bzv5AJ4TIoVf6gjLRO8TePzRt0ZTSdllvs7Ps-jcblrtkbftRODgDeT2kJY1Wkj14yw&nonce=636700018101058956.NDc4YTRhNGItM2QzYi00NmEyLWExM2ItNTIyYTJjNGE4MDQ4MjlkMjkzZGUtN2JhOS00NjY1LWE4YjYtMWU2NzNkZDBkMzFk&x-client-SKU=ID_NET451&x-client-ver=5.2.1.0')
-
-//WebUI.setText(findTestObject('Navigations/Navigation - Payroll Rates/input_loginfmt'), 
-    //'Sanjeev@sdworx.com')
-
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Rates/input_idSIButton9'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Rates/span_Your Pay  Benefits'))
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Rates/a_Rates'))
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Payroll Rates/span_Your Pay Benefits'))
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Payroll Rates/Search Payroll Rates'))
+WebUI.delay(2)
 
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Payroll Rates/a_Rates'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('PAYROLL RATES', false)
+
+WebUI.closeBrowser()
 

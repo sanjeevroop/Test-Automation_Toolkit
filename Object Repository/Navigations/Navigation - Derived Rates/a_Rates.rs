@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Company Rates</name>
+   <name>a_Rates</name>
    <tag></tag>
-   <elementGuidId>36eae1da-6408-414f-b65b-a361557cbc91</elementGuidId>
+   <elementGuidId>0cc52e0b-6191-45f2-83d0-aade967461ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = ' Company Rates' or . = ' Company Rates')]</value>
+         <value>//a[(text() = ' Rates' or . = ' Rates')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Company Rates</value>
+      <value> Rates</value>
    </webElementProperties>
 </WebElementEntity>

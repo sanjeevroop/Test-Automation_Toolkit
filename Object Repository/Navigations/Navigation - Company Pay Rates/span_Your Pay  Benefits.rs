@@ -3,7 +3,13 @@
    <description></description>
    <name>span_Your Pay  Benefits</name>
    <tag></tag>
-   <elementGuidId>de9604ed-e438-4ab3-acf3-63416dadff30</elementGuidId>
+   <elementGuidId>607a92b8-d746-4ee8-a71d-f8592c15f1b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Your Pay &amp; Benefits' or . = 'Your Pay &amp; Benefits')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,12 +25,5 @@
       <name>text</name>
       <type>Main</type>
       <value>Your Pay &amp; Benefits</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;treeview&quot;]/a[1]/span[1]</value>
    </webElementProperties>
 </WebElementEntity>
