@@ -102,18 +102,6 @@
       <testCaseId>Test Cases/Archives/Navigation - Allowances</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c7576da3-6469-4169-9845-468ab22ef1f3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Navigations/Navigation - Earnings Accumulators</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>83913216-b762-4768-8311-9ab9fa0ca646</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Navigations/Navigation - Hours Accumulators</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d2e40527-4bc6-4544-8972-5166acd90250</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

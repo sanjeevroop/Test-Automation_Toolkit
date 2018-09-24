@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Your Pay  Benefits</name>
    <tag></tag>
-   <elementGuidId>5e1f8ef4-2d80-47e8-9fe7-c71f9059b9ab</elementGuidId>
+   <elementGuidId>71af26ee-ba6a-4fd2-979e-78bb29d995c0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

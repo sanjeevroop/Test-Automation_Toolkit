@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Navigation - Earnings Accumulators</name>
+   <name>Navigation - Leaving Interview</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7bb07c50-af8d-4724-8a6e-290221073582</testCaseGuid>
+   <testCaseGuid>eb6d0763-b5eb-4836-91ca-2c9a1da561ae</testCaseGuid>
 </TestCaseEntity>

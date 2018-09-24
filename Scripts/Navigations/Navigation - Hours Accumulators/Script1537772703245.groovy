@@ -20,34 +20,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
+WebUI.delay(5)
 
-//WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
+WebUI.click(findTestObject('Navigations/Navigation - Hours Accumulators/span_Your Pay  Benefits'))
 
-//WebUI.maximizeWindow()
+WebUI.delay(5)
 
-//WebUI.setText(findTestObject('Navigations/Navigation - Earnings Accumulators/input_loginfmt'), 'Sanjeev@sdworx.com')
+WebUI.click(findTestObject('Navigations/Navigation - Hours Accumulators/a_Allowances'))
 
-//WebUI.click(findTestObject('Navigations/Navigation - Earnings Accumulators/input_idSIButton9'))
+WebUI.delay(5)
 
-//WebUI.delay(3)
-
-//WebUI.mouseOver(findTestObject('Navigations/Navigation - Earnings Accumulators/button_Your Setup'))
-
-//WebUI.delay(3)
-
-//WebUI.click(findTestObject('Navigations/Navigation - Earnings Accumulators/button_Your Setup'))
-
-//WebUI.delay(2)
-
-//WebUI.mouseOver(findTestObject('Navigations/Navigation - Earnings Accumulators/a_Your Pay  Benefits'))
-
-//WebUI.delay(3)
-
-//WebUI.click(findTestObject('Navigations/Navigation - Earnings Accumulators/a_Allowances'))
+WebUI.click(findTestObject('Navigations/Navigation - Hours Accumulators/a_Hours Accumulators'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navigations/Navigation - Earnings Accumulators/a_Earnings Accumulators'))
+WebUI.click(findTestObject('Navigations/Navigation - Hours Accumulators/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Earnings Accumulators/div_C - Add cumulative value'))
