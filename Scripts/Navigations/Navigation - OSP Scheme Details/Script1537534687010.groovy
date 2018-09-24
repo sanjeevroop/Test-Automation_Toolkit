@@ -13,19 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//WebUI.waitForPageLoad(10)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Absence Parameters/span_Your Absence Rules'))
-
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - OSP Scheme Details/span_Your Absence Rules'))
 WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Navigations/Navigation - OSP Scheme Details/a_OSP Schemes'))
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Absence Parameters/a_Absence Parameters'))
-
-//verify page title
-WebUI.waitForPageLoad(2)
-
-WebUI.verifyTextPresent('ABSENCE PARAMETERS', false)
-
+//verify text
+WebUI.verifyTextPresent('OSP SCHEME DETAILS', false)
 WebUI.closeBrowser()
 
