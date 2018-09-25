@@ -18,35 +18,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('')
-
 //WebUI.navigateToUrl('https://login.microsoftonline.com/7ef41b2d-b0df-48c8-8b0c-c6497fdf26ac/oauth2/authorize?client_id=f6722b0a-c5be-4f78-99b5-b3c01917fbfe&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DmSgpfMLuUzmpw6eHGu8NODrHuEdFNF2OfLNWATNGrjmAiJQCzQLhKTRxj7I44gqDeRcf8wpPab7-vH94uMObedg2L4KRjc14Gu5HB-SeiP757ksMn0kaAF_jvgE5SW4cAto1zirS6WRWHFyCpScHWQ&nonce=636673179043834259.YzI5ZmEyMWMtMjg2OS00MjhkLThmMDEtNWFiYjVhNjMyOTA3MjE5NWIzMGEtYjM3MC00NzVkLTllM2ItOTUzODY5OGFhODc2&x-client-SKU=ID_NET451&x-client-ver=5.2.1.0')
+//WebUI.click(findTestObject('null'))
+//WebUI.setText(findTestObject('null'), 
+//'Sanjeev@sdworx.com')
+//WebUI.click(findTestObject('null'))
+//WebUI.click(findTestObject('null'))
+//WebUI.click(findTestObject('null'))
+//WebUI.click(findTestObject('null'))
+//WebUI.click(findTestObject('null'))
+//WebUI.click(findTestObject('null'))
+//WebUI.click(findTestObject('null'))
+//WebUI.click(findTestObject('null'))
+WebUI.delay(2)
 
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/div_Cant access your account'))
-
-//WebUI.setText(findTestObject('Navigations/Navigation - Payroll Calendar/input_loginfmt'), 
-    //'Sanjeev@sdworx.com')
-
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/input_idSIButton9'))
-
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/a_Payroll Basic Details'))
-
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/button_Next'))
-
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/button_Next_1'))
-
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/button_Next_2'))
-
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/button_Next'))
-
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/button_Next_3'))
-
-//WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/button_Next_1'))
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/button_Next'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/button_Next_4'))
-
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/input_PayrollCompany.AutoCommi'))
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Calendar/label_Auto Commit Time'))
 

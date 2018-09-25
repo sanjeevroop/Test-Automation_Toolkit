@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_PayrollCompany.AutoCommi</name>
+   <name>input_Password</name>
    <tag></tag>
-   <elementGuidId>9167e8e3-3eaa-48a7-a0de-35be18d4bc37</elementGuidId>
+   <elementGuidId>569bbcfc-b44b-4bdb-b853-21b751c746c1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -30,36 +30,36 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-val-number</name>
+      <name>data-val-required</name>
       <type>Main</type>
-      <value>The field AutoCommitDate must be a number.</value>
+      <value>The Password field is required.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>PayrollCompany_AutoCommitDate</value>
+      <value>Password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>PayrollCompany.AutoCommitDate</value>
+      <value>Password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;PayrollCompany_AutoCommitDate&quot;)</value>
+      <value>id(&quot;Password&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
