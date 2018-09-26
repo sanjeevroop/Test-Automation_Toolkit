@@ -21,35 +21,23 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.maximizeWindow()
-
 //WebUI.setText(findTestObject('Navigations/Navigation - Bank Indemnity/input_loginfmt'), 'Sanjeev@sdworx.com')
-
 //WebUI.click(findTestObject('Navigations/Navigation - Bank Indemnity/input_idSIButton9'))
+WebUI.delay(2)
 
-WebUI.delay(3)
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Bank Indemnity/button_Your Setup'))
-
-//WebUI.delay(3)
-
-//WebUI.click(findTestObject('Navigations/Navigation - Bank Indemnity/button_Your Setup'))
-
-WebUI.delay(3)
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Bank Indemnity/a_Your Pay  Benefits'))
-
-WebUI.delay(3)
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Bank Indemnity/a_Lookups'))
+WebUI.click(findTestObject('Navigations/Navigation - Bank Indemnity/a_Your Pay  Benefits'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Bank Indemnity/a_Bank Indemnity'))
+WebUI.click(findTestObject('Navigations/Navigation - Bank Indemnity/a_Lists'))
 
-//WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Bank Indemnity/input_org.BankIndemnity'))
+WebUI.delay(2)
 
+WebUI.click(findTestObject('Navigations/Navigation - Bank Indemnity/a_Bank Indemnity Statement'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Navigations/Navigation - Bank Indemnity/label_Bank Indemnity statement'))
 

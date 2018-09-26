@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_idSIButton9</name>
+   <name>input_Email</name>
    <tag></tag>
-   <elementGuidId>a07c7656-f281-46f2-a152-f242b6be75eb</elementGuidId>
+   <elementGuidId>b4aca032-325e-47a7-9a02-d5c4277d4933</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,53 +14,59 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>class</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-email</name>
+      <type>Main</type>
+      <value>The Email field is not a valid e-mail address.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-val-required</name>
+      <type>Main</type>
+      <value>The Email field is required.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>idSIButton9</value>
+      <value>Email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>name</name>
       <type>Main</type>
-      <value>btn btn-block btn-primary</value>
+      <value>Email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-bind</name>
+      <name>type</name>
       <type>Main</type>
-      <value>
-            attr: {
-                'id': primaryButtonId || 'idSIButton9',
-                'aria-describedby': primaryButtonDescribedBy },
-            value: primaryButtonText() || str['CT_PWD_STR_SignIn_Button_Next'],
-            hasFocus: focusOnPrimaryButton,
-            click: primaryButton_onClick,
-            enable: isPrimaryButtonEnabled,
-            visible: isPrimaryButtonVisible</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Next</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;idSIButton9&quot;)</value>
+      <value>id(&quot;Email&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

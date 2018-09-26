@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Bank Indemnity Statement</name>
+   <name>select_Please SelectBlushHells</name>
    <tag></tag>
-   <elementGuidId>cf6a8ab9-a0cd-4ac4-b251-db0949816f4a</elementGuidId>
+   <elementGuidId>e5cf675c-e365-4eb0-9208-c564744fbb04</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,41 +11,56 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
+      <name>class</name>
       <type>Main</type>
-      <value>tab</value>
+      <value>btn btn-block btn-default dropdown-toggle</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tab3</value>
+      <value>OrgList</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>name</name>
       <type>Main</type>
-      <value>#menu2</value>
+      <value>OrgList</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>changeOrganisation()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Bank Indemnity Statement</value>
+      <value>Please Select
+Blush
+Hells Pharmacy
+White Bread
+SuperSonic
+Cala Gnomes
+K-ISS
+Sd Worx 03
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab3&quot;)</value>
+      <value>id(&quot;OrgList&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

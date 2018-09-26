@@ -18,25 +18,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('')
-
 //WebUI.navigateToUrl('https://login.microsoftonline.com/7ef41b2d-b0df-48c8-8b0c-c6497fdf26ac/oauth2/authorize?client_id=f6722b0a-c5be-4f78-99b5-b3c01917fbfe&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DTc827X4crRBYu0uweiP-bIG2BHNxMIqELZZmGhjm2mteDWmUwOjyIGGX8GpVnKAhCeBz5KUPrnRRvR7yoDqmC4q_Vu89g0BB57LmM76AEt23A4iZf2mCmHqRnritRUBPEh6lHN60vYnGarnoqDvawA&nonce=636697354209416620.MGRhOTA3YWQtODU5OS00MjkxLWFmMGQtZDM2MjhhZTE0YWIwZTNjNTE4ZTItOGNkZS00NDFlLWIyMDctNzIzM2EzNzJiYzI4&x-client-SKU=ID_NET451&x-client-ver=5.2.1.0')
-
 //WebUI.setText(findTestObject('Navigations/Navigation - Payroll Companies/input_loginfmt'), 
-    //'Sanjeev@sdworx.com')
-
+//'Sanjeev@sdworx.com')
 //WebUI.click(findTestObject('Navigations/Navigation - Payroll Companies/input_idSIButton9'))
+WebUI.delay(2)
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Companies/span_Your Payroll Rules'))
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Companies/a_Your Payroll Rules'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Payroll Companies/a_Payroll Basic Details'))
 
-//WebUI.delay(1)
+WebUI.delay(2)
 
-//WebUI.doubleClick(findTestObject('Navigations/Navigation - Payroll Companies/input_PayrollCompany.Address2'))
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Companies/label_SD Worx Payroll'))
 

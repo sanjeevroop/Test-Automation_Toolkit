@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Your Setup</name>
+   <name>select_Please SelectBlushHells</name>
    <tag></tag>
-   <elementGuidId>040a95f6-66eb-4fc1-888c-b24ab4cd2e5a</elementGuidId>
+   <elementGuidId>4af3fe19-e730-4b32-9cba-9a63ddba0696</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,50 +11,56 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dropdown-toggle dropbtn</value>
+      <value>btn btn-block btn-default dropdown-toggle</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
+      <value>OrgList</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>OrgList</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
+      <name>onchange</name>
       <type>Main</type>
-      <value>dropdown</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-hover</name>
-      <type>Main</type>
-      <value>dropdown</value>
+      <value>changeOrganisation()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                                  Your Setup 
-                            </value>
+      <value>Please Select
+Blush
+Hells Pharmacy
+White Bread
+SuperSonic
+Cala Gnomes
+K-ISS
+Sd Worx 03
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[1]/nav[@class=&quot;navbar navbar-inverse&quot;]/div[@class=&quot;container-fluid&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[2]/div[@class=&quot;dropdown open&quot;]/button[@class=&quot;dropdown-toggle dropbtn&quot;]</value>
+      <value>id(&quot;OrgList&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

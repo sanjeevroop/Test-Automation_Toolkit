@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Bank Indemnity Statement</name>
+   <name>label_SD Worx Payroll</name>
    <tag></tag>
-   <elementGuidId>cf6a8ab9-a0cd-4ac4-b251-db0949816f4a</elementGuidId>
+   <elementGuidId>fc165f1d-c52e-45f2-bbf9-c62c255c17ce</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,41 +11,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
+      <name>class</name>
       <type>Main</type>
-      <value>tab</value>
+      <value>col-md-4 control-label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>for</name>
       <type>Main</type>
-      <value>tab3</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#menu2</value>
+      <value>SD_Worx_Payroll__:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Bank Indemnity Statement</value>
+      <value>SD Worx Payroll? :</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab3&quot;)</value>
+      <value>id(&quot;step-1&quot;)/form[1]/div[@class=&quot;container&quot;]/div[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/label[@class=&quot;col-md-4 control-label&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

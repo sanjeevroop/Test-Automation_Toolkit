@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Your Pay  Benefits</name>
    <tag></tag>
-   <elementGuidId>c9582e7a-1802-454a-adb8-8a832292d208</elementGuidId>
+   <elementGuidId>7b27c4e9-aa51-4a2c-8b0d-ecbf5a407ba8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,13 +25,16 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Your Pay &amp; Benefits   </value>
+      <value>
+                                     Your Pay &amp; Benefits
+                                    
+                                </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[1]/nav[@class=&quot;navbar navbar-inverse&quot;]/div[@class=&quot;container-fluid&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[2]/div[@class=&quot;dropdown open&quot;]/ul[@class=&quot;dropdown-menu dropdownhover-bottom&quot;]/li[@class=&quot;dropdown open&quot;]/a[1]</value>
+      <value>id(&quot;bs-example-navbar-collapse-1&quot;)/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;treeview&quot;]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

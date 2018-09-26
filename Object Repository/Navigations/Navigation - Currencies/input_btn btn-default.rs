@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_idSIButton9</name>
+   <name>input_btn btn-default</name>
    <tag></tag>
-   <elementGuidId>d8b1b062-f3c5-4935-99b1-7f43d3887f7a</elementGuidId>
+   <elementGuidId>cda4f80e-d8e6-4ccd-a361-3baa789771ef</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,46 +21,24 @@
       <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>value</name>
       <type>Main</type>
-      <value>idSIButton9</value>
+      <value>Log in</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-block btn-primary</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-bind</name>
-      <type>Main</type>
-      <value>
-            attr: {
-                'id': primaryButtonId || 'idSIButton9',
-                'aria-describedby': primaryButtonDescribedBy },
-            value: primaryButtonText() || str['CT_PWD_STR_SignIn_Button_Next'],
-            hasFocus: focusOnPrimaryButton,
-            click: primaryButton_onClick,
-            enable: isPrimaryButtonEnabled,
-            visible: isPrimaryButtonVisible</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Next</value>
+      <value>btn btn-default</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;idSIButton9&quot;)</value>
+      <value>id(&quot;loginForm&quot;)/form[@class=&quot;form-horizontal login100-form&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-md-offset-2 col-md-10&quot;]/input[@class=&quot;btn btn-default&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

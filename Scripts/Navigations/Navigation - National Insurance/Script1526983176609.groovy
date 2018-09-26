@@ -21,35 +21,20 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('https://implementationtoolkit.azurewebsites.net/')
-
 //WebUI.navigateToUrl('https://implementationtoolkit.azurewebsites.net/')
-
 //WebUI.maximizeWindow()
-
 //WebUI.setText(findTestObject('Navigations/Navigation - National Insurance/input_loginfmt'), 'Sanjeev@sdworx.com')
-
 //WebUI.click(findTestObject('Navigations/Navigation - National Insurance/input_idSIButton9'))
-
-
 //WebUI.mouseOver(findTestObject('Navigations/Navigation - National Insurance/button_Your Setup'))
-
 //WebUI.delay(3)
-
 //WebUI.click(findTestObject('Navigations/Navigation - National Insurance/button_Your Setup'))
-
 //WebUI.delay(3)
-
 //WebUI.mouseOver(findTestObject('Navigations/Navigation - National Insurance/a_Your Payroll'))
-
-WebUI.delay(3)
-
-//WebUI.click(findTestObject('Navigations/Navigation - National Insurance/a_Payroll Basic Details'))
-
-//WebUI.click(findTestObject('Navigations/Navigation - National Insurance/button_Next'))
-
-//WebUI.click(findTestObject('Navigations/Navigation - National Insurance/button_Next_1'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - National Insurance/button_Next_2'))
 
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - National Insurance/select_PercentageTable'))
+WebUI.click(findTestObject('Navigations/Navigation - National Insurance/label_NI Calculation Method'))
+

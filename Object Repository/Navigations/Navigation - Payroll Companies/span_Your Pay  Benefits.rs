@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Your Payroll Rules</name>
+   <name>span_Your Pay  Benefits</name>
    <tag></tag>
-   <elementGuidId>81861c9b-6e55-46ea-a847-d4bc55eebbf9</elementGuidId>
+   <elementGuidId>3cf25ea1-5acb-4f2d-9cc9-a03f5d8d441b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Your Payroll Rules</value>
+      <value>Your Pay &amp; Benefits</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

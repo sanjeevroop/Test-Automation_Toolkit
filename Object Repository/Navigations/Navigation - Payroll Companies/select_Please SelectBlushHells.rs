@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_PayrollCompany.PhoneNo</name>
+   <name>select_Please SelectBlushHells</name>
    <tag></tag>
-   <elementGuidId>5bea6fae-18bc-4693-95f4-1169d03be8e6</elementGuidId>
+   <elementGuidId>5110360a-da14-4924-919c-8117246f93b4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,62 +11,56 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-regex</name>
-      <type>Main</type>
-      <value>Please enter a valid Phone No.</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-regex-pattern</name>
-      <type>Main</type>
-      <value>^\(?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{6})$</value>
+      <value>btn btn-block btn-default dropdown-toggle</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>PayrollCompany_PhoneNo</value>
+      <value>OrgList</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>PayrollCompany.PhoneNo</value>
+      <value>OrgList</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>changeOrganisation()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>text</name>
       <type>Main</type>
-      <value>text</value>
+      <value>Please Select
+Blush
+Hells Pharmacy
+White Bread
+SuperSonic
+Cala Gnomes
+K-ISS
+Sd Worx 03
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;PayrollCompany_PhoneNo&quot;)</value>
+      <value>id(&quot;OrgList&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

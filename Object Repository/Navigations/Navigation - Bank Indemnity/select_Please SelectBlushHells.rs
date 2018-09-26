@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Please selectAnnualFort</name>
+   <name>select_Please SelectBlushHells</name>
    <tag></tag>
-   <elementGuidId>c4621f3e-8310-4ea1-bd64-2c411883d7ba</elementGuidId>
+   <elementGuidId>fb723846-0746-4bb7-8d1b-ffaad35b0372</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,49 +18,42 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-val-required</name>
-      <type>Main</type>
-      <value>Frequency is required</value>
+      <value>btn btn-block btn-default dropdown-toggle</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>PayrollCompany_Frequency</value>
+      <value>OrgList</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>PayrollCompany.Frequency</value>
+      <value>OrgList</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>changeOrganisation()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Please select
-Annual
-Fortnightly
-Hourly
-Lunar
-Monthly
-Quarterly
-Weekly
+      <value>Please Select
+Blush
+Hells Pharmacy
+White Bread
+SuperSonic
+Cala Gnomes
+K-ISS
+Sd Worx 03
 </value>
    </webElementProperties>
    <webElementProperties>
@@ -68,6 +61,6 @@ Weekly
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;PayrollCompany_Frequency&quot;)</value>
+      <value>id(&quot;OrgList&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
