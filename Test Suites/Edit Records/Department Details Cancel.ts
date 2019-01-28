@@ -4,7 +4,6 @@
    <name>Department Details Cancel</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-04T16:27:40</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

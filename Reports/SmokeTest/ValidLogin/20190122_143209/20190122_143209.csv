@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ValidLogin,,,2019-01-22 14:32:18,2019-01-22 14:32:20,1.969s,ERROR
+,,,,,,
+Test Cases/Login/Login - Data Driven,,,2019-01-22 14:32:18,2019-01-22 14:32:20,1.133s,ERROR
+openBrowser(java.net.URL),,,2019-01-22 14:32:19,2019-01-22 14:32:19,0.146s,ERROR

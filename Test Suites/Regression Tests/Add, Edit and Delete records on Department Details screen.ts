@@ -4,7 +4,6 @@
    <name>Add, Edit and Delete records on Department Details screen</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-05T11:10:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

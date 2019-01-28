@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,,,2019-01-22 13:49:59,2019-01-22 13:50:04,4.394s,ERROR
+,,,,,,
+Test Cases/Login/Login - Data Driven,,,2019-01-22 13:50:00,2019-01-22 13:50:04,3.585s,ERROR
+openBrowser(java.net.URL),,,2019-01-22 13:50:03,2019-01-22 13:50:03,0.189s,ERROR

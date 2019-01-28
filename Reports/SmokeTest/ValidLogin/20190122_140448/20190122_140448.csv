@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ValidLogin,Chrome 71.0.3578.98,,2019-01-22 14:04:56,2019-01-22 14:05:10,13.766s,PASSED
+,,,,,,
+Test Cases/Login/Login - Data Driven,Chrome 71.0.3578.98,,2019-01-22 14:04:57,2019-01-22 14:05:09,12.508s,PASSED
+"openBrowser(""https://implementationuat.sdworx.co.uk/"")",Chrome 71.0.3578.98,,2019-01-22 14:04:59,2019-01-22 14:05:09,10.258s,PASSED

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="46" tests="1" failures="1" errors="0">
+   <testsuite name="Smoke Test" tests="1" failures="1" errors="0" time="46" timestamp="2019-01-22 17:09:08" hostname="SD466525 - PC0871RF.SD.DIKA.BE" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190122_170900"/>
+         <property name="logFiles" value="C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190122_170900\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190122_170900\\1548162573386.png"/>
+         <property name="hostName" value="SD466525 - PC0871RF.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="192.168.97.1"/>
+         <property name="sessionId" value="dc5e1f8c-3f94-4f44-bfc7-00e939503a84"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/ValidLogin" classname="Test Cases/Smoke Test/ValidLogin" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Test/ValidLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Logout/Logout_dropdown' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;dropdown-toggle&quot; href=&quot;#&quot;> is not clickable at point (1381.308364868164,33.099998474121094) because another element &lt;div id=&quot;myModal&quot; class=&quot;modal fade&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC0871RF', ip: '192.168.97.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18436, moz:profile: C:\Users\SD466525.DAN001\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fcd9d308-0684-4e4b-9353-c19557d4a26c)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at ValidLogin.run(ValidLogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548162545426.run(TempTestSuite1548162545426.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-22 17:09:09 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/ValidLogin: Test Cases/Smoke Test/ValidLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Logout/Logout_dropdown' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="dropdown-toggle" href="#"> is not clickable at point (1381.308364868164,33.099998474121094) because another element <div id="myModal" class="modal fade"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC0871RF', ip: '192.168.97.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18436, moz:profile: C:\Users\SD466525.DAN001\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fcd9d308-0684-4e4b-9353-c19557d4a26c)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at ValidLogin.run(ValidLogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548162545426.run(TempTestSuite1548162545426.groovy:36)
+
+
+2019-01-22 17:09:10 - [TEST_STEP][PASSED] - openBrowser("https://implementationnp.sdworx.co.uk/"): Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2019-01-22 17:09:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-22 17:09:11 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-22 17:09:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2019-01-22 17:09:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 17:09:21 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 17:09:21 - [TEST_STEP][PASSED] - navigateToUrl("https://implementationnp.sdworx.co.uk/"): Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2019-01-22 17:09:23 - [MESSAGE][PASSED] - Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2019-01-22 17:09:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Email"), "purmanand.roopnah@sdworx.com"): Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-22 17:09:23 - [MESSAGE][PASSED] - Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-22 17:09:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Password"), "Manish_2505"): Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-22 17:09:23 - [MESSAGE][PASSED] - Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-22 17:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_btn btn-default")): Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-22 17:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-22 17:09:32 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true): All options with label 'Panasonic Mauritius' are selected in object 'Object Repository/Dropdown Lists/Select Organisation/Select Org'  using regular expression
+
+2019-01-22 17:09:33 - [MESSAGE][PASSED] - All options with label 'Panasonic Mauritius' are selected in object 'Object Repository/Dropdown Lists/Select Organisation/Select Org'  using regular expression
+
+2019-01-22 17:09:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10): Object 'Object Repository/Logout/Logout_dropdown' is present
+
+2019-01-22 17:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/Logout_dropdown' is present
+
+2019-01-22 17:09:33 - [TEST_STEP][FAILED] - click(findTestObject("Logout/Logout_dropdown")): click(findTestObject("Logout/Logout_dropdown")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Logout/Logout_dropdown' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="dropdown-toggle" href="#"> is not clickable at point (1381.308364868164,33.099998474121094) because another element <div id="myModal" class="modal fade"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC0871RF', ip: '192.168.97.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18436, moz:profile: C:\Users\SD466525.DAN001\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fcd9d308-0684-4e4b-9353-c19557d4a26c)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at ValidLogin.run(ValidLogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548162545426.run(TempTestSuite1548162545426.groovy:36)
+
+
+2019-01-22 17:09:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Logout/Logout_dropdown' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="dropdown-toggle" href="#"> is not clickable at point (1381.308364868164,33.099998474121094) because another element <div id="myModal" class="modal fade"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC0871RF', ip: '192.168.97.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18436, moz:profile: C:\Users\SD466525.DAN001\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fcd9d308-0684-4e4b-9353-c19557d4a26c)
+[[ATTACHMENT|C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190122_170900\\1548162573386.png]]
+
+2019-01-22 17:09:33 - [MESSAGE][FAILED] - click(findTestObject("Logout/Logout_dropdown")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Logout/Logout_dropdown' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="dropdown-toggle" href="#"> is not clickable at point (1381.308364868164,33.099998474121094) because another element <div id="myModal" class="modal fade"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC0871RF', ip: '192.168.97.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18436, moz:profile: C:\Users\SD466525.DAN001\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fcd9d308-0684-4e4b-9353-c19557d4a26c)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at ValidLogin.run(ValidLogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548162545426.run(TempTestSuite1548162545426.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-22 17:09:09 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/ValidLogin: Test Cases/Smoke Test/ValidLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Logout/Logout_dropdown' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="dropdown-toggle" href="#"> is not clickable at point (1381.308364868164,33.099998474121094) because another element <div id="myModal" class="modal fade"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC0871RF', ip: '192.168.97.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18436, moz:profile: C:\Users\SD466525.DAN001\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fcd9d308-0684-4e4b-9353-c19557d4a26c)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at ValidLogin.run(ValidLogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548162545426.run(TempTestSuite1548162545426.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/InvalidLogin" classname="Test Cases/Smoke Test/InvalidLogin" status="PASSED">
+         <system-out><![CDATA[2019-01-22 17:09:33 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/InvalidLogin: Test Cases/Smoke Test/InvalidLogin
+
+2019-01-22 17:09:34 - [TEST_STEP][PASSED] - openBrowser("https://implementationnp.sdworx.co.uk/"): Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2019-01-22 17:09:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-22 17:09:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-22 17:09:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationnp.sdworx.co.uk/'
+
+2019-01-22 17:09:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 17:09:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 17:09:42 - [TEST_STEP][PASSED] - navigateToUrl("https://implementationnp.sdworx.co.uk/"): Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2019-01-22 17:09:50 - [MESSAGE][PASSED] - Navigate to 'https://implementationnp.sdworx.co.uk/' successfully
+
+2019-01-22 17:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Email"), "purmanand.roopnah@s.n"): Text 'purmanand.roopnah@s.n' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-22 17:09:50 - [MESSAGE][PASSED] - Text 'purmanand.roopnah@s.n' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-22 17:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Password"), "yhh"): Text 'yhh' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-22 17:09:50 - [MESSAGE][PASSED] - Text 'yhh' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-22 17:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_btn btn-default")): Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-22 17:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-22 17:09:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Fields Validation/Login/InvalidLogin"), 0): Object 'Object Repository/Fields Validation/Login/InvalidLogin' is present
+
+2019-01-22 17:09:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-22 17:09:54 - [MESSAGE][PASSED] - Object 'Object Repository/Fields Validation/Login/InvalidLogin' is present
+
+2019-01-22 17:09:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 17:09:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-22 17:09:08 - [TEST_SUITE][FAILED] - Smoke Test: Test Cases/Smoke Test/ValidLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Logout/Logout_dropdown' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="dropdown-toggle" href="#"> is not clickable at point (1381.308364868164,33.099998474121094) because another element <div id="myModal" class="modal fade"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC0871RF', ip: '192.168.97.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18436, moz:profile: C:\Users\SD466525.DAN001\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fcd9d308-0684-4e4b-9353-c19557d4a26c)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at ValidLogin.run(ValidLogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548162545426.run(TempTestSuite1548162545426.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-22 17:09:08 - [TEST_SUITE][FAILED] - Smoke Test: Test Cases/Smoke Test/ValidLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Logout/Logout_dropdown' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="dropdown-toggle" href="#"> is not clickable at point (1381.308364868164,33.099998474121094) because another element <div id="myModal" class="modal fade"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PC0871RF', ip: '192.168.97.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18436, moz:profile: C:\Users\SD466525.DAN001\Ap..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fcd9d308-0684-4e4b-9353-c19557d4a26c)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at ValidLogin.run(ValidLogin:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548162545426.run(TempTestSuite1548162545426.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

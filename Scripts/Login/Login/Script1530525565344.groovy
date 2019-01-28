@@ -26,20 +26,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
 
+WebUI.setText(findTestObject('Object Repository/Login/input_Email'), 'sanjeev.roopnarain@sdworx.com')
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Email'),'sanjeev.roopnarain@sdworx.com')
-
-WebUI.setText(findTestObject('Object Repository/Login/input_Password'),'Password1!')
-
+WebUI.setText(findTestObject('Object Repository/Login/input_Password'), 'Password1!')
 
 WebUI.click(findTestObject('Object Repository/Login/input_btn btn-default'))
 
-//WebUI.setText(findTestObject('null'), findTestData('Login').getValue(1, 1))
-
-//WebUI.click(findTestObject('null'))
-
-//WebUI.maximizeWindow()
-
-//WebUI.delay(3)
-
-//WebUI.takeScreenshot('Screenshot/Login/loginDetails.png')

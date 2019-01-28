@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ValidLogin,Firefox 64.0,,2019-01-22 15:04:46,2019-01-22 15:05:52,1m - 6.282s,FAILED
+,,,,,,
+Test Cases/Login/Login,Firefox 64.0,,2019-01-22 15:04:47,2019-01-22 15:05:19,32.761s,PASSED
+"openBrowser(""https://implementationnp.sdworx.co.uk/"")",Firefox 64.0,,2019-01-22 15:04:47,2019-01-22 15:05:02,14.448s,PASSED
+maximizeWindow(),Firefox 64.0,,2019-01-22 15:05:02,2019-01-22 15:05:02,0.077s,PASSED
+"navigateToUrl(""https://implementationnp.sdworx.co.uk/"")",Firefox 64.0,,2019-01-22 15:05:02,2019-01-22 15:05:06,3.515s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Email""), ""sanjeev.roopnarain@sdworx.com"")",Firefox 64.0,,2019-01-22 15:05:06,2019-01-22 15:05:06,0.218s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Password""), ""Password1!"")",Firefox 64.0,,2019-01-22 15:05:06,2019-01-22 15:05:06,0.138s,PASSED
+"click(findTestObject(""Object Repository/Login/input_btn btn-default""))",Firefox 64.0,,2019-01-22 15:05:06,2019-01-22 15:05:19,13.578s,PASSED
+,,,,,,
+Test Cases/Misc/Select Organisation - UAT,Firefox 64.0,,2019-01-22 15:05:19,2019-01-22 15:05:20,0.814s,FAILED
+"setText(findTestObject(""Select Org/input_loginfmt""), ""Panasonic Mauritius"")",Firefox 64.0,,2019-01-22 15:05:20,2019-01-22 15:05:20,0.290s,FAILED
+,,,,,,
+Test Cases/Logout/Logout,Firefox 64.0,,2019-01-22 15:05:20,2019-01-22 15:05:52,31.284s,FAILED
+"click(findTestObject(""Logout/a_Logout""))",Firefox 64.0,,2019-01-22 15:05:21,2019-01-22 15:05:52,30.626s,FAILED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ValidLogin,Chrome 71.0.3578.98,,2019-01-22 15:00:36,2019-01-22 15:01:15,39.309s,FAILED
+,,,,,,
+Test Cases/Login/Login,Chrome 71.0.3578.98,,2019-01-22 15:00:37,2019-01-22 15:01:04,27.376s,PASSED
+"openBrowser(""https://implementationnp.sdworx.co.uk/"")",Chrome 71.0.3578.98,,2019-01-22 15:00:37,2019-01-22 15:00:47,9.822s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 15:00:47,2019-01-22 15:00:48,1.158s,PASSED
+"navigateToUrl(""https://implementationnp.sdworx.co.uk/"")",Chrome 71.0.3578.98,,2019-01-22 15:00:48,2019-01-22 15:00:52,3.367s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Email""), ""sanjeev.roopnarain@sdworx.com"")",Chrome 71.0.3578.98,,2019-01-22 15:00:52,2019-01-22 15:00:52,0.319s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Password""), ""Password1!"")",Chrome 71.0.3578.98,,2019-01-22 15:00:52,2019-01-22 15:00:52,0.187s,PASSED
+"click(findTestObject(""Object Repository/Login/input_btn btn-default""))",Chrome 71.0.3578.98,,2019-01-22 15:00:52,2019-01-22 15:01:04,11.795s,PASSED
+,,,,,,
+Test Cases/Misc/Select Organisation,Chrome 71.0.3578.98,,2019-01-22 15:01:04,2019-01-22 15:01:14,10.400s,FAILED
+"openBrowser(""https://implementationnp.sdworx.co.uk/"")",Chrome 71.0.3578.98,,2019-01-22 15:01:05,2019-01-22 15:01:13,8.319s,PASSED
+"navigateToUrl(""https://implementationnp.sdworx.co.uk/"")",Chrome 71.0.3578.98,,2019-01-22 15:01:13,2019-01-22 15:01:14,1.397s,PASSED
+"setText(findTestObject(""Select Org/input_loginfmt""), ""Sanjeev@sdworx.com"")",Chrome 71.0.3578.98,,2019-01-22 15:01:14,2019-01-22 15:01:14,0.113s,FAILED
+,,,,,,
+Test Cases/Logout/Logout,Chrome 71.0.3578.98,,2019-01-22 15:01:14,2019-01-22 15:01:15,0.399s,FAILED
+"click(findTestObject(""Logout/a_Logout""))",Chrome 71.0.3578.98,,2019-01-22 15:01:15,2019-01-22 15:01:15,0.033s,FAILED

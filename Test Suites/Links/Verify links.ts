@@ -4,7 +4,6 @@
    <name>Verify links</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-18T08:41:26</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

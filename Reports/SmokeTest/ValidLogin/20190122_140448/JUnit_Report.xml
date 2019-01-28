@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ValidLogin" time="13" tests="1" failures="0" errors="0">
+   <testsuite name="ValidLogin" tests="1" failures="0" errors="0" time="13" timestamp="2019-01-22 14:04:56" hostname="SD466525 - PC0871RF.SD.DIKA.BE" id="Test Suites/SmokeTest/ValidLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\SmokeTest\\ValidLogin\\20190122_140448"/>
+         <property name="logFiles" value="C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\SmokeTest\\ValidLogin\\20190122_140448\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SD466525 - PC0871RF.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.97.1"/>
+         <property name="sessionId" value="56b578e841d69acc343313fab3e39c22"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login - Data Driven" classname="Test Cases/Login/Login - Data Driven" status="PASSED">
+         <system-out><![CDATA[2019-01-22 14:04:57 - [TEST_CASE][PASSED] - Test Cases/Login/Login - Data Driven: Test Cases/Login/Login - Data Driven
+
+2019-01-22 14:04:59 - [TEST_STEP][PASSED] - openBrowser("https://implementationuat.sdworx.co.uk/"): Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-22 14:05:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 14:05:00 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-22 14:05:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationuat.sdworx.co.uk/']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-22 14:04:56 - [TEST_SUITE][PASSED] - ValidLogin: Test Cases/Login/Login - Data Driven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

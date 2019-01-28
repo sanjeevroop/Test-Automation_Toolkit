@@ -26,7 +26,7 @@ import org.openqa.selenium.Keys as Keys
 
 //WebUI.setText(findTestObject('Logout/input_loginfmt'), 'Sanjeev@sdworx.com')
 
-//WebUI.click(findTestObject('Logout/input_idSIButton9'))
+//WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Logout/a_Logout'))
 
