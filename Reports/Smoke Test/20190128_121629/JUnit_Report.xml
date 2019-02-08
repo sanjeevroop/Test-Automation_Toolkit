@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="132" tests="3" failures="1" errors="1">
+   <testsuite name="Smoke Test" tests="3" failures="1" errors="1" time="132" timestamp="2019-01-28 12:16:38" hostname="SD466525 - PC0871RF.SD.DIKA.BE" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190128_121629"/>
+         <property name="logFiles" value="C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190128_121629\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190128_121629\\1548663503814.png, C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190128_121629\\1548663504195.png"/>
+         <property name="hostName" value="SD466525 - PC0871RF.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.97.1"/>
+         <property name="sessionId" value="3e67083c72faa883cbc348b68e01fe90"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/ValidLogin" classname="Test Cases/Smoke Test/ValidLogin" status="PASSED">
+         <system-out><![CDATA[2019-01-28 12:16:39 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/ValidLogin: Test Cases/Smoke Test/ValidLogin
+
+2019-01-28 12:16:40 - [TEST_STEP][PASSED] - openBrowser(findTestData("Environment").getValue("URL", 1)): Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-28 12:16:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-28 12:16:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-28 12:17:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-28 12:17:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-28 12:17:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-28 12:17:06 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Environment").getValue("URL", 1)): Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-01-28 12:17:07 - [MESSAGE][PASSED] - Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-01-28 12:17:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Email"), findTestData("Login").getValue("Username", 1)): Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-28 12:17:08 - [MESSAGE][PASSED] - Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-28 12:17:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Password"), findTestData("Login").getValue("Password", 1)): Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-28 12:17:08 - [MESSAGE][PASSED] - Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-28 12:17:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_btn btn-default")): Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-28 12:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-28 12:17:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true): All options with label 'Panasonic Mauritius' are selected in object 'Object Repository/Dropdown Lists/Select Organisation/Select Org'  using regular expression
+
+2019-01-28 12:17:29 - [MESSAGE][PASSED] - All options with label 'Panasonic Mauritius' are selected in object 'Object Repository/Dropdown Lists/Select Organisation/Select Org'  using regular expression
+
+2019-01-28 12:17:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Logout/Logout_dropdown' is present
+
+2019-01-28 12:17:29 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/Logout_dropdown' is present
+
+2019-01-28 12:17:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("Logout/Logout_dropdown")): NOT_RUN: click(findTestObject("Logout/Logout_dropdown"))
+
+2019-01-28 12:17:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Logout/Logout_dropdown"))
+
+2019-01-28 12:17:29 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE): NOT_RUN: verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE)
+
+2019-01-28 12:17:29 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE)
+
+2019-01-28 12:17:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("Logout/a_Logout")): NOT_RUN: click(findTestObject("Logout/a_Logout"))
+
+2019-01-28 12:17:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Logout/a_Logout"))
+
+2019-01-28 12:17:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-28 12:17:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/InvalidLogin" classname="Test Cases/Smoke Test/InvalidLogin" status="ERROR">
+         <error type="ERROR" message="Test Cases/Smoke Test/InvalidLogin FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 6 for test data 'C:\Users\SD466525.DAN001\git\Test-Automation_ToolkitVersion2\Data Files\Excel Sheets\LoginCredentials.xlsx'. Row index must be between 1..5
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:49)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:130)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:102)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at InvalidLogin.run(InvalidLogin:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-28 12:17:30 - [TEST_CASE][ERROR] - Test Cases/Smoke Test/InvalidLogin: Test Cases/Smoke Test/InvalidLogin FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 6 for test data 'C:\Users\SD466525.DAN001\git\Test-Automation_ToolkitVersion2\Data Files\Excel Sheets\LoginCredentials.xlsx'. Row index must be between 1..5
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:49)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:130)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:102)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at InvalidLogin.run(InvalidLogin:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)
+
+
+2019-01-28 12:17:31 - [TEST_STEP][PASSED] - openBrowser(findTestData("Environment").getValue("URL", 1)): Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-28 12:17:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-28 12:17:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-28 12:17:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-28 12:17:38 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-28 12:17:38 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Environment").getValue("URL", 1)): Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-01-28 12:17:39 - [MESSAGE][PASSED] - Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-01-28 12:17:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Email"), findTestData("Login").getValue("Username", 5)): Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-28 12:17:40 - [MESSAGE][PASSED] - Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-28 12:17:40 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Login/input_Password"), findTestData("Login").getValue("Password", 6)): setText(findTestObject("Object Repository/Login/input_Password"), findTestData("Login").getValue("Password", 6)) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 6 for test data 'C:\Users\SD466525.DAN001\git\Test-Automation_ToolkitVersion2\Data Files\Excel Sheets\LoginCredentials.xlsx'. Row index must be between 1..5
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:49)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:130)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:102)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at InvalidLogin.run(InvalidLogin:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)
+
+
+2019-01-28 12:17:40 - [MESSAGE][ERROR] - setText(findTestObject("Object Repository/Login/input_Password"), findTestData("Login").getValue("Password", 6)) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 6 for test data 'C:\Users\SD466525.DAN001\git\Test-Automation_ToolkitVersion2\Data Files\Excel Sheets\LoginCredentials.xlsx'. Row index must be between 1..5
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:49)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:130)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:102)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at InvalidLogin.run(InvalidLogin:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-28 12:17:30 - [TEST_CASE][ERROR] - Test Cases/Smoke Test/InvalidLogin: Test Cases/Smoke Test/InvalidLogin FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 6 for test data 'C:\Users\SD466525.DAN001\git\Test-Automation_ToolkitVersion2\Data Files\Excel Sheets\LoginCredentials.xlsx'. Row index must be between 1..5
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:49)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:130)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:102)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at InvalidLogin.run(InvalidLogin:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/UserOrgValidation" classname="Test Cases/Smoke Test/UserOrgValidation" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Test/UserOrgValidation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Dropdown Lists/Select Organisation/Select Org' located by 'By.xpath: //select[@id = 'OrgList' and @name = 'OrgList']' is present after '30' second(s))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$8.call(Unknown Source)
+	at UserOrgValidation.run(UserOrgValidation:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-28 12:17:40 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/UserOrgValidation: Test Cases/Smoke Test/UserOrgValidation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Dropdown Lists/Select Organisation/Select Org' located by 'By.xpath: //select[@id = 'OrgList' and @name = 'OrgList']' is present after '30' second(s))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$8.call(Unknown Source)
+	at UserOrgValidation.run(UserOrgValidation:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)
+
+
+2019-01-28 12:17:41 - [TEST_STEP][PASSED] - openBrowser(findTestData("Environment").getValue("URL", 1)): Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-28 12:17:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-28 12:17:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-28 12:17:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-28 12:17:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-28 12:17:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-28 12:17:49 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Environment").getValue("URL", 1)): Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-01-28 12:17:50 - [MESSAGE][PASSED] - Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-01-28 12:17:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Email"), findTestData("Login").getValue("Username", 3)): Text 'prasan.lutchumun@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-28 12:17:50 - [MESSAGE][PASSED] - Text 'prasan.lutchumun@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-28 12:17:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Password"), findTestData("Login").getValue("Password", 3)): Text 'Password1!' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-28 12:17:51 - [MESSAGE][PASSED] - Text 'Password1!' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-28 12:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_btn btn-default")): Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-28 12:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-28 12:17:53 - [TEST_STEP][PASSED] - OutputLenght = getNumberOfTotalOption(findTestObject("Dropdown Lists/Select Organisation/Select Org")): 28 options of object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' counted
+
+2019-01-28 12:17:53 - [MESSAGE][PASSED] - 28 options of object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' counted
+
+2019-01-28 12:17:53 - [TEST_STEP][FAILED] - verifyElementNotPresent(findTestObject("Dropdown Lists/Select Organisation/Select Org"), 0): verifyElementNotPresent(findTestObject("Dropdown Lists/Select Organisation/Select Org"), 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Dropdown Lists/Select Organisation/Select Org' located by 'By.xpath: //select[@id = 'OrgList' and @name = 'OrgList']' is present after '30' second(s))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$8.call(Unknown Source)
+	at UserOrgValidation.run(UserOrgValidation:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)
+
+
+2019-01-28 12:17:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-28 12:18:24 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Dropdown Lists/Select Organisation/Select Org' located by 'By.xpath: //select[@id = 'OrgList' and @name = 'OrgList']' is present after '30' second(s)
+[[ATTACHMENT|C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190128_121629\\1548663503814.png]]
+
+2019-01-28 12:18:24 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Dropdown Lists/Select Organisation/Select Org' located by 'By.xpath: //select[@id = 'OrgList' and @name = 'OrgList']' is present after '30' second(s))
+[[ATTACHMENT|C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190128_121629\\1548663504195.png]]
+
+2019-01-28 12:18:24 - [MESSAGE][FAILED] - verifyElementNotPresent(findTestObject("Dropdown Lists/Select Organisation/Select Org"), 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Dropdown Lists/Select Organisation/Select Org' located by 'By.xpath: //select[@id = 'OrgList' and @name = 'OrgList']' is present after '30' second(s))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$8.call(Unknown Source)
+	at UserOrgValidation.run(UserOrgValidation:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-28 12:17:40 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/UserOrgValidation: Test Cases/Smoke Test/UserOrgValidation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Dropdown Lists/Select Organisation/Select Org' located by 'By.xpath: //select[@id = 'OrgList' and @name = 'OrgList']' is present after '30' second(s))
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$8.call(Unknown Source)
+	at UserOrgValidation.run(UserOrgValidation:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/AdminOrgValidation" classname="Test Cases/Smoke Test/AdminOrgValidation" status="PASSED">
+         <system-out><![CDATA[2019-01-28 12:18:24 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/AdminOrgValidation: Test Cases/Smoke Test/AdminOrgValidation
+
+2019-01-28 12:18:25 - [TEST_STEP][PASSED] - openBrowser(findTestData("Environment").getValue("URL", 1)): Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-28 12:18:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-28 12:18:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-28 12:18:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-28 12:18:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-28 12:18:32 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-28 12:18:32 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Environment").getValue("URL", 1)): Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-01-28 12:18:33 - [MESSAGE][PASSED] - Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-01-28 12:18:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Email"), findTestData("Login").getValue("Username", 2)): Text 'sanjeev.roopnarain@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-28 12:18:33 - [MESSAGE][PASSED] - Text 'sanjeev.roopnarain@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-28 12:18:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Password"), findTestData("Login").getValue("Password", 2)): Text 'Password1!' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-28 12:18:33 - [MESSAGE][PASSED] - Text 'Password1!' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-28 12:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_btn btn-default")): Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-28 12:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-28 12:18:35 - [TEST_STEP][NOT_RUN] - verifyOptionsPresent(findTestObject("Dropdown Lists/Select Organisation/Select Org"), ["Please Select", "Test Eight", "TestfroDelete", "Test2", "N Cus", "ITK1PAY", "Blush", "ABC Manufacturing", "White Bread", "Test Mapping", "ITK4PayHR", "New Mouth", "Panasonic Mauritius", "SuperSonic", "Test", "Edinburgh Airport", "Cala Gnomes", "K-ISS"]): NOT_RUN: verifyOptionsPresent(findTestObject("Dropdown Lists/Select Organisation/Select Org"), ["Please Select", "Test Eight", "TestfroDelete", "Test2", "N Cus", "ITK1PAY", "Blush", "ABC Manufacturing", "White Bread", "Test Mapping", "ITK4PayHR", "New Mouth", "Panasonic Mauritius", "SuperSonic", "Test", "Edinburgh Airport", "Cala Gnomes", "K-ISS"])
+
+2019-01-28 12:18:35 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyOptionsPresent(findTestObject("Dropdown Lists/Select Organisation/Select Org"), ["Please Select", "Test Eight", "TestfroDelete", "Test2", "N Cus", "ITK1PAY", "Blush", "ABC Manufacturing", "White Bread", "Test Mapping", "ITK4PayHR", "New Mouth", "Panasonic Mauritius", "SuperSonic", "Test", "Edinburgh Airport", "Cala Gnomes", "K-ISS"])
+
+2019-01-28 12:18:35 - [TEST_STEP][PASSED] - result = getText(findTestObject("Dropdown Lists/Select Organisation/Select Org")): Text of object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' is: 'Please Select
+FIL
+Yyyy
+Steve Test
+Blush
+ABC Manufacturing
+White Bread
+Test2
+Dddd
+Test
+Test Mapping
+Newnew
+Aaaaa
+Test
+ITK4PayHR
+NewCst
+Panasonic Mauritius
+SuperSonic
+Edinburgh Airport
+QA Toolkit
+Test Org
+Cala Gnomes
+K-ISS
+Sd Worx 03
+Test Eight
+TestfroDelete
+Df
+Weil Gotshal And Manges'
+
+2019-01-28 12:18:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' is: 'Please Select
+FIL
+Yyyy
+Steve Test
+Blush
+ABC Manufacturing
+White Bread
+Test2
+Dddd
+Test
+Test Mapping
+Newnew
+Aaaaa
+Test
+ITK4PayHR
+NewCst
+Panasonic Mauritius
+SuperSonic
+Edinburgh Airport
+QA Toolkit
+Test Org
+Cala Gnomes
+K-ISS
+Sd Worx 03
+Test Eight
+TestfroDelete
+Df
+Weil Gotshal And Manges'
+
+2019-01-28 12:18:36 - [TEST_STEP][PASSED] - OutputLenght = getNumberOfTotalOption(findTestObject("Dropdown Lists/Select Organisation/Select Org")): 28 options of object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' counted
+
+2019-01-28 12:18:36 - [MESSAGE][PASSED] - 28 options of object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' counted
+
+2019-01-28 12:18:36 - [TEST_STEP][PASSED] - verifyEqual(OutputLenght, 28, CONTINUE_ON_FAILURE): Actual object '28' and expected object '28' are equal
+
+2019-01-28 12:18:36 - [MESSAGE][PASSED] - Actual object '28' and expected object '28' are equal
+
+2019-01-28 12:18:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-28 12:18:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/SuperAdminOrgValidation" classname="Test Cases/Smoke Test/SuperAdminOrgValidation" status="PASSED">
+         <system-out><![CDATA[2019-01-28 12:18:36 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/SuperAdminOrgValidation: Test Cases/Smoke Test/SuperAdminOrgValidation
+
+2019-01-28 12:18:37 - [TEST_STEP][PASSED] - openBrowser(findTestData("Environment").getValue("URL", 1)): Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-28 12:18:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-28 12:18:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-01-28 12:18:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-28 12:18:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-28 12:18:44 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Environment").getValue("URL", 1)): Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-01-28 12:18:45 - [MESSAGE][PASSED] - Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-01-28 12:18:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Email"), findTestData("Login").getValue("Username", 1)): Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-28 12:18:45 - [MESSAGE][PASSED] - Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-01-28 12:18:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Password"), findTestData("Login").getValue("Password", 1)): Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-28 12:18:45 - [MESSAGE][PASSED] - Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-01-28 12:18:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_btn btn-default")): Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-28 12:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-01-28 12:18:47 - [TEST_STEP][PASSED] - result = getText(findTestObject("Dropdown Lists/Select Organisation/Select Org")): Text of object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' is: 'Please Select
+FIL
+Yyyy
+Steve Test
+Blush
+ABC Manufacturing
+White Bread
+Test2
+Dddd
+Test
+Test Mapping
+Newnew
+Aaaaa
+Test
+ITK4PayHR
+NewCst
+Panasonic Mauritius
+SuperSonic
+Edinburgh Airport
+QA Toolkit
+Test Org
+Cala Gnomes
+K-ISS
+Sd Worx 03
+Test Eight
+TestfroDelete
+Df
+Weil Gotshal And Manges'
+
+2019-01-28 12:18:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' is: 'Please Select
+FIL
+Yyyy
+Steve Test
+Blush
+ABC Manufacturing
+White Bread
+Test2
+Dddd
+Test
+Test Mapping
+Newnew
+Aaaaa
+Test
+ITK4PayHR
+NewCst
+Panasonic Mauritius
+SuperSonic
+Edinburgh Airport
+QA Toolkit
+Test Org
+Cala Gnomes
+K-ISS
+Sd Worx 03
+Test Eight
+TestfroDelete
+Df
+Weil Gotshal And Manges'
+
+2019-01-28 12:18:47 - [TEST_STEP][PASSED] - OutputLenght = getNumberOfTotalOption(findTestObject("Dropdown Lists/Select Organisation/Select Org")): 28 options of object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' counted
+
+2019-01-28 12:18:48 - [MESSAGE][PASSED] - 28 options of object 'Object Repository/Dropdown Lists/Select Organisation/Select Org' counted
+
+2019-01-28 12:18:48 - [TEST_STEP][PASSED] - verifyEqual(OutputLenght, 28, CONTINUE_ON_FAILURE): Actual object '28' and expected object '28' are equal
+
+2019-01-28 12:18:48 - [MESSAGE][PASSED] - Actual object '28' and expected object '28' are equal
+
+2019-01-28 12:18:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true): All options with label 'Panasonic Mauritius' are selected in object 'Object Repository/Dropdown Lists/Select Organisation/Select Org'  using regular expression
+
+2019-01-28 12:18:50 - [MESSAGE][PASSED] - All options with label 'Panasonic Mauritius' are selected in object 'Object Repository/Dropdown Lists/Select Organisation/Select Org'  using regular expression
+
+2019-01-28 12:18:50 - [TEST_STEP][NOT_RUN] - verifyOptionsPresent(findTestObject("Dropdown Lists/Select Organisation/Select Org"), ["Please Select", "Test Eight", "TestfroDelete", "Test2", "N Cus", "ITK1PAY", "Blush", "ABC Manufacturing", "White Bread", "Test Mapping", "ITK4PayHR", "New Mouth", "Panasonic Mauritius", "SuperSonic", "Test", "Edinburgh Airport", "Cala Gnomes", "K-ISS"]): NOT_RUN: verifyOptionsPresent(findTestObject("Dropdown Lists/Select Organisation/Select Org"), ["Please Select", "Test Eight", "TestfroDelete", "Test2", "N Cus", "ITK1PAY", "Blush", "ABC Manufacturing", "White Bread", "Test Mapping", "ITK4PayHR", "New Mouth", "Panasonic Mauritius", "SuperSonic", "Test", "Edinburgh Airport", "Cala Gnomes", "K-ISS"])
+
+2019-01-28 12:18:50 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyOptionsPresent(findTestObject("Dropdown Lists/Select Organisation/Select Org"), ["Please Select", "Test Eight", "TestfroDelete", "Test2", "N Cus", "ITK1PAY", "Blush", "ABC Manufacturing", "White Bread", "Test Mapping", "ITK4PayHR", "New Mouth", "Panasonic Mauritius", "SuperSonic", "Test", "Edinburgh Airport", "Cala Gnomes", "K-ISS"])
+
+2019-01-28 12:18:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-28 12:18:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-28 12:16:38 - [TEST_SUITE][ERROR] - Smoke Test: Test Cases/Smoke Test/InvalidLogin FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 6 for test data 'C:\Users\SD466525.DAN001\git\Test-Automation_ToolkitVersion2\Data Files\Excel Sheets\LoginCredentials.xlsx'. Row index must be between 1..5
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:49)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:130)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:102)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at InvalidLogin.run(InvalidLogin:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-28 12:16:38 - [TEST_SUITE][ERROR] - Smoke Test: Test Cases/Smoke Test/InvalidLogin FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 6 for test data 'C:\Users\SD466525.DAN001\git\Test-Automation_ToolkitVersion2\Data Files\Excel Sheets\LoginCredentials.xlsx'. Row index must be between 1..5
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:49)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:130)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:102)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at InvalidLogin.run(InvalidLogin:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548663394855.run(TempTestSuite1548663394855.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

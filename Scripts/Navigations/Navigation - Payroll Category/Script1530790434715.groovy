@@ -26,13 +26,13 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/input_idSIButton9'))
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/Page_Implementation Toolkit/a_Your Payroll Rules'))
+WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/a_Your Payroll Rules'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/Page_Implementation Toolkit/a_Payroll Category'))
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/a_Payroll Category'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/Page_Implementation Toolkit/a_Add Category'))
+WebUI.waitForElementPresent(findTestObject('Navigations/Navigation - Payroll Category/a_Add Category'), 0)
 

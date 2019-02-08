@@ -19,31 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.openBrowser('https://implementationtoolkit.azurewebsites.net/')
-
 //WebUI.navigateToUrl('https://implementationtoolkit.azurewebsites.net/')
-
 //WebUI.maximizeWindow()
-
 //WebUI.setText(findTestObject('Navigations/Navigation - Pay Groups/input_loginfmt'), 'Sanjeev@sdworx.com')
-
 //WebUI.click(findTestObject('Navigations/Navigation - Pay Groups/input_idSIButton9'))
+WebUI.click(findTestObject('Navigations/Navigation - Pay Groups/a_Your Payroll Rules'))
 
-WebUI.delay(4)
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Pay Groups/button_Your Setup'))
-
-//WebUI.delay(3)
-
-//WebUI.click(findTestObject('Navigations/Navigation - Pay Groups/button_Your Setup'))
-
-WebUI.delay(3)
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Pay Groups/a_Your Payroll'))
-
-WebUI.delay(2)
+WebUI.waitForElementPresent(findTestObject('Navigations/Navigation - Pay Groups/a_Pay Groups'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Navigations/Navigation - Pay Groups/a_Pay Groups'))
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Pay Groups/input'))
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Pay Groups/a_Add Paygroup'), 0)
+

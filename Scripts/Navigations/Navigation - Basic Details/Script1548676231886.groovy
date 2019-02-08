@@ -18,24 +18,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('https://implementationtoolkit.azurewebsites.net/')
-//WebUI.navigateToUrl('https://implementationtoolkit.azurewebsites.net/')
-//WebUI.maximizeWindow()
-//WebUI.setText(findTestObject('null'), 'Sanjeev@sdworx.com')
-//WebUI.click(findTestObject('null'))
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Navigations/Navigation - Basics Details/Page_Implementation Toolkit/span_Your Payroll Rules'))
 
-//WebUI.delay(3)
-//WebUI.click(findTestObject('null'))
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/a_Tax Groups'))
+WebUI.click(findTestObject('Navigations/Navigation - Basics Details/Page_Implementation Toolkit/a_Payroll Basic Details'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Tax Groups/a_Add Tax Group'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Navigations/Navigation - Basics Details/Page_Implementation Toolkit/button_Next'))
 

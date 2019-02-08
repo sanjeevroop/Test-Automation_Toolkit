@@ -39,12 +39,14 @@ OutputLenght = WebUI.getNumberOfTotalOption(findTestObject('Dropdown Lists/Selec
 
 WebUI.verifyEqual(OutputLenght, 28, FailureHandling.CONTINUE_ON_FAILURE)
 
-'Select an Organisation\r\n'
-WebUI.selectOptionByLabel(findTestObject('Dropdown Lists/Select Organisation/Select Org'), 'Panasonic Mauritius', true)
+CustomKeywords.'toolkit.MySql.connectDB'('', '', '', '', '')
 
-not_run: WebUI.verifyOptionsPresent(findTestObject('Dropdown Lists/Select Organisation/Select Org'), ['Please Select', 'Test Eight'
+WebUI.verifyOptionsPresent(findTestObject('Dropdown Lists/Select Organisation/Select Org'), ['Please Select', 'Test Eight'
         , 'TestfroDelete', 'Test2', 'N Cus', 'ITK1PAY', 'Blush', 'ABC Manufacturing', 'White Bread', 'Test Mapping', 'ITK4PayHR'
         , 'New Mouth', 'Panasonic Mauritius', 'SuperSonic', 'Test', 'Edinburgh Airport', 'Cala Gnomes', 'K-ISS'])
+
+'Select an Organisation\r\n'
+WebUI.selectOptionByLabel(findTestObject('Dropdown Lists/Select Organisation/Select Org'), 'Panasonic Mauritius', true)
 
 WebUI.closeBrowser()
 

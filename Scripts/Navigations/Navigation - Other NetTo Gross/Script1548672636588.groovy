@@ -20,22 +20,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('https://implementationtoolkit.azurewebsites.net/')
-//WebUI.navigateToUrl('https://implementationtoolkit.azurewebsites.net/')
+//WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
+//WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
 //WebUI.maximizeWindow()
-//WebUI.setText(findTestObject('null'), 'Sanjeev@sdworx.com')
-//WebUI.click(findTestObject('null'))
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Navigations/Navigation - Basics Details/Page_Implementation Toolkit/span_Your Payroll Rules'))
-
+//WebUI.setText(findTestObject('Navigations/Navigation - Earnings Accumulators/input_loginfmt'), 'Sanjeev@sdworx.com')
+//WebUI.click(findTestObject('Navigations/Navigation - Earnings Accumulators/input_idSIButton9'))
 //WebUI.delay(3)
-//WebUI.click(findTestObject('null'))
+//WebUI.mouseOver(findTestObject('Navigations/Navigation - Earnings Accumulators/button_Your Setup'))
+//WebUI.delay(3)
+//WebUI.click(findTestObject('Navigations/Navigation - Earnings Accumulators/button_Your Setup'))
+//WebUI.delay(2)
+//WebUI.mouseOver(findTestObject('Navigations/Navigation - Earnings Accumulators/a_Your Pay  Benefits'))
+//WebUI.delay(3)
+//WebUI.click(findTestObject('Navigations/Navigation - Earnings Accumulators/a_Allowances'))
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/a_Tax Groups'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Tax Groups/a_Add Tax Group'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Navigations/Navigation - Other Net to Gross/a_Others  Net To Gross'))
 

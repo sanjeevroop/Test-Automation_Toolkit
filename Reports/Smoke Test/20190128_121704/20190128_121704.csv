@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,Chrome 71.0.3578.98,,2019-01-28 12:17:13,2019-01-28 12:18:53,1m - 40.498s,ERROR
+,,,,,,
+Test Cases/Smoke Test/ValidLogin,Chrome 71.0.3578.98,,2019-01-28 12:17:13,2019-01-28 12:17:32,18.607s,PASSED
+"openBrowser(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:17:14,2019-01-28 12:17:23,8.581s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-28 12:17:23,2019-01-28 12:17:24,1.162s,PASSED
+"navigateToUrl(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:17:24,2019-01-28 12:17:25,0.850s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Email""), findTestData(""Login"").getValue(""Username"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:17:25,2019-01-28 12:17:26,0.604s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Password""), findTestData(""Login"").getValue(""Password"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:17:26,2019-01-28 12:17:26,0.399s,PASSED
+"click(findTestObject(""Object Repository/Login/input_btn btn-default""))",Chrome 71.0.3578.98,,2019-01-28 12:17:26,2019-01-28 12:17:28,2.287s,PASSED
+"selectOptionByLabel(findTestObject(""Dropdown Lists/Select Organisation/Select Org""), ""Panasonic Mauritius"", true)",Chrome 71.0.3578.98,,2019-01-28 12:17:28,2019-01-28 12:17:31,2.288s,PASSED
+"verifyElementPresent(findTestObject(""Logout/Logout_dropdown""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-28 12:17:31,2019-01-28 12:17:31,0.138s,PASSED
+"click(findTestObject(""Logout/Logout_dropdown""))",Chrome 71.0.3578.98,,2019-01-28 12:17:31,2019-01-28 12:17:31,0.003s,NOT_RUN
+"verifyElementPresent(findTestObject(""Logout/a_Logout""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-28 12:17:31,2019-01-28 12:17:31,0.002s,NOT_RUN
+"click(findTestObject(""Logout/a_Logout""))",Chrome 71.0.3578.98,,2019-01-28 12:17:31,2019-01-28 12:17:31,0.002s,NOT_RUN
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-28 12:17:31,2019-01-28 12:17:32,1.285s,PASSED
+,,,,,,
+Test Cases/Smoke Test/InvalidLogin,Chrome 71.0.3578.98,,2019-01-28 12:17:32,2019-01-28 12:17:41,9.454s,ERROR
+"openBrowser(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:17:33,2019-01-28 12:17:39,5.655s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-28 12:17:39,2019-01-28 12:17:40,1.398s,PASSED
+"navigateToUrl(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:17:40,2019-01-28 12:17:41,0.927s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Email""), findTestData(""Login"").getValue(""Username"", 5))",Chrome 71.0.3578.98,,2019-01-28 12:17:41,2019-01-28 12:17:41,0.465s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Password""), findTestData(""Login"").getValue(""Password"", 6))",Chrome 71.0.3578.98,,2019-01-28 12:17:41,2019-01-28 12:17:41,0.055s,ERROR
+,,,,,,
+Test Cases/Smoke Test/UserOrgValidation,Chrome 71.0.3578.98,,2019-01-28 12:17:41,2019-01-28 12:18:28,46.101s,FAILED
+"openBrowser(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:17:42,2019-01-28 12:17:50,7.643s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-28 12:17:50,2019-01-28 12:17:51,1.416s,PASSED
+"navigateToUrl(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:17:51,2019-01-28 12:17:52,0.882s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Email""), findTestData(""Login"").getValue(""Username"", 3))",Chrome 71.0.3578.98,,2019-01-28 12:17:52,2019-01-28 12:17:53,0.627s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Password""), findTestData(""Login"").getValue(""Password"", 3))",Chrome 71.0.3578.98,,2019-01-28 12:17:53,2019-01-28 12:17:53,0.715s,PASSED
+"click(findTestObject(""Object Repository/Login/input_btn btn-default""))",Chrome 71.0.3578.98,,2019-01-28 12:17:53,2019-01-28 12:17:56,3.022s,PASSED
+"OutputLenght = getNumberOfTotalOption(findTestObject(""Dropdown Lists/Select Organisation/Select Org""))",Chrome 71.0.3578.98,,2019-01-28 12:17:56,2019-01-28 12:17:57,0.159s,PASSED
+"verifyElementNotPresent(findTestObject(""Dropdown Lists/Select Organisation/Select Org""), 0)",Chrome 71.0.3578.98,,2019-01-28 12:17:57,2019-01-28 12:18:28,31.018s,FAILED
+,,,,,,
+Test Cases/Smoke Test/AdminOrgValidation,Chrome 71.0.3578.98,,2019-01-28 12:18:28,2019-01-28 12:18:41,13.060s,PASSED
+"openBrowser(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:18:28,2019-01-28 12:18:34,6.137s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-28 12:18:34,2019-01-28 12:18:35,1.145s,PASSED
+"navigateToUrl(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:18:35,2019-01-28 12:18:36,0.856s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Email""), findTestData(""Login"").getValue(""Username"", 2))",Chrome 71.0.3578.98,,2019-01-28 12:18:36,2019-01-28 12:18:37,0.681s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Password""), findTestData(""Login"").getValue(""Password"", 2))",Chrome 71.0.3578.98,,2019-01-28 12:18:37,2019-01-28 12:18:37,0.241s,PASSED
+"click(findTestObject(""Object Repository/Login/input_btn btn-default""))",Chrome 71.0.3578.98,,2019-01-28 12:18:37,2019-01-28 12:18:40,2.383s,PASSED
+"verifyOptionsPresent(findTestObject(""Dropdown Lists/Select Organisation/Select Org""), [""Please Select"", ""Test Eight"", ""TestfroDelete"", ""Test2"", ""N Cus"", ""ITK1PAY"", ""Blush"", ""ABC Manufacturing"", ""White Bread"", ""Test Mapping"", ""ITK4PayHR"", ""New Mouth"", ""Panasonic Mauritius"", ""SuperSonic"", ""Test"", ""Edinburgh Airport"", ""Cala Gnomes"", ""K-ISS""])",Chrome 71.0.3578.98,,2019-01-28 12:18:40,2019-01-28 12:18:40,0.002s,NOT_RUN
+"result = getText(findTestObject(""Dropdown Lists/Select Organisation/Select Org""))",Chrome 71.0.3578.98,,2019-01-28 12:18:40,2019-01-28 12:18:40,0.198s,PASSED
+"OutputLenght = getNumberOfTotalOption(findTestObject(""Dropdown Lists/Select Organisation/Select Org""))",Chrome 71.0.3578.98,,2019-01-28 12:18:40,2019-01-28 12:18:40,0.096s,PASSED
+"verifyEqual(OutputLenght, 28, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-28 12:18:40,2019-01-28 12:18:40,0.045s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-28 12:18:40,2019-01-28 12:18:41,0.694s,PASSED
+,,,,,,
+Test Cases/Smoke Test/SuperAdminOrgValidation,Chrome 71.0.3578.98,,2019-01-28 12:18:41,2019-01-28 12:18:53,12.683s,PASSED
+"openBrowser(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:18:41,2019-01-28 12:18:46,5.417s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-28 12:18:46,2019-01-28 12:18:48,1.142s,PASSED
+"navigateToUrl(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:18:48,2019-01-28 12:18:49,0.909s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Email""), findTestData(""Login"").getValue(""Username"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:18:49,2019-01-28 12:18:49,0.437s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Password""), findTestData(""Login"").getValue(""Password"", 1))",Chrome 71.0.3578.98,,2019-01-28 12:18:49,2019-01-28 12:18:49,0.307s,PASSED
+"click(findTestObject(""Object Repository/Login/input_btn btn-default""))",Chrome 71.0.3578.98,,2019-01-28 12:18:49,2019-01-28 12:18:51,2.023s,PASSED
+"result = getText(findTestObject(""Dropdown Lists/Select Organisation/Select Org""))",Chrome 71.0.3578.98,,2019-01-28 12:18:51,2019-01-28 12:18:51,0.104s,PASSED
+"OutputLenght = getNumberOfTotalOption(findTestObject(""Dropdown Lists/Select Organisation/Select Org""))",Chrome 71.0.3578.98,,2019-01-28 12:18:51,2019-01-28 12:18:51,0.103s,PASSED
+"verifyEqual(OutputLenght, 28, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-28 12:18:51,2019-01-28 12:18:51,0.002s,PASSED
+"selectOptionByLabel(findTestObject(""Dropdown Lists/Select Organisation/Select Org""), ""Panasonic Mauritius"", true)",Chrome 71.0.3578.98,"Select an Organisation
+",2019-01-28 12:18:51,2019-01-28 12:18:53,1.163s,PASSED
+"verifyOptionsPresent(findTestObject(""Dropdown Lists/Select Organisation/Select Org""), [""Please Select"", ""Test Eight"", ""TestfroDelete"", ""Test2"", ""N Cus"", ""ITK1PAY"", ""Blush"", ""ABC Manufacturing"", ""White Bread"", ""Test Mapping"", ""ITK4PayHR"", ""New Mouth"", ""Panasonic Mauritius"", ""SuperSonic"", ""Test"", ""Edinburgh Airport"", ""Cala Gnomes"", ""K-ISS""])",Chrome 71.0.3578.98,,2019-01-28 12:18:53,2019-01-28 12:18:53,0.001s,NOT_RUN
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-28 12:18:53,2019-01-28 12:18:53,0.677s,PASSED

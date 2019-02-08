@@ -21,36 +21,20 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.maximizeWindow()
-
 //WebUI.click(findTestObject('Navigations/Navigation - Hours Accumulators/div_Sign in'))
-
 //WebUI.setText(findTestObject('Navigations/Navigation - Hours Accumulators/input_loginfmt'), 'Sanjeev@sdworx.com')
-
 //WebUI.click(findTestObject('Navigations/Navigation - Hours Accumulators/input_idSIButton9'))
-
 //WebUI.delay(3)
-
 //WebUI.mouseOver(findTestObject('Navigations/Navigation - Hours Accumulators/button_Your Setup'))
-
 //WebUI.delay(3)
-
 //WebUI.click(findTestObject('Navigations/Navigation - Hours Accumulators/button_Your Setup'))
-
 //WebUI.delay(3)
-
 //WebUI.mouseOver(findTestObject('Navigations/Navigation - Hours Accumulators/a_Your Pay  Benefits'))
-
 //WebUI.delay(3)
-
 //WebUI.click(findTestObject('Navigations/Navigation - Hours Accumulators/a_Allowances'))
-
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Navigations/Navigation - Hours Accumulators/a_Hours Accumulators'))
 
-
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Hours Accumulators/p_Allowances can be grouped to'))

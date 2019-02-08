@@ -35,5 +35,5 @@ WebUI.click(findTestObject('Navigations/Navigation - Departments/a_Departments')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Departments/a_Add Department'))
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Departments/button_Add Department'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Login/input_btn btn-default'))
 
 WebUI.selectOptionByLabel(findTestObject('Dropdown Lists/Select Organisation/Select Org'), 'Panasonic Mauritius', true)
 
-WebUI.verifyElementPresent(findTestObject('Logout/Logout_dropdown'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.verifyElementPresent(findTestObject('Logout/Logout_dropdown'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: WebUI.click(findTestObject('Logout/Logout_dropdown'))
 
@@ -43,5 +43,12 @@ not_run: WebUI.verifyElementPresent(findTestObject('Logout/a_Logout'), 10, Failu
 
 not_run: WebUI.click(findTestObject('Logout/a_Logout'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
+
+not_run: CustomKeywords.'toolkit.MySql.connectDB'('CERRSQL2UTIL.aspnc.local', 'ImplementationToolkit ', '4413', 'ImpToolkit', 
+    '0E47iz93')
+
+not_run: Data = CustomKeywords.'toolkit.MySql.executeQuery'('select id from AspNetUsers where Email=\'purmanand.roopnah@sdworx.com\';')
+
+not_run: PrintLn('Data')
 
