@@ -15,13 +15,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navigations/Employees and Leavers/a_Your Starter  Leavers'))
+WebUI.click(findTestObject('Navigations/Navigation - GDPR/span_Your Starter  Leavers'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navigations/Employees and Leavers/a_Employees  Leavers'))
+WebUI.click(findTestObject('Navigations/Navigation - Employees and Leavers/a_Employees  Leavers'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navigations/Employees and Leavers/input_Employee Details_EMPCHAN'))
+WebUI.verifyTextPresent('Employee Details', false)
 

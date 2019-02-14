@@ -25,28 +25,15 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.maximizeWindow()
 //WebUI.setText(findTestObject('Navigations/Navigation - Currencies/input_loginfmt'), 'Sanjeev@sdworx.com')
 //WebUI.click(findTestObject('Navigations/Navigation - Currencies/input_idSIButton9'))
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Navigations/Navigation - Currencies/a_Your Pay Benefits'))
 
-WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/Account/Login?ReturnUrl=%2F')
-
-WebUI.setText(findTestObject('Navigations/Navigation - Currencies/input_Email'), 'nadia.fareedun@sdworx.com')
-
-WebUI.setText(findTestObject('Navigations/Navigation - Currencies/input_Password'), 'Password5!')
-
-WebUI.click(findTestObject('Navigations/Navigation - Currencies/input_btn btn-default'))
-
-WebUI.selectOptionByValue(findTestObject('Navigations/Navigation - Currencies/select_Please SelectBlushHells'), 
-    '5ff3bc22-7cb8-4dac-bddf-c14c8e62cdbb', true)
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Navigations/Navigation - Currencies/a_Your Pay  Benefits'))
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Currencies/a_Lists'))
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Currencies/a_Currencies'))
-WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Currencies/a_Add Currency'))
+WebUI.waitForElementPresent(findTestObject('Navigations/Navigation - Currencies/a_Add Currency'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Currencies/a_Add Currency'), 0)
 

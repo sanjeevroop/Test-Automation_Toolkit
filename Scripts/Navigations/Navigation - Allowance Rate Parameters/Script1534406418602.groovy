@@ -26,12 +26,10 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Allowance
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Allowance Rate Parameters/a_Allowance Rate Param'))
+WebUI.click(findTestObject('Navigations/Navigation - Allowance Rate Parameters/a_AllowanceRateParam'))
 
 WebUI.delay(2)
 
 //verify text
-WebUI.verifyTextPresent('ALLOWANCE & RATE PARAMETERS', false)
-
-WebUI.closeBrowser()
+WebUI.waitForElementPresent(findTestObject('Navigations/Navigation - Allowance Rate Parameters/SaveButton'), 0)
 

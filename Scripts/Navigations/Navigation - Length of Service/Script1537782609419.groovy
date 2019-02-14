@@ -26,5 +26,3 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Length of
 //verify text
 WebUI.verifyTextPresent('LENGTH OF SERVICE', false)
 
-WebUI.closeBrowser()
-

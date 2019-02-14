@@ -21,5 +21,5 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Probation Review/a_Probation'))
 
-WebUI.click(findTestObject('Navigations/Navigation - Probation Review/input_na_probOverDueM'))
+WebUI.verifyTextPresent('Probation Review Settings', false)
 

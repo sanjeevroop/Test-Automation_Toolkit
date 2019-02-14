@@ -24,5 +24,3 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Holiday E
 //verify text
 WebUI.verifyTextPresent('HOLIDAY ENTITLEMENT SCHEMES', false)
 
-WebUI.closeBrowser()
-

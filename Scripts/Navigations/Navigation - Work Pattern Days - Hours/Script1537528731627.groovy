@@ -26,5 +26,3 @@ WebUI.delay(2)
 
 WebUI.verifyTextPresent('HOURS', false)
 
-WebUI.closeBrowser()
-

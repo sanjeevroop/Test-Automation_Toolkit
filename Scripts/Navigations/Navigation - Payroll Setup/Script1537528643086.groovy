@@ -20,9 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Setup/a_Admin'))
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Setup/span_Admin'))
 
 WebUI.delay(2)
 
@@ -34,5 +32,5 @@ WebUI.click(findTestObject('Navigations/Navigation - Payroll Setup/a_Payroll Set
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Payroll Setup/a_Add Payroll'))
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Payroll Setup/a_Add Payroll'), 0)
 

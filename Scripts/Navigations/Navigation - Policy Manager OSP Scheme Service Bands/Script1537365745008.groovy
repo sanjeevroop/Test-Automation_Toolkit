@@ -28,5 +28,3 @@ WebUI.delay(2)
 //verify text
 WebUI.verifyTextPresent('Select Scheme to maintain ', false)
 
-WebUI.closeBrowser()
-

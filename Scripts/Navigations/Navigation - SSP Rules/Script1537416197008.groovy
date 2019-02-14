@@ -20,27 +20,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Navigations/Navigation - SSP Rules/span_Admin'))
 
-WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/Account/Login?ReturnUrl=%2F')
-
-WebUI.setText(findTestObject('Navigations/Navigation - SSP Rules/input_Email'), 'nadia.fareedun@sdworx.com')
-
-WebUI.setText(findTestObject('Navigations/Navigation - SSP Rules/input_Password'), 'Password5!')
-
-WebUI.click(findTestObject('Navigations/Navigation - SSP Rules/input_btn btn-default'))
-
-WebUI.selectOptionByValue(findTestObject('Navigations/Navigation - SSP Rules/select_Please SelectOrg Test 1'), 
-    '5ff3bc22-7cb8-4dac-bddf-c14c8e62cdbb', true)
-
-WebUI.delay(2)
-WebUI.click(findTestObject('Navigations/Navigation - SSP Rules/a_Admin'))
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - SSP Rules/a_Payroll  Client Setup'))
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - SSP Rules/a_SSP Rules'))
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - SSP Rules/a_Add SSP Rule'))

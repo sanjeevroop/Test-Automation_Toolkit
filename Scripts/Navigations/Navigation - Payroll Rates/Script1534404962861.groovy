@@ -32,5 +32,3 @@ WebUI.delay(2)
 
 WebUI.verifyTextPresent('PAYROLL RATES', false)
 
-WebUI.closeBrowser()
-

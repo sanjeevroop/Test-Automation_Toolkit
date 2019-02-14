@@ -27,5 +27,3 @@ WebUI.waitForPageLoad(2)
 
 WebUI.verifyTextPresent('ABSENCE PARAMETERS', false)
 
-WebUI.closeBrowser()
-

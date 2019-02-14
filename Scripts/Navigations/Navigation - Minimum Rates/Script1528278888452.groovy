@@ -21,30 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('')
-
 //WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.setText(findTestObject('Navigations/Navigation - Minimum Rates/input_loginfmt'), 'Sanjeev@sdworx.com')
-
 //WebUI.click(findTestObject('Navigations/Navigation - Minimum Rates/input_idSIButton9'))
-
-WebUI.delay(2)
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Minimum Rates/button_Your Setup'))
-
-//WebUI.delay(3)
-
-//WebUI.click(findTestObject('Navigations/Navigation - Minimum Rates/button_Your Setup'))
-
-WebUI.delay(3)
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Minimum Rates/a_Your Pay  Benefits'))
+WebUI.click(findTestObject('Navigations/Navigation - Minimum Rates/a_Your Pay  Benefits'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Minimum Rates/a_Minimum Rates'))
 
 //WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Minimum Rates/label_Minimum Rates input vali'))
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Minimum Rates/a_Add Minimum Rates'), 0)
 

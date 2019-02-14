@@ -21,5 +21,9 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Reason For Leaving/a_Leaving Reasons'))
 
-WebUI.click(findTestObject('Navigations/Navigation - Reason For Leaving/a_Add Reasons For Leaving'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Navigations/Navigation - Reason For Leaving/a_Reasons For Leaving'))
+
+WebUI.waitForElementPresent(findTestObject('Navigations/Navigation - Reason For Leaving/a_Add Reason of Leaving'), 0)
 

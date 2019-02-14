@@ -35,5 +35,3 @@ WebUI.waitForPageLoad(10)
 WebUI.verifyElementText(findTestObject('Object Repository/Navigations/Navigation - Statutory Absence Parameters/div_pagetitle'), 
     'STATUTORY ABSENCE PARAMETERS')
 
-WebUI.closeBrowser()
-

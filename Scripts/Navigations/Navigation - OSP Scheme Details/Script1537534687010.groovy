@@ -16,10 +16,11 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Navigations/Navigation - OSP Scheme Details/span_Your Absence Rules'))
+
 WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - OSP Scheme Details/a_OSP Schemes'))
+
+WebUI.click(findTestObject('Navigations/Navigation - OSP Scheme Details/a_OSP Schemes'))
 
 //verify text
 WebUI.verifyTextPresent('OSP SCHEME DETAILS', false)
-WebUI.closeBrowser()
 

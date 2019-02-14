@@ -29,5 +29,3 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Work Patt
 
 WebUI.verifyTextPresent('WORK PATTERNS', false)
 
-WebUI.closeBrowser()
-

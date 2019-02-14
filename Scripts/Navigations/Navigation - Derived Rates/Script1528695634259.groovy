@@ -20,9 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Derived Rates/span_Your Pay Benefits'))
+WebUI.click(findTestObject('Navigations/Navigation - Bank Indemnity/a_Your Pay  Benefits'))
 
 WebUI.delay(2)
 
@@ -35,6 +33,4 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Derived R
 WebUI.delay(2)
 
 WebUI.verifyTextPresent('DERIVED RATES', false)
-
-WebUI.closeBrowser()
 

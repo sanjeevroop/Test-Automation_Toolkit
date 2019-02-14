@@ -21,35 +21,20 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.maximizeWindow()
-
 //WebUI.setText(findTestObject('Navigations/Navigation - Salary Change Reason/input_loginfmt'), 'Sanjeev@sdworx.com')
-
 //WebUI.click(findTestObject('Navigations/Navigation - Salary Change Reason/input_idSIButton9'))
+WebUI.click(findTestObject('Navigations/Navigation - Salary Change Reason/span_Your Pay  Benefits'))
 
 WebUI.delay(3)
 
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Salary Change Reason/button_Your Setup'))
-
-//WebUI.delay(3)
-
-//WebUI.click(findTestObject('Navigations/Navigation - Salary Change Reason/button_Your Setup'))
-
-WebUI.delay(2)
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Salary Change Reason/a_Your Pay  Benefits'))
-
-WebUI.delay(3)
-
-WebUI.mouseOver(findTestObject('Navigations/Navigation - Salary Change Reason/a_Lookups'))
+WebUI.click(findTestObject('Navigations/Navigation - Bank Indemnity/a_Lists'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Salary Change Reason/a_Salary Change Reason'))
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Salary Change Reason/label_Search'))
-
+WebUI.verifyElementPresent(findTestObject('Object Repository/Navigations/Navigation - Salary Change Reason/label_Search'), 
+    0)
 

@@ -20,15 +20,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Navigations/Navigation - Process Data/a_Admin'))
+WebUI.click(findTestObject('Navigations/Navigation - Process Data/span_Admin'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Process Data/a_Process Data'))
+WebUI.click(findTestObject('Navigations/Navigation - Process Data/a_Process Data'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Process Data/label_HRE'))
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Process Data/button_Save'), 0)
 

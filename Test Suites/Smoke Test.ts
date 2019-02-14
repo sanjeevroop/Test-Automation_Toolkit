@@ -40,4 +40,70 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke Test/SuperAdminOrgValidation</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d0149592-9139-4fef-ab1f-4394bbb6dfde</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/Navigation Your Payroll Rules</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b7c31649-e2f7-4af7-bb31-6a464933355a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/NavigationYourPayAndBenefits</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>609f6e2b-8eff-4c14-adfc-d75b82b88c7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/NavigationYourAbsenceRules</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b52c3580-c913-4af3-8625-5d21800d3a82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/NavigationYourStarterLeavers</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6bbd7b36-477b-42ad-a1cc-78a8694aae4b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/NavigationPayrollCopy</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a0d65d6-a851-4d35-bae0-073560ec2ad2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/NavigationOnlineReporting</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cc599da0-b2a6-4be5-ad9a-11dc73ab40f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/NavigationAuditReport</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>be6e04b7-87ab-42aa-abdf-4cbffb7d6086</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/NavigationAdmin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2c8449f1-215c-4206-825d-cf69adf1f5f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/Navigation - DatacodeMapping</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2153e5bb-e0a2-46a7-8a01-b49bdec1b8a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/Navigation - Payroll Result Load</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c864e706-00ef-4c90-b1f5-169b2d989926</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/Navigation - Reporting</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -33,8 +33,3 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Auto Enro
 
 WebUI.delay(2)
 
-//verify text
-WebUI.verifyTextPresent('AUTO ENROLMENT PENSION RULES', false)
-
-WebUI.closeBrowser()
-

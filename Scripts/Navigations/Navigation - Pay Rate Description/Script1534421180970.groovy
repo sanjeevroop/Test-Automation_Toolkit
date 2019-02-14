@@ -20,8 +20,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Navigations/Navigation - Pay Rate Description/span_Your Pay  Benefits'))
 
 WebUI.delay(2)
@@ -31,6 +29,4 @@ WebUI.click(findTestObject('Navigations/Navigation - Pay Rate Description/a_Comp
 WebUI.delay(2)
 
 WebUI.verifyTextPresent('PAY RATE DESCRIPTION', false)
-
-WebUI.closeBrowser()
 

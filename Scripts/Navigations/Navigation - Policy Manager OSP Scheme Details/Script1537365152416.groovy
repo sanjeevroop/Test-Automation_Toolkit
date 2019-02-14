@@ -24,5 +24,3 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Policy Ma
 //verify text
 WebUI.verifyTextPresent('POLICY MANAGER OSP SCHEME DETAILS', false)
 
-WebUI.closeBrowser()
-

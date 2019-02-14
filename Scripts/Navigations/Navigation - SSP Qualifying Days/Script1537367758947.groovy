@@ -29,5 +29,3 @@ WebUI.delay(2)
 WebUI.verifyElementText(findTestObject('Object Repository/Navigations/Navigation - SSP Qualifying Days/div_pagetitle'), 
     'SSP QUALIFYING DAYS')
 
-WebUI.closeBrowser()
-

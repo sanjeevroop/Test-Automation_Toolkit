@@ -25,8 +25,6 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.setText(findTestObject('Navigations/Navigation - Payroll Companies/input_loginfmt'), 
 //'Sanjeev@sdworx.com')
 //WebUI.click(findTestObject('Navigations/Navigation - Payroll Companies/input_idSIButton9'))
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Navigations/Navigation - Payroll Companies/a_Your Payroll Rules'))
 
 WebUI.delay(2)

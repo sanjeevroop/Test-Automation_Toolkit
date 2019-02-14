@@ -24,5 +24,3 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Public Ho
 
 WebUI.verifyTextPresent('PUBLIC HOLIDAY SCHEMES', false)
 
-WebUI.closeBrowser()
-

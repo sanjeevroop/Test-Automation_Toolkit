@@ -41,7 +41,7 @@ result = WebUI.getText(findTestObject('Dropdown Lists/Select Organisation/Select
 
 OutputLenght = WebUI.getNumberOfTotalOption(findTestObject('Dropdown Lists/Select Organisation/Select Org'))
 
-WebUI.verifyEqual(OutputLenght, 28, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyEqual(OutputLenght, 32, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

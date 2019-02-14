@@ -23,5 +23,5 @@ WebUI.click(findTestObject('Navigations/Navigation - GDPR/a_GDPR'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navigations/Navigation - GDPR/input_Logout_GDPRAutomaticLeav'))
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - GDPR/button_Save'), 0)
 

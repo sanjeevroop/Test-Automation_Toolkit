@@ -28,7 +28,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 //WebUI.click(findTestObject('Navigations/Navigation - Pay Groups/input_idSIButton9'))
 WebUI.click(findTestObject('Navigations/Navigation - Pay Groups/a_Your Payroll Rules'))
 
-WebUI.waitForElementPresent(findTestObject('Navigations/Navigation - Pay Groups/a_Pay Groups'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Pay Groups/a_Pay Groups'))
 

@@ -17,11 +17,15 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Primary Sickness/span_Your Absence Rules'))
 
-WebUI.waitForPageLoad(2)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Primary Sickness/a_Sickness'))
+WebUI.click(findTestObject('Navigations/Navigation - Primary Sickness/a_Sickness'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Navigations/Navigation - Primary Sickness/a_Primary Sickness Reasons'))
 
 WebUI.verifyTextPresent('PRIMARY SICKNESS REASONS', false)
 
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Primary Sickness/a_Add Primary Sickness'), 10)
 

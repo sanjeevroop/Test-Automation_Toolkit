@@ -24,5 +24,3 @@ WebUI.waitForPageLoad(2)
 
 WebUI.verifyTextPresent('DAYS', false)
 
-WebUI.closeBrowser()
-

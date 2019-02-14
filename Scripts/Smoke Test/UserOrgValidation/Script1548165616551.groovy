@@ -33,11 +33,7 @@ WebUI.setText(findTestObject('Object Repository/Login/input_Password'), findTest
 
 WebUI.click(findTestObject('Object Repository/Login/input_btn btn-default'))
 
-OutputLenght = WebUI.getNumberOfTotalOption(findTestObject('Dropdown Lists/Select Organisation/Select Org'))
-
-WebUI.verifyElementNotPresent(findTestObject('Dropdown Lists/Select Organisation/Select Org'), 0)
+not_run: WebUI.verifyElementNotPresent(findTestObject('Dropdown Lists/Select Organisation/Select Org'), 0)
 
 WebUI.closeBrowser()
-
-WebUI.check(findTestObject(null))
 

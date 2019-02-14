@@ -36,5 +36,3 @@ WebUI.delay(2)
 
 WebUI.verifyTextPresent('COMPANY PAY RATES', false)
 
-WebUI.closeBrowser()
-

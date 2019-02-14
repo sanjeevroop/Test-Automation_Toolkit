@@ -26,5 +26,3 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Public Ho
 
 WebUI.verifyTextPresent('BANK / PUBLIC HOLIDAY DATES', false)
 
-WebUI.closeBrowser()
-

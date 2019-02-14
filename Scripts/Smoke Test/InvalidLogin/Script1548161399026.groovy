@@ -29,7 +29,7 @@ WebUI.navigateToUrl(findTestData('Environment').getValue('URL', 1))
 
 WebUI.setText(findTestObject('Object Repository/Login/input_Email'), findTestData('Login').getValue('Username', 5))
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Password'), findTestData('Login').getValue('Password', 6))
+WebUI.setText(findTestObject('Object Repository/Login/input_Password'), findTestData('Login').getValue('Password', 5))
 
 WebUI.click(findTestObject('Object Repository/Login/input_btn btn-default'))
 

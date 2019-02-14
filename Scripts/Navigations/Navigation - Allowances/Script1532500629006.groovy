@@ -18,22 +18,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.setText(findTestObject('Object Repository/Navigations/Navigation - Allowances/Page_Sign in to your account/input_loginfmt'), 
-    //'Sanjeev@sdworx.com')
-
+//'Sanjeev@sdworx.com')
 //WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Allowances/Page_Sign in to your account/input_idSIButton9'))
-
 //WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Allowances/Page_Implementation Toolkit/span_Your Pay  Benefits'))
-
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Navigations/Navigation - Allowances/Your Pay  Benefits'))
 
 //WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Allowances/Page_Implementation Toolkit/a_Allowances'))
-
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Allowances/Allowances'))
+
+WebUI.verifyElementPresent(findTestObject('Add Records/Add Records - Allowances/button_Add Allowance'), 0)
 

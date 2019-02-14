@@ -13,17 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Secondary Sickness/span_Your Absence Rules'))
 
-WebUI.waitForPageLoad(2)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Secondary Sickness/a_Sickness'))
+WebUI.click(findTestObject('Navigations/Navigation - Primary Sickness/a_Sickness'))
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Secondary Sickness/a_Secondary Sickness tab'))
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Navigations/Navigation - Secondary Sickness/a_Secondary Sickness Reasons'))
 
 WebUI.verifyTextPresent('SECONDARY SICKNESS REASONS', false)
-
-WebUI.closeBrowser()
 
