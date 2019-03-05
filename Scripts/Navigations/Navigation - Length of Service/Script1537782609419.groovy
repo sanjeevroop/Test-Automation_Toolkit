@@ -26,3 +26,7 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Length of
 //verify text
 WebUI.verifyTextPresent('LENGTH OF SERVICE', false)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Length of Service/Search'))
+
+WebUI.verifyTextPresent('LENGTH OF SERVICE', false)
+

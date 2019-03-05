@@ -19,3 +19,7 @@ WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Audit Report/a_Export'), 0)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Audit Report/input_Record ID_RecordID'))
+
+WebUI.verifyTextPresent('Audit Report', false)
+

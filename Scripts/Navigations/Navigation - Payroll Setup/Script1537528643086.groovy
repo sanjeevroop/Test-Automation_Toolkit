@@ -34,3 +34,7 @@ WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Payroll Setup/a_Add Payroll'), 0)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Client Setup/Search'))
+
+WebUI.verifyTextPresent('Payroll Setup', false)
+

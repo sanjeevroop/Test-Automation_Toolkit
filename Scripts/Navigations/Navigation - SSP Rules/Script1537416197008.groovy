@@ -34,3 +34,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - SSP Rules/a_Add SSP Rule'))
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Client Setup/Search'))
+
+WebUI.verifyTextPresent('SSP Rules', false)
+

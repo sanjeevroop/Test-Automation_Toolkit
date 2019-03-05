@@ -23,3 +23,7 @@ WebUI.verifyTextPresent('Dataload Summary', false)
 
 WebUI.verifyTextPresent('Load New File', false)
 
+WebUI.click(findTestObject('Navigations/Navigation - Client Payroll Results/button_Cancel'))
+
+WebUI.verifyTextPresent('Load New File', false)
+

@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.openBrowser('')
 //WebUI.navigateToUrl('https://login.microsoftonline.com/7ef41b2d-b0df-48c8-8b0c-c6497fdf26ac/oauth2/authorize?client_id=f6722b0a-c5be-4f78-99b5-b3c01917fbfe&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DrZdx0JyDzesaBAYeq8lTmieB_LQQDRnJT0Wushdqd16k4cejfFexNp48VA-TLM7G9uBXGLfWmWcCRqX-6M5Wtp8jcsZ6rQ-4Hjf2EWRdotAvkVvc7VCncjKm1_63-D1D6TkFkuqFUEiM7mSiteKRSg&nonce=636668875346489180.OGNiZDQ1ZmItOWM3YS00Nzk2LWJhMTItZDM3NjVlZWFjNmJmNjZhNjU3NjAtNzY5OS00ZmQ2LWIxMTMtZjk3NDAzMTY4NmFh&x-client-SKU=ID_NET451&x-client-ver=5.2.1.0')
@@ -30,4 +31,8 @@ WebUI.delay(2)
 
 'VErify that button Copy Payroll is found'
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Payroll Copy/label_Copy From'), 0)
+
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Copy/select_Please Select330223 - P'))
+
+WebUI.verifyTextPresent('PAYROLL COPY', false)
 

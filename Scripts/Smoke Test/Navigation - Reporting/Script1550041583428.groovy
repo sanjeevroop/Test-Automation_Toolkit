@@ -17,7 +17,7 @@ WebUI.callTestCase(findTestCase('Smoke Test/ValidLogin'), [:], FailureHandling.S
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Navigations/Navigation - Payrun Comparison/a_Reconciliation'))
+WebUI.click(findTestObject('Navigations/Navigation - Payrun Comparison/span_Reconciliation'))
 
 WebUI.delay(20)
 

@@ -22,5 +22,11 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Public Holiday Dates/a_Public Holiday Calendars'))
 
+WebUI.click(findTestObject('Navigations/Navigation - Public Holiday Schemes/a_Public Holiday Schemes'))
+
+WebUI.verifyTextPresent('PUBLIC HOLIDAY SCHEMES', false)
+
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Public Holiday Schemes/Search'))
+
 WebUI.verifyTextPresent('PUBLIC HOLIDAY SCHEMES', false)
 

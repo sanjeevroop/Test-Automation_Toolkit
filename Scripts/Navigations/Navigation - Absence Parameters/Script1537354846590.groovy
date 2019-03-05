@@ -27,3 +27,7 @@ WebUI.waitForPageLoad(2)
 
 WebUI.verifyTextPresent('ABSENCE PARAMETERS', false)
 
+WebUI.click(findTestObject('Navigations/Navigation - Absence Parameters/input_Holiday year start date_'))
+
+WebUI.verifyTextPresent('Holiday year start date:', false)
+

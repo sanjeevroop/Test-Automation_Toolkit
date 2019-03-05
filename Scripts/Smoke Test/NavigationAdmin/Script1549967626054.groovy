@@ -25,5 +25,3 @@ WebUI.callTestCase(findTestCase('Navigations/Navigation - Database Details'), [:
 
 WebUI.callTestCase(findTestCase('Navigations/Navigation - Process Data'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
-

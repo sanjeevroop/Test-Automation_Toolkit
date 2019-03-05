@@ -4,6 +4,18 @@
    <name>a_Your Starter  Leavers</name>
    <tag></tag>
    <elementGuidId>f64d93a8-385d-4e29-be7a-e0699e975d63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '
+                                     Your Starter &amp; Leavers
+                                    
+                                ' or . = '
+                                     Your Starter &amp; Leavers
+                                    
+                                ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,10 +23,10 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

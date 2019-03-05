@@ -33,11 +33,16 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Statutory Absence Notifications/a_Statutory Absence Notificati'))
 
-WebUI.waitForPageLoad(10)
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Statutory Absence Notifications/button_Save'), 0)
 
 //verify page title in div
-WebUI.verifyElementText(findTestObject('Object Repository/Navigations/Navigation - Statutory Absence Parameters/div_pagetitle'), 
-    'STATUTORY ABSENCE NOTIFICATIONS')
+WebUI.verifyTextPresent('Statutory Absence Notifications', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Navigations/Navigation - Statutory Absence Notifications/button_Save'), 5)
+
+WebUI.click(findTestObject('Navigations/Navigation - Statutory Absence Notifications/button_Save'))
+
+WebUI.verifyTextPresent('Statutory Absence Notifications', false, FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -32,6 +32,9 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Statutory
 WebUI.waitForPageLoad(10)
 
 //verify page title in div
-WebUI.verifyElementText(findTestObject('Object Repository/Navigations/Navigation - Statutory Absence Parameters/div_pagetitle'), 
-    'STATUTORY ABSENCE PARAMETERS')
+WebUI.verifyTextPresent('Statutory Absence Parameters', false)
+
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Statutory Absence Parameters/input_Default Qualifying Days_'))
+
+WebUI.verifyTextPresent('Statutory Absence Parameters', false)
 

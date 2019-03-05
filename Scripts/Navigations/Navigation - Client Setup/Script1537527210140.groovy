@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.click(findTestObject('Navigations/Navigation - Client Setup/span_Admin'))
 
@@ -33,4 +34,8 @@ WebUI.click(findTestObject('Navigations/Navigation - Client Setup/a_Client Setup
 WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Client Setup/button_Add Customer'), 0)
+
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Client Setup/Search'))
+
+WebUI.verifyTextPresent('Client Setup', false)
 

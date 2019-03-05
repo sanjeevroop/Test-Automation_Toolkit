@@ -21,3 +21,7 @@ WebUI.click(findTestObject('Navigations/Navigation - Pay Element Groups/a_Add Pa
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Pay Element Groups/a_Add Pay Element Group'), 0)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Pay Element Groups/Search'))
+
+WebUI.verifyTextPresent('Pay Element Groups', false)
+

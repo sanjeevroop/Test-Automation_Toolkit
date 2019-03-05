@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navigations/Navigation - Leaving Interview/span_Your Starter  Leavers'))
+WebUI.click(findTestObject('Navigations/Navigation - Starters/span_Your Starter  Leavers'))
 
 WebUI.delay(3)
 
@@ -24,4 +24,6 @@ WebUI.click(findTestObject('Navigations/Navigation - Leaving Interview/a_Leaving
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Navigations/Navigation - Leaving Interview/button_Save'))
+
+WebUI.verifyTextPresent('LEAVING INTERVIEW QUESTIONS', false)
 

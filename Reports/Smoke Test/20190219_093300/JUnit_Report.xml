@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="183" tests="3" failures="0" errors="0">
+   <testsuite name="Smoke Test" tests="3" failures="0" errors="0" time="183" timestamp="2019-02-19 09:33:09" hostname="SD466525 - PC0871RF.SD.DIKA.BE" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190219_093300"/>
+         <property name="logFiles" value="C:\\Users\\SD466525.DAN001\\git\\Test-Automation_ToolkitVersion2\\Reports\\Smoke Test\\20190219_093300\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SD466525 - PC0871RF.SD.DIKA.BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.97.1"/>
+         <property name="sessionId" value="fb23a768c0c5a1e60de4099e9e09ec0b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/ValidLogin" classname="Test Cases/Smoke Test/ValidLogin" status="PASSED">
+         <system-out><![CDATA[2019-02-19 09:33:10 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/ValidLogin: Test Cases/Smoke Test/ValidLogin
+
+2019-02-19 09:33:11 - [TEST_STEP][PASSED] - openBrowser(findTestData("Environment").getValue("URL", 1)): Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-02-19 09:33:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-19 09:33:14 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-19 09:33:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-02-19 09:33:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-19 09:33:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-19 09:33:25 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Environment").getValue("URL", 1)): Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-02-19 09:33:26 - [MESSAGE][PASSED] - Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-02-19 09:33:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Email"), findTestData("Login").getValue("Username", 1)): Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-02-19 09:33:27 - [MESSAGE][PASSED] - Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-02-19 09:33:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Password"), findTestData("Login").getValue("Password", 1)): Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-02-19 09:33:27 - [MESSAGE][PASSED] - Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-02-19 09:33:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_btn btn-default")): Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-02-19 09:33:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-02-19 09:33:31 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true): NOT_RUN: selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true)
+
+2019-02-19 09:33:31 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true)
+
+2019-02-19 09:33:31 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10, CONTINUE_ON_FAILURE): NOT_RUN: verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:33:31 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:33:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("Logout/Logout_dropdown")): NOT_RUN: click(findTestObject("Logout/Logout_dropdown"))
+
+2019-02-19 09:33:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Logout/Logout_dropdown"))
+
+2019-02-19 09:33:31 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE): NOT_RUN: verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:33:31 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:33:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("Logout/a_Logout")): NOT_RUN: click(findTestObject("Logout/a_Logout"))
+
+2019-02-19 09:33:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Logout/a_Logout"))
+
+2019-02-19 09:33:31 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-02-19 09:33:31 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-02-19 09:33:31 - [TEST_STEP][NOT_RUN] - toolkit.MySql.connectDB("CERRSQL2UTIL.aspnc.local", "ImplementationToolkit ", "4413", "ImpToolkit", "0E47iz93"): NOT_RUN: toolkit.MySql.connectDB("CERRSQL2UTIL.aspnc.local", "ImplementationToolkit ", "4413", "ImpToolkit", "0E47iz93")
+
+2019-02-19 09:33:31 - [MESSAGE][NOT_RUN] - NOT_RUN: toolkit.MySql.connectDB("CERRSQL2UTIL.aspnc.local", "ImplementationToolkit ", "4413", "ImpToolkit", "0E47iz93")
+
+2019-02-19 09:33:31 - [TEST_STEP][NOT_RUN] - Data = toolkit.MySql.executeQuery("select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';"): NOT_RUN: Data = toolkit.MySql.executeQuery("select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';")
+
+2019-02-19 09:33:31 - [MESSAGE][NOT_RUN] - NOT_RUN: Data = toolkit.MySql.executeQuery("select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';")
+
+2019-02-19 09:33:31 - [TEST_STEP][NOT_RUN] - PrintLn("Data"): NOT_RUN: PrintLn("Data")
+
+2019-02-19 09:33:31 - [MESSAGE][NOT_RUN] - NOT_RUN: PrintLn("Data")]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/NavigationYourAbsenceRules" classname="Test Cases/Smoke Test/NavigationYourAbsenceRules" status="PASSED">
+         <system-out><![CDATA[2019-02-19 09:33:33 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/NavigationYourAbsenceRules: Test Cases/Smoke Test/NavigationYourAbsenceRules
+
+2019-02-19 09:33:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Smoke Test/ValidLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke Test/ValidLogin' successfully
+
+2019-02-19 09:33:34 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/ValidLogin: Test Cases/Smoke Test/ValidLogin
+
+2019-02-19 09:33:34 - [TEST_STEP][PASSED] - openBrowser(findTestData("Environment").getValue("URL", 1)): Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-02-19 09:33:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-19 09:33:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-19 09:33:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-02-19 09:33:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-19 09:33:43 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-19 09:33:43 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Environment").getValue("URL", 1)): Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-02-19 09:33:44 - [MESSAGE][PASSED] - Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-02-19 09:33:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Email"), findTestData("Login").getValue("Username", 1)): Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-02-19 09:33:45 - [MESSAGE][PASSED] - Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-02-19 09:33:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Password"), findTestData("Login").getValue("Password", 1)): Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-02-19 09:33:45 - [MESSAGE][PASSED] - Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-02-19 09:33:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_btn btn-default")): Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-02-19 09:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-02-19 09:33:48 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true): NOT_RUN: selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true)
+
+2019-02-19 09:33:48 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true)
+
+2019-02-19 09:33:48 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10, CONTINUE_ON_FAILURE): NOT_RUN: verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:33:48 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:33:48 - [TEST_STEP][NOT_RUN] - click(findTestObject("Logout/Logout_dropdown")): NOT_RUN: click(findTestObject("Logout/Logout_dropdown"))
+
+2019-02-19 09:33:48 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Logout/Logout_dropdown"))
+
+2019-02-19 09:33:48 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE): NOT_RUN: verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:33:48 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:33:48 - [TEST_STEP][NOT_RUN] - click(findTestObject("Logout/a_Logout")): NOT_RUN: click(findTestObject("Logout/a_Logout"))
+
+2019-02-19 09:33:48 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Logout/a_Logout"))
+
+2019-02-19 09:33:48 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-02-19 09:33:48 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-02-19 09:33:48 - [TEST_STEP][NOT_RUN] - toolkit.MySql.connectDB("CERRSQL2UTIL.aspnc.local", "ImplementationToolkit ", "4413", "ImpToolkit", "0E47iz93"): NOT_RUN: toolkit.MySql.connectDB("CERRSQL2UTIL.aspnc.local", "ImplementationToolkit ", "4413", "ImpToolkit", "0E47iz93")
+
+2019-02-19 09:33:48 - [MESSAGE][NOT_RUN] - NOT_RUN: toolkit.MySql.connectDB("CERRSQL2UTIL.aspnc.local", "ImplementationToolkit ", "4413", "ImpToolkit", "0E47iz93")
+
+2019-02-19 09:33:48 - [TEST_STEP][NOT_RUN] - Data = toolkit.MySql.executeQuery("select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';"): NOT_RUN: Data = toolkit.MySql.executeQuery("select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';")
+
+2019-02-19 09:33:48 - [MESSAGE][NOT_RUN] - NOT_RUN: Data = toolkit.MySql.executeQuery("select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';")
+
+2019-02-19 09:33:48 - [TEST_STEP][NOT_RUN] - PrintLn("Data"): NOT_RUN: PrintLn("Data")
+
+2019-02-19 09:33:48 - [MESSAGE][NOT_RUN] - NOT_RUN: PrintLn("Data")
+
+2019-02-19 09:33:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke Test/ValidLogin' successfully
+
+2019-02-19 09:33:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Absence Parameters"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Absence Parameters' successfully
+
+2019-02-19 09:33:48 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Absence Parameters: Test Cases/Navigations/Navigation - Absence Parameters
+
+2019-02-19 09:33:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:33:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:33:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Absence Parameters/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - Absence Parameters/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Absence Parameters/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:33:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:33:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:33:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Absence Parameters/a_Absence Parameters")): Object: 'Object Repository/Navigations/Navigation - Absence Parameters/a_Absence Parameters' is clicked on
+
+2019-02-19 09:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Absence Parameters/a_Absence Parameters' is clicked on
+
+2019-02-19 09:33:54 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-02-19 09:33:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-19 09:33:54 - [TEST_STEP][PASSED] - verifyTextPresent("ABSENCE PARAMETERS", false): Text 'ABSENCE PARAMETERS' is present on page 
+
+2019-02-19 09:33:55 - [MESSAGE][PASSED] - Text 'ABSENCE PARAMETERS' is present on page 
+
+2019-02-19 09:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Absence Parameters/input_Holiday year start date_")): Object: 'Object Repository/Navigations/Navigation - Absence Parameters/input_Holiday year start date_' is clicked on
+
+2019-02-19 09:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Absence Parameters/input_Holiday year start date_' is clicked on
+
+2019-02-19 09:33:55 - [TEST_STEP][PASSED] - verifyTextPresent("Holiday year start date:", false): Text 'Holiday year start date:' is present on page 
+
+2019-02-19 09:33:55 - [MESSAGE][PASSED] - Text 'Holiday year start date:' is present on page 
+
+2019-02-19 09:33:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Absence Parameters' successfully
+
+2019-02-19 09:33:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Public Holiday Schemes"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Public Holiday Schemes' successfully
+
+2019-02-19 09:33:55 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Public Holiday Schemes: Test Cases/Navigations/Navigation - Public Holiday Schemes
+
+2019-02-19 09:33:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:33:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:33:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Public Holiday Dates/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:33:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Public Holiday Dates/a_Public Holiday Calendars")): Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/a_Public Holiday Calendars' is clicked on
+
+2019-02-19 09:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/a_Public Holiday Calendars' is clicked on
+
+2019-02-19 09:34:01 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Public Holiday Schemes/a_Public Holiday Schemes")): Object: 'Object Repository/Navigations/Navigation - Public Holiday Schemes/a_Public Holiday Schemes' is clicked on
+
+2019-02-19 09:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Public Holiday Schemes/a_Public Holiday Schemes' is clicked on
+
+2019-02-19 09:34:02 - [TEST_STEP][PASSED] - verifyTextPresent("PUBLIC HOLIDAY SCHEMES", false): Text 'PUBLIC HOLIDAY SCHEMES' is present on page 
+
+2019-02-19 09:34:02 - [MESSAGE][PASSED] - Text 'PUBLIC HOLIDAY SCHEMES' is present on page 
+
+2019-02-19 09:34:02 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Navigations/Navigation - Public Holiday Schemes/Search")): Object: 'Object Repository/Navigations/Navigation - Public Holiday Schemes/Search' is double clicked on
+
+2019-02-19 09:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Public Holiday Schemes/Search' is double clicked on
+
+2019-02-19 09:34:02 - [TEST_STEP][PASSED] - verifyTextPresent("PUBLIC HOLIDAY SCHEMES", false): Text 'PUBLIC HOLIDAY SCHEMES' is present on page 
+
+2019-02-19 09:34:02 - [MESSAGE][PASSED] - Text 'PUBLIC HOLIDAY SCHEMES' is present on page 
+
+2019-02-19 09:34:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Public Holiday Schemes' successfully
+
+2019-02-19 09:34:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Public Holiday Dates"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Public Holiday Dates' successfully
+
+2019-02-19 09:34:02 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Public Holiday Dates: Test Cases/Navigations/Navigation - Public Holiday Dates
+
+2019-02-19 09:34:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Public Holiday Dates/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Public Holiday Dates/a_Public Holiday Calendars")): Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/a_Public Holiday Calendars' is clicked on
+
+2019-02-19 09:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/a_Public Holiday Calendars' is clicked on
+
+2019-02-19 09:34:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Public Holiday Dates/a_Public Holiday Dates tab")): Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/a_Public Holiday Dates tab' is clicked on
+
+2019-02-19 09:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/a_Public Holiday Dates tab' is clicked on
+
+2019-02-19 09:34:09 - [TEST_STEP][PASSED] - verifyTextPresent("BANK / PUBLIC HOLIDAY DATES", false): Text 'BANK / PUBLIC HOLIDAY DATES' is present on page 
+
+2019-02-19 09:34:09 - [MESSAGE][PASSED] - Text 'BANK / PUBLIC HOLIDAY DATES' is present on page 
+
+2019-02-19 09:34:09 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Navigations/Navigation - Public Holiday Dates/Search")): Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/Search' is double clicked on
+
+2019-02-19 09:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Public Holiday Dates/Search' is double clicked on
+
+2019-02-19 09:34:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Navigations/Navigation - Public Holiday Dates/a_Add Holiday Date"), 2): Object 'Object Repository/Navigations/Navigation - Public Holiday Dates/a_Add Holiday Date' is present
+
+2019-02-19 09:34:09 - [MESSAGE][PASSED] - Object 'Object Repository/Navigations/Navigation - Public Holiday Dates/a_Add Holiday Date' is present
+
+2019-02-19 09:34:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Public Holiday Dates' successfully
+
+2019-02-19 09:34:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Primary Sickness"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Primary Sickness' successfully
+
+2019-02-19 09:34:10 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Primary Sickness: Test Cases/Navigations/Navigation - Primary Sickness
+
+2019-02-19 09:34:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Primary Sickness/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - Primary Sickness/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Primary Sickness/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Primary Sickness/a_Sickness")): Object: 'Object Repository/Navigations/Navigation - Primary Sickness/a_Sickness' is clicked on
+
+2019-02-19 09:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Primary Sickness/a_Sickness' is clicked on
+
+2019-02-19 09:34:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:18 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Primary Sickness/a_Primary Sickness Reasons")): Object: 'Object Repository/Navigations/Navigation - Primary Sickness/a_Primary Sickness Reasons' is clicked on
+
+2019-02-19 09:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Primary Sickness/a_Primary Sickness Reasons' is clicked on
+
+2019-02-19 09:34:18 - [TEST_STEP][PASSED] - verifyTextPresent("PRIMARY SICKNESS REASONS", false): Text 'PRIMARY SICKNESS REASONS' is present on page 
+
+2019-02-19 09:34:19 - [MESSAGE][PASSED] - Text 'PRIMARY SICKNESS REASONS' is present on page 
+
+2019-02-19 09:34:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Navigations/Navigation - Primary Sickness/a_Add Primary Sickness"), 10): Object 'Object Repository/Navigations/Navigation - Primary Sickness/a_Add Primary Sickness' is present
+
+2019-02-19 09:34:19 - [MESSAGE][PASSED] - Object 'Object Repository/Navigations/Navigation - Primary Sickness/a_Add Primary Sickness' is present
+
+2019-02-19 09:34:19 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Navigations/Navigation - Primary Sickness/Search")): Object: 'Object Repository/Navigations/Navigation - Primary Sickness/Search' is double clicked on
+
+2019-02-19 09:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Primary Sickness/Search' is double clicked on
+
+2019-02-19 09:34:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Navigations/Navigation - Primary Sickness/a_Add Primary Sickness"), 0): Object 'Object Repository/Navigations/Navigation - Primary Sickness/a_Add Primary Sickness' is present
+
+2019-02-19 09:34:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 09:34:19 - [MESSAGE][PASSED] - Object 'Object Repository/Navigations/Navigation - Primary Sickness/a_Add Primary Sickness' is present
+
+2019-02-19 09:34:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Primary Sickness' successfully
+
+2019-02-19 09:34:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Secondary Sickness"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Secondary Sickness' successfully
+
+2019-02-19 09:34:19 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Secondary Sickness: Test Cases/Navigations/Navigation - Secondary Sickness
+
+2019-02-19 09:34:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Secondary Sickness/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - Secondary Sickness/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Secondary Sickness/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:22 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Primary Sickness/a_Sickness")): Object: 'Object Repository/Navigations/Navigation - Primary Sickness/a_Sickness' is clicked on
+
+2019-02-19 09:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Primary Sickness/a_Sickness' is clicked on
+
+2019-02-19 09:34:23 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-02-19 09:34:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-19 09:34:23 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Secondary Sickness/a_Secondary Sickness Reasons")): Object: 'Object Repository/Navigations/Navigation - Secondary Sickness/a_Secondary Sickness Reasons' is clicked on
+
+2019-02-19 09:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Secondary Sickness/a_Secondary Sickness Reasons' is clicked on
+
+2019-02-19 09:34:24 - [TEST_STEP][PASSED] - verifyTextPresent("SECONDARY SICKNESS REASONS", false): Text 'SECONDARY SICKNESS REASONS' is present on page 
+
+2019-02-19 09:34:24 - [MESSAGE][PASSED] - Text 'SECONDARY SICKNESS REASONS' is present on page 
+
+2019-02-19 09:34:24 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Navigations/Navigation - Secondary Sickness/Search")): Object: 'Object Repository/Navigations/Navigation - Secondary Sickness/Search' is double clicked on
+
+2019-02-19 09:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Secondary Sickness/Search' is double clicked on
+
+2019-02-19 09:34:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Navigations/Navigation - Secondary Sickness/a_Add Secondary Sickness"), 5): Object 'Object Repository/Navigations/Navigation - Secondary Sickness/a_Add Secondary Sickness' is present
+
+2019-02-19 09:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/Navigations/Navigation - Secondary Sickness/a_Add Secondary Sickness' is present
+
+2019-02-19 09:34:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Secondary Sickness' successfully
+
+2019-02-19 09:34:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - OSP Scheme Details"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - OSP Scheme Details' successfully
+
+2019-02-19 09:34:24 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - OSP Scheme Details: Test Cases/Navigations/Navigation - OSP Scheme Details
+
+2019-02-19 09:34:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - OSP Scheme Details/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - OSP Scheme Details/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - OSP Scheme Details/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - OSP Scheme Details/a_OSP Schemes")): Object: 'Object Repository/Navigations/Navigation - OSP Scheme Details/a_OSP Schemes' is clicked on
+
+2019-02-19 09:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - OSP Scheme Details/a_OSP Schemes' is clicked on
+
+2019-02-19 09:34:31 - [TEST_STEP][PASSED] - verifyTextPresent("OSP SCHEME DETAILS", false): Text 'OSP SCHEME DETAILS' is present on page 
+
+2019-02-19 09:34:32 - [MESSAGE][PASSED] - Text 'OSP SCHEME DETAILS' is present on page 
+
+2019-02-19 09:34:32 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Navigations/Navigation - OSP Scheme Details/Search")): Object: 'Object Repository/Navigations/Navigation - OSP Scheme Details/Search' is double clicked on
+
+2019-02-19 09:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - OSP Scheme Details/Search' is double clicked on
+
+2019-02-19 09:34:32 - [TEST_STEP][PASSED] - verifyTextPresent("OSP SCHEME DETAILS", false): Text 'OSP SCHEME DETAILS' is present on page 
+
+2019-02-19 09:34:33 - [MESSAGE][PASSED] - Text 'OSP SCHEME DETAILS' is present on page 
+
+2019-02-19 09:34:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - OSP Scheme Details' successfully
+
+2019-02-19 09:34:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - OSP Scheme Service Bands"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - OSP Scheme Service Bands' successfully
+
+2019-02-19 09:34:33 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - OSP Scheme Service Bands: Test Cases/Navigations/Navigation - OSP Scheme Service Bands
+
+2019-02-19 09:34:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - OSP Scheme Details/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - OSP Scheme Details/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - OSP Scheme Details/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - OSP Scheme Details/a_OSP Schemes")): Object: 'Object Repository/Navigations/Navigation - OSP Scheme Details/a_OSP Schemes' is clicked on
+
+2019-02-19 09:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - OSP Scheme Details/a_OSP Schemes' is clicked on
+
+2019-02-19 09:34:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - OSP Scheme Service Bands/a_Service band tab")): Object: 'Object Repository/Navigations/Navigation - OSP Scheme Service Bands/a_Service band tab' is clicked on
+
+2019-02-19 09:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - OSP Scheme Service Bands/a_Service band tab' is clicked on
+
+2019-02-19 09:34:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:42 - [TEST_STEP][PASSED] - verifyTextPresent("Select Scheme to maintain ", false): Text 'Select Scheme to maintain ' is present on page 
+
+2019-02-19 09:34:42 - [MESSAGE][PASSED] - Text 'Select Scheme to maintain ' is present on page 
+
+2019-02-19 09:34:42 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Navigations/Navigation - OSP Scheme Service Bands/Search")): Object: 'Object Repository/Navigations/Navigation - OSP Scheme Service Bands/Search' is double clicked on
+
+2019-02-19 09:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - OSP Scheme Service Bands/Search' is double clicked on
+
+2019-02-19 09:34:42 - [TEST_STEP][PASSED] - verifyTextPresent("Select Scheme to maintain ", false): Text 'Select Scheme to maintain ' is present on page 
+
+2019-02-19 09:34:42 - [MESSAGE][PASSED] - Text 'Select Scheme to maintain ' is present on page 
+
+2019-02-19 09:34:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - OSP Scheme Service Bands' successfully
+
+2019-02-19 09:34:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Statutory Absence Parameters"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Statutory Absence Parameters' successfully
+
+2019-02-19 09:34:42 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Statutory Absence Parameters: Test Cases/Navigations/Navigation - Statutory Absence Parameters
+
+2019-02-19 09:34:43 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-02-19 09:34:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-19 09:34:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Statutory Absence Parameters/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Statutory Absence")): Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Statutory Absence' is clicked on
+
+2019-02-19 09:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Statutory Absence' is clicked on
+
+2019-02-19 09:34:47 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-02-19 09:34:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-19 09:34:47 - [TEST_STEP][PASSED] - verifyTextPresent("Statutory Absence Parameters", false): Text 'Statutory Absence Parameters' is present on page 
+
+2019-02-19 09:34:47 - [MESSAGE][PASSED] - Text 'Statutory Absence Parameters' is present on page 
+
+2019-02-19 09:34:47 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Navigations/Navigation - Statutory Absence Parameters/input_Default Qualifying Days_")): Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/input_Default Qualifying Days_' is double clicked on
+
+2019-02-19 09:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/input_Default Qualifying Days_' is double clicked on
+
+2019-02-19 09:34:47 - [TEST_STEP][PASSED] - verifyTextPresent("Statutory Absence Parameters", false): Text 'Statutory Absence Parameters' is present on page 
+
+2019-02-19 09:34:48 - [MESSAGE][PASSED] - Text 'Statutory Absence Parameters' is present on page 
+
+2019-02-19 09:34:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Statutory Absence Parameters' successfully
+
+2019-02-19 09:34:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Statutory Absence Notifications"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Statutory Absence Notifications' successfully
+
+2019-02-19 09:34:48 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Statutory Absence Notifications: Test Cases/Navigations/Navigation - Statutory Absence Notifications
+
+2019-02-19 09:34:48 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-02-19 09:34:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-19 09:34:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Statutory Absence Parameters/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Statutory Absence")): Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Statutory Absence' is clicked on
+
+2019-02-19 09:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Parameters/a_Statutory Absence' is clicked on
+
+2019-02-19 09:34:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Statutory Absence Notifications/a_Statutory Absence Notificati")): Object: 'Object Repository/Navigations/Navigation - Statutory Absence Notifications/a_Statutory Absence Notificati' is clicked on
+
+2019-02-19 09:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Notifications/a_Statutory Absence Notificati' is clicked on
+
+2019-02-19 09:34:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Navigations/Navigation - Statutory Absence Notifications/button_Save"), 0): Object 'Object Repository/Navigations/Navigation - Statutory Absence Notifications/button_Save' is present
+
+2019-02-19 09:34:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 09:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/Navigations/Navigation - Statutory Absence Notifications/button_Save' is present
+
+2019-02-19 09:34:56 - [TEST_STEP][PASSED] - verifyTextPresent("Statutory Absence Notifications", false, CONTINUE_ON_FAILURE): Text 'Statutory Absence Notifications' is present on page 
+
+2019-02-19 09:34:56 - [MESSAGE][PASSED] - Text 'Statutory Absence Notifications' is present on page 
+
+2019-02-19 09:34:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Navigations/Navigation - Statutory Absence Notifications/button_Save"), 5): Scroll to object 'Object Repository/Navigations/Navigation - Statutory Absence Notifications/button_Save' successfully
+
+2019-02-19 09:34:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Navigations/Navigation - Statutory Absence Notifications/button_Save' successfully
+
+2019-02-19 09:34:56 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Statutory Absence Notifications/button_Save")): Object: 'Object Repository/Navigations/Navigation - Statutory Absence Notifications/button_Save' is clicked on
+
+2019-02-19 09:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Statutory Absence Notifications/button_Save' is clicked on
+
+2019-02-19 09:34:56 - [TEST_STEP][PASSED] - verifyTextPresent("Statutory Absence Notifications", false, CONTINUE_ON_FAILURE): Text 'Statutory Absence Notifications' is present on page 
+
+2019-02-19 09:34:57 - [MESSAGE][PASSED] - Text 'Statutory Absence Notifications' is present on page 
+
+2019-02-19 09:34:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Statutory Absence Notifications' successfully
+
+2019-02-19 09:34:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Holiday Entitlements"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Holiday Entitlements' successfully
+
+2019-02-19 09:34:57 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Holiday Entitlements: Test Cases/Navigations/Navigation - Holiday Entitlements
+
+2019-02-19 09:34:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:34:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:34:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Holiday Entitlements/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - Holiday Entitlements/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Holiday Entitlements/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:34:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:35:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:35:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Holiday Entitlements/a_Holiday Entitlements")): Object: 'Object Repository/Navigations/Navigation - Holiday Entitlements/a_Holiday Entitlements' is clicked on
+
+2019-02-19 09:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Holiday Entitlements/a_Holiday Entitlements' is clicked on
+
+2019-02-19 09:35:03 - [TEST_STEP][PASSED] - verifyTextPresent("HOLIDAY ENTITLEMENT SCHEMES", false): Text 'HOLIDAY ENTITLEMENT SCHEMES' is present on page 
+
+2019-02-19 09:35:03 - [MESSAGE][PASSED] - Text 'HOLIDAY ENTITLEMENT SCHEMES' is present on page 
+
+2019-02-19 09:35:03 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Holiday Entitlements/Search")): Object: 'Object Repository/Navigations/Navigation - Holiday Entitlements/Search' is clicked on
+
+2019-02-19 09:35:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Holiday Entitlements/Search' is clicked on
+
+2019-02-19 09:35:04 - [TEST_STEP][PASSED] - verifyTextPresent("HOLIDAY ENTITLEMENT SCHEMES", false): Text 'HOLIDAY ENTITLEMENT SCHEMES' is present on page 
+
+2019-02-19 09:35:04 - [MESSAGE][PASSED] - Text 'HOLIDAY ENTITLEMENT SCHEMES' is present on page 
+
+2019-02-19 09:35:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Holiday Entitlements' successfully
+
+2019-02-19 09:35:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Length of Service"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Length of Service' successfully
+
+2019-02-19 09:35:04 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Length of Service: Test Cases/Navigations/Navigation - Length of Service
+
+2019-02-19 09:35:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:35:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:35:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Holiday Entitlements/span_Your Absence Rules")): Object: 'Object Repository/Navigations/Navigation - Holiday Entitlements/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:35:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Holiday Entitlements/span_Your Absence Rules' is clicked on
+
+2019-02-19 09:35:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-19 09:35:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-19 09:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Holiday Entitlements/a_Holiday Entitlements")): Object: 'Object Repository/Navigations/Navigation - Holiday Entitlements/a_Holiday Entitlements' is clicked on
+
+2019-02-19 09:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Holiday Entitlements/a_Holiday Entitlements' is clicked on
+
+2019-02-19 09:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Navigations/Navigation - Length of Service/a_Length Of Service Bands")): Object: 'Object Repository/Navigations/Navigation - Length of Service/a_Length Of Service Bands' is clicked on
+
+2019-02-19 09:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Length of Service/a_Length Of Service Bands' is clicked on
+
+2019-02-19 09:35:11 - [TEST_STEP][PASSED] - verifyTextPresent("LENGTH OF SERVICE", false): Text 'LENGTH OF SERVICE' is present on page 
+
+2019-02-19 09:35:11 - [MESSAGE][PASSED] - Text 'LENGTH OF SERVICE' is present on page 
+
+2019-02-19 09:35:11 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Navigations/Navigation - Length of Service/Search")): Object: 'Object Repository/Navigations/Navigation - Length of Service/Search' is double clicked on
+
+2019-02-19 09:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Length of Service/Search' is double clicked on
+
+2019-02-19 09:35:12 - [TEST_STEP][PASSED] - verifyTextPresent("LENGTH OF SERVICE", false): Text 'LENGTH OF SERVICE' is present on page 
+
+2019-02-19 09:35:12 - [MESSAGE][PASSED] - Text 'LENGTH OF SERVICE' is present on page 
+
+2019-02-19 09:35:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Length of Service' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Navigation - Reporting" classname="Test Cases/Smoke Test/Navigation - Reporting" status="PASSED">
+         <system-out><![CDATA[2019-02-19 09:35:14 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Navigation - Reporting: Test Cases/Smoke Test/Navigation - Reporting
+
+2019-02-19 09:35:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Smoke Test/ValidLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Smoke Test/ValidLogin' successfully
+
+2019-02-19 09:35:14 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/ValidLogin: Test Cases/Smoke Test/ValidLogin
+
+2019-02-19 09:35:15 - [TEST_STEP][PASSED] - openBrowser(findTestData("Environment").getValue("URL", 1)): Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-02-19 09:35:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-19 09:35:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-19 09:35:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://implementationuat.sdworx.co.uk/'
+
+2019-02-19 09:35:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-19 09:35:22 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-19 09:35:22 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Environment").getValue("URL", 1)): Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-02-19 09:35:23 - [MESSAGE][PASSED] - Navigate to 'https://implementationuat.sdworx.co.uk/' successfully
+
+2019-02-19 09:35:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Email"), findTestData("Login").getValue("Username", 1)): Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-02-19 09:35:24 - [MESSAGE][PASSED] - Text 'purmanand.roopnah@sdworx.com' is set on object 'Object Repository/Login/input_Email'
+
+2019-02-19 09:35:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Password"), findTestData("Login").getValue("Password", 1)): Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-02-19 09:35:24 - [MESSAGE][PASSED] - Text 'Manish_2505' is set on object 'Object Repository/Login/input_Password'
+
+2019-02-19 09:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_btn btn-default")): Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-02-19 09:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_btn btn-default' is clicked on
+
+2019-02-19 09:35:28 - [TEST_STEP][NOT_RUN] - selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true): NOT_RUN: selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true)
+
+2019-02-19 09:35:28 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel(findTestObject("Dropdown Lists/Select Organisation/Select Org"), "Panasonic Mauritius", true)
+
+2019-02-19 09:35:28 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10, CONTINUE_ON_FAILURE): NOT_RUN: verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:35:28 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Logout/Logout_dropdown"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:35:28 - [TEST_STEP][NOT_RUN] - click(findTestObject("Logout/Logout_dropdown")): NOT_RUN: click(findTestObject("Logout/Logout_dropdown"))
+
+2019-02-19 09:35:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Logout/Logout_dropdown"))
+
+2019-02-19 09:35:28 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE): NOT_RUN: verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:35:28 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Logout/a_Logout"), 10, CONTINUE_ON_FAILURE)
+
+2019-02-19 09:35:28 - [TEST_STEP][NOT_RUN] - click(findTestObject("Logout/a_Logout")): NOT_RUN: click(findTestObject("Logout/a_Logout"))
+
+2019-02-19 09:35:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Logout/a_Logout"))
+
+2019-02-19 09:35:28 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-02-19 09:35:28 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-02-19 09:35:28 - [TEST_STEP][NOT_RUN] - toolkit.MySql.connectDB("CERRSQL2UTIL.aspnc.local", "ImplementationToolkit ", "4413", "ImpToolkit", "0E47iz93"): NOT_RUN: toolkit.MySql.connectDB("CERRSQL2UTIL.aspnc.local", "ImplementationToolkit ", "4413", "ImpToolkit", "0E47iz93")
+
+2019-02-19 09:35:28 - [MESSAGE][NOT_RUN] - NOT_RUN: toolkit.MySql.connectDB("CERRSQL2UTIL.aspnc.local", "ImplementationToolkit ", "4413", "ImpToolkit", "0E47iz93")
+
+2019-02-19 09:35:28 - [TEST_STEP][NOT_RUN] - Data = toolkit.MySql.executeQuery("select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';"): NOT_RUN: Data = toolkit.MySql.executeQuery("select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';")
+
+2019-02-19 09:35:29 - [MESSAGE][NOT_RUN] - NOT_RUN: Data = toolkit.MySql.executeQuery("select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';")
+
+2019-02-19 09:35:29 - [TEST_STEP][NOT_RUN] - PrintLn("Data"): NOT_RUN: PrintLn("Data")
+
+2019-02-19 09:35:29 - [MESSAGE][NOT_RUN] - NOT_RUN: PrintLn("Data")
+
+2019-02-19 09:35:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke Test/ValidLogin' successfully
+
+2019-02-19 09:35:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-19 09:35:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 09:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Payrun Comparison/span_Reconciliation")): Object: 'Object Repository/Navigations/Navigation - Payrun Comparison/span_Reconciliation' is clicked on
+
+2019-02-19 09:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payrun Comparison/span_Reconciliation' is clicked on
+
+2019-02-19 09:35:38 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2019-02-19 09:35:58 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-02-19 09:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Payrun Comparison/a_Reporting")): Object: 'Object Repository/Navigations/Navigation - Payrun Comparison/a_Reporting' is clicked on
+
+2019-02-19 09:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payrun Comparison/a_Reporting' is clicked on
+
+2019-02-19 09:35:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Payrun Comparison"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Payrun Comparison' successfully
+
+2019-02-19 09:35:58 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Payrun Comparison: Test Cases/Navigations/Navigation - Payrun Comparison
+
+2019-02-19 09:35:59 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-19 09:36:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-19 09:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Payrun Comparison/label_Payrun Comparison")): Object: 'Object Repository/Navigations/Navigation - Payrun Comparison/label_Payrun Comparison' is clicked on
+
+2019-02-19 09:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Payrun Comparison/label_Payrun Comparison' is clicked on
+
+2019-02-19 09:36:09 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-02-19 09:36:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-19 09:36:09 - [TEST_STEP][PASSED] - verifyTextPresent("Client Payroll Pay Period *", false): Text 'Client Payroll Pay Period *' is present on page 
+
+2019-02-19 09:36:09 - [MESSAGE][PASSED] - Text 'Client Payroll Pay Period *' is present on page 
+
+2019-02-19 09:36:09 - [TEST_STEP][PASSED] - verifyTextPresent("SDWorx Payroll Pay Period *", false): Text 'SDWorx Payroll Pay Period *' is present on page 
+
+2019-02-19 09:36:09 - [MESSAGE][PASSED] - Text 'SDWorx Payroll Pay Period *' is present on page 
+
+2019-02-19 09:36:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Payrun Comparison' successfully
+
+2019-02-19 09:36:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Dashboard"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Dashboard' successfully
+
+2019-02-19 09:36:09 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Dashboard: Test Cases/Navigations/Navigation - Dashboard
+
+2019-02-19 09:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Dashboard/label_Dashboard")): Object: 'Object Repository/Navigations/Navigation - Dashboard/label_Dashboard' is clicked on
+
+2019-02-19 09:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Dashboard/label_Dashboard' is clicked on
+
+2019-02-19 09:36:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Navigations/Navigation - Dashboard/span_Extract To Excel"), 30): Object 'Object Repository/Navigations/Navigation - Dashboard/span_Extract To Excel' is present
+
+2019-02-19 09:36:10 - [MESSAGE][PASSED] - Object 'Object Repository/Navigations/Navigation - Dashboard/span_Extract To Excel' is present
+
+2019-02-19 09:36:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Dashboard' successfully
+
+2019-02-19 09:36:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigations/Navigation - Pay Element Group Details"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Navigations/Navigation - Pay Element Group Details' successfully
+
+2019-02-19 09:36:10 - [TEST_CASE][PASSED] - Test Cases/Navigations/Navigation - Pay Element Group Details: Test Cases/Navigations/Navigation - Pay Element Group Details
+
+2019-02-19 09:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Navigations/Navigation - Pay Element Group Details/label_Pay Element Group Detail")): Object: 'Object Repository/Navigations/Navigation - Pay Element Group Details/label_Pay Element Group Detail' is clicked on
+
+2019-02-19 09:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigations/Navigation - Pay Element Group Details/label_Pay Element Group Detail' is clicked on
+
+2019-02-19 09:36:10 - [TEST_STEP][PASSED] - verifyTextPresent("Pay Element Group", false): Text 'Pay Element Group' is present on page 
+
+2019-02-19 09:36:10 - [MESSAGE][PASSED] - Text 'Pay Element Group' is present on page 
+
+2019-02-19 09:36:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigations/Navigation - Pay Element Group Details' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-19 09:33:09 - [TEST_SUITE][PASSED] - Smoke Test: Test Cases/Smoke Test/Navigation - Reporting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

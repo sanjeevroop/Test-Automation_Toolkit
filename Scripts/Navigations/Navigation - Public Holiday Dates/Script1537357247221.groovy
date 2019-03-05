@@ -26,3 +26,7 @@ WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Public Ho
 
 WebUI.verifyTextPresent('BANK / PUBLIC HOLIDAY DATES', false)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Public Holiday Dates/Search'))
+
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Public Holiday Dates/a_Add Holiday Date'), 2)
+

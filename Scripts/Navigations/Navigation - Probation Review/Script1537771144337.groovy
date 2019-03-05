@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Probation Review/a_Your Starter  Leavers'))
+WebUI.click(findTestObject('Navigations/Navigation - Starters/span_Your Starter  Leavers'))
 
 WebUI.delay(2)
 

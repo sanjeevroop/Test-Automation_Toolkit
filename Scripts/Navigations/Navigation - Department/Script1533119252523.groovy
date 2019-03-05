@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.openBrowser('')
 //WebUI.navigateToUrl('https://login.microsoftonline.com/7ef41b2d-b0df-48c8-8b0c-c6497fdf26ac/oauth2/authorize?client_id=f6722b0a-c5be-4f78-99b5-b3c01917fbfe&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DCGeAVaTe9M9KQbCseGELRksJ6Gd5zbJ5LKW3toq5f5piclODy-eOzbKAEELDyTe_e4s8hiR7XajxaKloXdEgiYAht9dyjbwfsDz5-MIs9_D2T9S0pGV6kghvu0lLPjdYmqhN_BLOPHESluzLCcHOww&nonce=636687164704114508.ZDdjZGQ3MzMtMjk3NC00Y2I2LWE1MDktM2U1YWNjMWQ3MjhhZjVlNTNmNzctOTgwMS00OWMxLWFkMzgtZWU2Yzc2YzdhZDkx&x-client-SKU=ID_NET451&x-client-ver=5.2.1.0')
@@ -36,4 +37,8 @@ WebUI.click(findTestObject('Navigations/Navigation - Departments/a_Departments')
 WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Departments/button_Add Department'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Navigations/Navigation - Departments/button_Add Department'))
+
+WebUI.verifyTextPresent('Action', false)
 

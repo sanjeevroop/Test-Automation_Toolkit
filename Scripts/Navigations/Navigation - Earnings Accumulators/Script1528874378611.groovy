@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
 //WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
@@ -36,4 +37,10 @@ import org.openqa.selenium.Keys as Keys
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Navigations/Navigation - Earnings Accumulators/a_Earnings Accumulators'))
+
+WebUI.verifyTextPresent('Allowance Number', false)
+
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Earnings Accumulators/SearchTextBox'))
+
+WebUI.verifyTextPresent('Allowance Number', false)
 

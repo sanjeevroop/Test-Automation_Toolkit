@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.delay(5)
 
@@ -30,4 +31,7 @@ WebUI.click(findTestObject('Navigations/Navigation - Basics Details/Page_Impleme
 WebUI.delay(2)
 
 WebUI.mouseOver(findTestObject('Navigations/Navigation - Basics Details/Page_Implementation Toolkit/button_Next'))
+
+'Click on Text Payroll Number'
+WebUI.click(findTestObject('Navigations/Navigation - Basics Details/Page_Implementation Toolkit/h3_Payroll Number'))
 

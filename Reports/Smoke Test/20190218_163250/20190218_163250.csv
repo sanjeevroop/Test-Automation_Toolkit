@@ -1,0 +1,110 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,Chrome 72.0.3626.109,,2019-02-18 16:32:58,2019-02-18 16:41:34,8m - 36.234s,FAILED
+,,,,,,
+Test Cases/Smoke Test/ValidLogin,Chrome 72.0.3626.109,,2019-02-18 16:32:59,2019-02-18 16:33:16,17.106s,PASSED
+"openBrowser(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 72.0.3626.109,,2019-02-18 16:32:59,2019-02-18 16:33:11,11.253s,PASSED
+maximizeWindow(),Chrome 72.0.3626.109,,2019-02-18 16:33:11,2019-02-18 16:33:12,1.145s,PASSED
+"navigateToUrl(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 72.0.3626.109,,2019-02-18 16:33:12,2019-02-18 16:33:13,0.848s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Email""), findTestData(""Login"").getValue(""Username"", 1))",Chrome 72.0.3626.109,,2019-02-18 16:33:13,2019-02-18 16:33:13,0.347s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Password""), findTestData(""Login"").getValue(""Password"", 1))",Chrome 72.0.3626.109,,2019-02-18 16:33:13,2019-02-18 16:33:13,0.209s,PASSED
+"click(findTestObject(""Object Repository/Login/input_btn btn-default""))",Chrome 72.0.3626.109,,2019-02-18 16:33:13,2019-02-18 16:33:16,2.370s,PASSED
+"selectOptionByLabel(findTestObject(""Dropdown Lists/Select Organisation/Select Org""), ""Panasonic Mauritius"", true)",Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:16,0.003s,NOT_RUN
+"verifyElementPresent(findTestObject(""Logout/Logout_dropdown""), 10, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:16,0.003s,NOT_RUN
+"click(findTestObject(""Logout/Logout_dropdown""))",Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:16,0.002s,NOT_RUN
+"verifyElementPresent(findTestObject(""Logout/a_Logout""), 10, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:16,0.004s,NOT_RUN
+"click(findTestObject(""Logout/a_Logout""))",Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:16,0.002s,NOT_RUN
+closeBrowser(),Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:16,0.002s,NOT_RUN
+"toolkit.MySql.connectDB(""CERRSQL2UTIL.aspnc.local"", ""ImplementationToolkit "", ""4413"", ""ImpToolkit"", ""0E47iz93"")",Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:16,0.002s,NOT_RUN
+"Data = toolkit.MySql.executeQuery(""select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';"")",Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:16,0.002s,NOT_RUN
+"PrintLn(""Data"")",Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:16,0.005s,NOT_RUN
+,,,,,,
+Test Cases/Smoke Test/InvalidLogin,Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:26,10.709s,PASSED
+"openBrowser(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 72.0.3626.109,,2019-02-18 16:33:16,2019-02-18 16:33:22,5.791s,PASSED
+maximizeWindow(),Chrome 72.0.3626.109,,2019-02-18 16:33:22,2019-02-18 16:33:23,1.119s,PASSED
+"navigateToUrl(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 72.0.3626.109,,2019-02-18 16:33:23,2019-02-18 16:33:24,1.035s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Email""), findTestData(""Login"").getValue(""Username"", 5))",Chrome 72.0.3626.109,,2019-02-18 16:33:24,2019-02-18 16:33:25,0.310s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Password""), findTestData(""Login"").getValue(""Password"", 5))",Chrome 72.0.3626.109,,2019-02-18 16:33:25,2019-02-18 16:33:25,0.203s,PASSED
+"click(findTestObject(""Object Repository/Login/input_btn btn-default""))",Chrome 72.0.3626.109,,2019-02-18 16:33:25,2019-02-18 16:33:26,0.764s,PASSED
+"verifyElementPresent(findTestObject(""Fields Validation/Login/InvalidLogin""), 0, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,Verification for Invalid Users,2019-02-18 16:33:26,2019-02-18 16:33:26,0.058s,PASSED
+closeBrowser(),Chrome 72.0.3626.109,,2019-02-18 16:33:26,2019-02-18 16:33:26,0.719s,PASSED
+,,,,,,
+Test Cases/Smoke Test/Navigation Your Payroll Rules,Chrome 72.0.3626.109,,2019-02-18 16:33:26,2019-02-18 16:34:54,1m - 27.294s,PASSED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:33:27,2019-02-18 16:33:37,10.074s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Basic Details""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:33:37,2019-02-18 16:33:48,11.203s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Tax Groups""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:33:48,2019-02-18 16:33:57,8.887s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Pay Groups""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:33:57,2019-02-18 16:34:01,3.802s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Department""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:34:01,2019-02-18 16:34:10,9.106s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Cost Code""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:34:10,2019-02-18 16:34:17,7.710s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Payroll Disbursements""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:34:17,2019-02-18 16:34:25,7.782s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Personal Data Codes""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:34:25,2019-02-18 16:34:33,7.615s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Payroll Class""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:34:33,2019-02-18 16:34:40,7.583s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Payroll Category""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:34:40,2019-02-18 16:34:48,7.635s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Holiday Rate Calculation""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:34:48,2019-02-18 16:34:54,5.598s,PASSED
+"callTestCase(findTestCase(""Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:34:54,2019-02-18 16:34:54,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Smoke Test/NavigationYourPayAndBenefits,Chrome 72.0.3626.109,,2019-02-18 16:34:54,2019-02-18 16:35:15,20.921s,FAILED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:34:54,2019-02-18 16:35:04,10.333s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Allowances""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:35:04,2019-02-18 16:35:15,10.302s,FAILED
+,,,,,,
+Test Cases/Smoke Test/NavigationYourAbsenceRules,Chrome 72.0.3626.109,,2019-02-18 16:35:15,2019-02-18 16:36:34,1m - 19.665s,PASSED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:35:15,2019-02-18 16:35:26,11.010s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Absence Parameters""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:35:26,2019-02-18 16:35:32,6.041s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Public Holiday Schemes""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:35:32,2019-02-18 16:35:38,5.952s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Public Holiday Dates""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:35:38,2019-02-18 16:35:44,5.612s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Primary Sickness""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:35:44,2019-02-18 16:35:51,7.866s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Secondary Sickness""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:35:51,2019-02-18 16:35:55,3.919s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - OSP Scheme Details""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:35:55,2019-02-18 16:36:02,6.600s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - OSP Scheme Service Bands""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:36:02,2019-02-18 16:36:11,8.753s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Statutory Absence Parameters""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:36:11,2019-02-18 16:36:14,3.758s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Statutory Absence Notifications""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:36:14,2019-02-18 16:36:22,7.777s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Holiday Entitlements""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:36:22,2019-02-18 16:36:28,6.019s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Length of Service""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:36:28,2019-02-18 16:36:34,5.984s,PASSED
+,,,,,,
+Test Cases/Smoke Test/NavigationYourStarterLeavers,Chrome 72.0.3626.109,,2019-02-18 16:36:34,2019-02-18 16:38:09,1m - 34.934s,PASSED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:36:35,2019-02-18 16:36:48,13.158s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Starters""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:36:48,2019-02-18 16:36:52,4.102s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Probation Review""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:36:52,2019-02-18 16:36:58,5.753s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Probation Label""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:36:58,2019-02-18 16:37:12,14.661s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Reason For Leaving""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:37:12,2019-02-18 16:37:21,9.198s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Detailed Reason For Leaving""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:37:21,2019-02-18 16:37:36,14.260s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - GDPR""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:37:36,2019-02-18 16:37:46,10.575s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Leaving Interview""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:37:46,2019-02-18 16:37:58,11.379s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Employees and Leavers""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:37:58,2019-02-18 16:38:09,11.572s,PASSED
+,,,,,,
+Test Cases/Smoke Test/NavigationPayrollCopy,Chrome 72.0.3626.109,,2019-02-18 16:38:09,2019-02-18 16:38:24,14.669s,PASSED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:38:10,2019-02-18 16:38:20,10.232s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Payroll Copy""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:38:20,2019-02-18 16:38:24,4.049s,PASSED
+,,,,,,
+Test Cases/Smoke Test/NavigationOnlineReporting,Chrome 72.0.3626.109,,2019-02-18 16:38:24,2019-02-18 16:38:39,14.722s,PASSED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:38:24,2019-02-18 16:38:35,10.557s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Online Reporting""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:38:35,2019-02-18 16:38:39,3.886s,PASSED
+,,,,,,
+Test Cases/Smoke Test/NavigationAuditReport,Chrome 72.0.3626.109,,2019-02-18 16:38:39,2019-02-18 16:38:53,14.345s,PASSED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:38:39,2019-02-18 16:38:49,10.305s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation -Audit Report""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:38:49,2019-02-18 16:38:53,3.827s,PASSED
+,,,,,,
+Test Cases/Smoke Test/NavigationAdmin,Chrome 72.0.3626.109,,2019-02-18 16:38:53,2019-02-18 16:39:41,48.092s,PASSED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:38:53,2019-02-18 16:39:03,10.289s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Client Setup""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:03,2019-02-18 16:39:12,8.929s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Payroll Setup""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:12,2019-02-18 16:39:21,8.287s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - SSP Rules""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:21,2019-02-18 16:39:29,8.331s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Database Details""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:29,2019-02-18 16:39:35,6.082s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Process Data""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:35,2019-02-18 16:39:41,5.963s,PASSED
+,,,,,,
+Test Cases/Smoke Test/Navigation - DatacodeMapping,Chrome 72.0.3626.109,,2019-02-18 16:39:41,2019-02-18 16:39:58,17.392s,PASSED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:41,2019-02-18 16:39:52,10.827s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Pay Element Groups""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:52,2019-02-18 16:39:56,3.743s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - SDWorx Allowance Mapping""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:56,2019-02-18 16:39:56,0.599s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - SDWorx Deduction Mapping""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:56,2019-02-18 16:39:57,0.610s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - SDWorx Pensions Mapping""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:57,2019-02-18 16:39:58,0.689s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Client Data Mapping""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:58,2019-02-18 16:39:58,0.699s,PASSED
+,,,,,,
+Test Cases/Smoke Test/Navigation - Payroll Result Load,Chrome 72.0.3626.109,,2019-02-18 16:39:58,2019-02-18 16:40:46,47.185s,FAILED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:39:59,2019-02-18 16:40:09,10.628s,PASSED
+delay(5),Chrome 72.0.3626.109,,2019-02-18 16:40:09,2019-02-18 16:40:14,5.001s,PASSED
+"click(findTestObject(""Navigations/Navigation - Payrun Comparison/a_Reconciliation""))",Chrome 72.0.3626.109,,2019-02-18 16:40:14,2019-02-18 16:40:46,31.249s,FAILED
+,,,,,,
+Test Cases/Smoke Test/Navigation - Reporting,Chrome 72.0.3626.109,,2019-02-18 16:40:46,2019-02-18 16:41:33,47.594s,FAILED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-18 16:40:46,2019-02-18 16:40:57,10.783s,PASSED
+delay(5),Chrome 72.0.3626.109,,2019-02-18 16:40:57,2019-02-18 16:41:02,5.002s,PASSED
+"click(findTestObject(""Navigations/Navigation - Payrun Comparison/a_Reconciliation""))",Chrome 72.0.3626.109,,2019-02-18 16:41:02,2019-02-18 16:41:33,31.259s,FAILED

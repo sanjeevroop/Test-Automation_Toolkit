@@ -30,3 +30,9 @@ WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Process Data/button_Save'), 0)
 
+WebUI.scrollToElement(findTestObject('Navigations/Navigation - Process Data/button_Save'), 0)
+
+WebUI.click(findTestObject('Navigations/Navigation - Process Data/button_Save'))
+
+WebUI.verifyTextPresent('PROCESS DATA', false)
+

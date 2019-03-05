@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
 //WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
@@ -36,4 +37,10 @@ import org.openqa.selenium.Keys as Keys
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Navigations/Navigation - Other Net to Gross/a_Others  Net To Gross'))
+
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Other Net to Gross/button_Save'), 0)
+
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Other Net to Gross/SearchTextbox'))
+
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Other Net to Gross/button_Save'), 0)
 

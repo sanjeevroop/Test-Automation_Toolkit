@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.openBrowser('https://implementationtoolkit.azurewebsites.net/')
 //WebUI.navigateToUrl('https://implementationtoolkit.azurewebsites.net/')
@@ -38,4 +39,6 @@ WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/a_Tax Groups'))
 WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Tax Groups/a_Add Tax Group'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/SearchButton'))
 

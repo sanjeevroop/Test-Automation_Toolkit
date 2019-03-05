@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.openBrowser('')
 //WebUI.navigateToUrl('https://login.microsoftonline.com/7ef41b2d-b0df-48c8-8b0c-c6497fdf26ac/oauth2/authorize?client_id=f6722b0a-c5be-4f78-99b5-b3c01917fbfe&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DbOseK9hKy3LrQrjoSp4bENAWIP9tGGBy4oPr2emf4iWSeUzZ75uMiS3iOuxycVv665_KKNklann6HGjlcR-5LV3w3GY9lEkSbPiiBdoeDutUaCUH3MiRCpMx5CbsUeHOC8lb7qjTGdUDvWlMx8C5vA&nonce=636667092534416338.OThiODNiYzAtZTAwMS00YmNkLTgyZDAtODM1YTA2ZTIzYzFjYjg1ZTdhZDMtMGI5NC00M2FjLThmNWMtZTZmOThkYjRmYWJi&x-client-SKU=ID_NET451&x-client-ver=5.2.1.0')
@@ -35,4 +36,6 @@ WebUI.click(findTestObject('Navigations/Navigation - Payroll Class/a_Payroll Cla
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Payroll Class/a_Add Class'))
+
+WebUI.verifyTextPresent('Action', false)
 

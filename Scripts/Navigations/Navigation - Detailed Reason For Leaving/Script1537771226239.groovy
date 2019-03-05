@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navigations/Navigation - Detailed Reason For Leaving/a_Your Starter  Leavers'))
+WebUI.click(findTestObject('Navigations/Navigation - Starters/span_Your Starter  Leavers'))
 
 WebUI.delay(3)
 
@@ -29,4 +29,8 @@ WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Detailed Reason For Leaving/a_Add Detailed Reasons For Lea'), 
     0)
+
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Reason For Leaving/Search'))
+
+WebUI.verifyTextPresent('Detailed Reasons For Leaving', false)
 

@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,Chrome 72.0.3626.109,,2019-02-19 09:33:09,2019-02-19 09:36:13,3m - 3.974s,PASSED
+,,,,,,
+Test Cases/Smoke Test/ValidLogin,Chrome 72.0.3626.109,,2019-02-19 09:33:10,2019-02-19 09:33:33,23.443s,PASSED
+"openBrowser(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 72.0.3626.109,,2019-02-19 09:33:11,2019-02-19 09:33:24,12.288s,PASSED
+maximizeWindow(),Chrome 72.0.3626.109,,2019-02-19 09:33:24,2019-02-19 09:33:25,1.210s,PASSED
+"navigateToUrl(findTestData(""Environment"").getValue(""URL"", 1))",Chrome 72.0.3626.109,,2019-02-19 09:33:25,2019-02-19 09:33:26,1.130s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Email""), findTestData(""Login"").getValue(""Username"", 1))",Chrome 72.0.3626.109,,2019-02-19 09:33:26,2019-02-19 09:33:27,0.730s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Password""), findTestData(""Login"").getValue(""Password"", 1))",Chrome 72.0.3626.109,,2019-02-19 09:33:27,2019-02-19 09:33:27,0.432s,PASSED
+"click(findTestObject(""Object Repository/Login/input_btn btn-default""))",Chrome 72.0.3626.109,,2019-02-19 09:33:27,2019-02-19 09:33:31,4.009s,PASSED
+"selectOptionByLabel(findTestObject(""Dropdown Lists/Select Organisation/Select Org""), ""Panasonic Mauritius"", true)",Chrome 72.0.3626.109,,2019-02-19 09:33:31,2019-02-19 09:33:31,0.008s,NOT_RUN
+"verifyElementPresent(findTestObject(""Logout/Logout_dropdown""), 10, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:33:31,2019-02-19 09:33:31,0.005s,NOT_RUN
+"click(findTestObject(""Logout/Logout_dropdown""))",Chrome 72.0.3626.109,,2019-02-19 09:33:31,2019-02-19 09:33:31,0.004s,NOT_RUN
+"verifyElementPresent(findTestObject(""Logout/a_Logout""), 10, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:33:31,2019-02-19 09:33:31,0.004s,NOT_RUN
+"click(findTestObject(""Logout/a_Logout""))",Chrome 72.0.3626.109,,2019-02-19 09:33:31,2019-02-19 09:33:31,0.003s,NOT_RUN
+closeBrowser(),Chrome 72.0.3626.109,,2019-02-19 09:33:31,2019-02-19 09:33:31,0.003s,NOT_RUN
+"toolkit.MySql.connectDB(""CERRSQL2UTIL.aspnc.local"", ""ImplementationToolkit "", ""4413"", ""ImpToolkit"", ""0E47iz93"")",Chrome 72.0.3626.109,,2019-02-19 09:33:31,2019-02-19 09:33:31,0.003s,NOT_RUN
+"Data = toolkit.MySql.executeQuery(""select id from AspNetUsers where Email='purmanand.roopnah@sdworx.com';"")",Chrome 72.0.3626.109,,2019-02-19 09:33:31,2019-02-19 09:33:31,0.004s,NOT_RUN
+"PrintLn(""Data"")",Chrome 72.0.3626.109,,2019-02-19 09:33:31,2019-02-19 09:33:31,0.004s,NOT_RUN
+,,,,,,
+Test Cases/Smoke Test/NavigationYourAbsenceRules,Chrome 72.0.3626.109,,2019-02-19 09:33:33,2019-02-19 09:35:14,1m - 40.678s,PASSED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:33:34,2019-02-19 09:33:48,13.509s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Absence Parameters""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:33:48,2019-02-19 09:33:55,7.612s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Public Holiday Schemes""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:33:55,2019-02-19 09:34:02,7.253s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Public Holiday Dates""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:34:02,2019-02-19 09:34:09,7.026s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Primary Sickness""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:34:09,2019-02-19 09:34:19,9.302s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Secondary Sickness""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:34:19,2019-02-19 09:34:24,5.584s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - OSP Scheme Details""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:34:24,2019-02-19 09:34:33,8.465s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - OSP Scheme Service Bands""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:34:33,2019-02-19 09:34:42,9.606s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Statutory Absence Parameters""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:34:42,2019-02-19 09:34:48,5.227s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Statutory Absence Notifications""), [:], CONTINUE_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:34:48,2019-02-19 09:34:57,8.896s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Holiday Entitlements""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:34:57,2019-02-19 09:35:04,7.741s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Length of Service""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:35:04,2019-02-19 09:35:12,7.636s,PASSED
+,,,,,,
+Test Cases/Smoke Test/Navigation - Reporting,Chrome 72.0.3626.109,,2019-02-19 09:35:14,2019-02-19 09:36:12,58.476s,PASSED
+"callTestCase(findTestCase(""Smoke Test/ValidLogin""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:35:14,2019-02-19 09:35:29,14.073s,PASSED
+delay(5),Chrome 72.0.3626.109,,2019-02-19 09:35:29,2019-02-19 09:35:34,5.010s,PASSED
+"click(findTestObject(""Navigations/Navigation - Payrun Comparison/span_Reconciliation""))",Chrome 72.0.3626.109,,2019-02-19 09:35:34,2019-02-19 09:35:38,4.534s,PASSED
+delay(20),Chrome 72.0.3626.109,,2019-02-19 09:35:38,2019-02-19 09:35:58,20.004s,PASSED
+"click(findTestObject(""Navigations/Navigation - Payrun Comparison/a_Reporting""))",Chrome 72.0.3626.109,,2019-02-19 09:35:58,2019-02-19 09:35:58,0.173s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Payrun Comparison""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:35:58,2019-02-19 09:36:09,10.846s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Dashboard""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:36:09,2019-02-19 09:36:10,0.551s,PASSED
+"callTestCase(findTestCase(""Navigations/Navigation - Pay Element Group Details""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.109,,2019-02-19 09:36:10,2019-02-19 09:36:10,0.764s,PASSED

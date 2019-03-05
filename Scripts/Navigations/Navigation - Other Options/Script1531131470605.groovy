@@ -19,14 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('Navigations/Navigation - Other Options/a_Other Options (3)'))
 
-WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Other Options (1)/a_Other Options (3)'))
+WebUI.verifyTextPresent('Action', false)
 
-//WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Other Options (1)/input'))
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Other Options/SearchTextBox'))
 
-
+WebUI.verifyTextPresent('Action', false)
 

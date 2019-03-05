@@ -15,5 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Navigations/Navigation - SDWorx Pension Mapping/label_SDWorx Pension Mapping'))
 
-WebUI.verifyTextPresent('Pension Scheme Number', false)
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - SDWorx Allowance Mapping/SearchTextbox'), 0)
+
+WebUI.doubleClick(findTestObject('Navigations/Navigation - SDWorx Allowance Mapping/SearchTextbox'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('SDWorx Pension Mapping', false)
 

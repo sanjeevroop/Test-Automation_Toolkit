@@ -15,9 +15,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Starters/a_Your Starter  Leavers'))
+WebUI.click(findTestObject('Navigations/Navigation - Starters/span_Your Starter  Leavers'))
 
 WebUI.click(findTestObject('Navigations/Navigation - Starters/a_Starters'))
 
-WebUI.click(findTestObject('Navigations/Navigation - Starters/input_New Starter requires HR'))
+WebUI.verifyTextPresent('NEW STARTERS', false)
+
+WebUI.scrollToElement(findTestObject('Navigations/Navigation - Starters/button_Save'), 5)
+
+WebUI.click(findTestObject('Navigations/Navigation - Starters/button_Save'))
+
+WebUI.verifyTextPresent('NEW STARTERS', false, FailureHandling.CONTINUE_ON_FAILURE)
 

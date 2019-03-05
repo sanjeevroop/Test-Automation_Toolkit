@@ -17,3 +17,9 @@ WebUI.click(findTestObject('Navigations/Navigation - Client Data Mapping/label_C
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Client Data Mapping/a_Add Client Data Mapping'), 0)
 
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - SDWorx Allowance Mapping/SearchTextbox'), 0)
+
+WebUI.doubleClick(findTestObject('Navigations/Navigation - SDWorx Allowance Mapping/SearchTextbox'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('Client Data Mapping', false)
+

@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navigations/Navigation - GDPR/span_Your Starter  Leavers'))
+WebUI.click(findTestObject('Navigations/Navigation - Starters/span_Your Starter  Leavers'))
 
 WebUI.delay(3)
 
@@ -24,4 +24,8 @@ WebUI.click(findTestObject('Navigations/Navigation - GDPR/a_GDPR'))
 WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - GDPR/button_Save'), 0)
+
+WebUI.click(findTestObject('Navigations/Navigation - GDPR/button_Save'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('GDPR', false)
 

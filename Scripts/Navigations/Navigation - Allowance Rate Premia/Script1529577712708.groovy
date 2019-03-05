@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
 //WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
@@ -31,36 +32,24 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.click(findTestObject('null'))
 //WebUI.delay(3)
 //WebUI.mouseOver(findTestObject('null'))
-
 //WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
-
 //WebUI.setText(findTestObject('Navigations/Navigation - Allowance Rate Premia/input_loginfmt'), 
-    //'Sanjeev@sdworx.com')
-
+//'Sanjeev@sdworx.com')
 //WebUI.click(findTestObject('Navigations/Navigation - Allowance Rate Premia/input_idSIButton9'))
-
-
-
 //WebUI.click(findTestObject('Navigations/Navigation - Allowance Rate Premia/button_Your Setup'))
-
 //WebUI.delay(2)
-
 //WebUI.mouseOver(findTestObject('Navigations/Navigation - Allowance Rate Premia/button_Your Setup'))
-
 //WebUI.delay(2)
-
 //WebUI.mouseOver(findTestObject('Navigations/Navigation - Allowance Rate Premia/a_Your Pay  Benefits'))
-
 WebUI.delay(2)
 
 //WebUI.click(findTestObject('Navigations/Navigation - Allowance Rate Premia/a_Allowances'))
-
-
 WebUI.click(findTestObject('Navigations/Navigation - Allowance Rate Premia/a_Allowance Rate Premia'))
 
-//WebUI.delay(10)
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Allowance Rate Premia/button_Save'), 0)
 
-//WebUI.click(findTestObject('Object Repository/Navigations/Navigation - Allowance Rate Premia/Search Allowance Rate Pre'))
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Allowance Rate Premia/SearchTextbox'))
+
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Allowance Rate Premia/button_Save'), 0)
 

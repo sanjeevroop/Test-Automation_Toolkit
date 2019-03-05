@@ -13,9 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Navigations/Navigation - Online Reporting/a_Online Reporting'))
+WebUI.click(findTestObject('Navigations/Navigation - Online Reporting/span_Online Reporting'))
 
 WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Online Reporting/a_Generate Report'), 0)
+
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Online Reporting/select_PDW'))
+
+WebUI.verifyTextPresent('ONLINE REPORTING', false)
 

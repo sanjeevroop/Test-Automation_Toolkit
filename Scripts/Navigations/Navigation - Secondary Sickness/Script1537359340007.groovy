@@ -25,3 +25,7 @@ WebUI.click(findTestObject('Navigations/Navigation - Secondary Sickness/a_Second
 
 WebUI.verifyTextPresent('SECONDARY SICKNESS REASONS', false)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Secondary Sickness/Search'))
+
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Secondary Sickness/a_Add Secondary Sickness'), 5)
+

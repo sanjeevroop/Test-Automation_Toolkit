@@ -24,3 +24,7 @@ WebUI.click(findTestObject('Navigations/Navigation - OSP Scheme Details/a_OSP Sc
 //verify text
 WebUI.verifyTextPresent('OSP SCHEME DETAILS', false)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - OSP Scheme Details/Search'))
+
+WebUI.verifyTextPresent('OSP SCHEME DETAILS', false)
+

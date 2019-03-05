@@ -25,19 +25,19 @@
    <testCaseLink>
       <guid>be9442b2-c597-489e-9825-7b8396045c87</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke Test/UserOrgValidation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9cfe30e2-a468-4b90-bf2a-0a8be448a482</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke Test/AdminOrgValidation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9199b1ea-73ff-4cd4-9029-497c1a027399</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Smoke Test/SuperAdminOrgValidation</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Navigations/Navigation - Probation Label/Page_Implementation Toolkit/span_Your Starter  Leavers'))
+WebUI.click(findTestObject('Navigations/Navigation - Starters/span_Your Starter  Leavers'))
 
 WebUI.delay(2)
 
@@ -28,4 +28,8 @@ WebUI.click(findTestObject('Navigations/Navigation - Probation Label/Page_Implem
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Probation Label/Page_Implementation Toolkit/button_Save'))
+
+WebUI.delay(5)
+
+WebUI.verifyTextPresent('Probation Labels', false)
 

@@ -25,3 +25,7 @@ WebUI.click(findTestObject('Navigations/Navigation - Database Details/a_Database
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Database Details/a_Add Server Details'), 0)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Client Setup/Search'))
+
+WebUI.verifyTextPresent('Database Details', false)
+

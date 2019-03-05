@@ -33,5 +33,15 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Allowances/Allowances'))
 
-WebUI.verifyElementPresent(findTestObject('Add Records/Add Records - Allowances/button_Add Allowance'), 0)
+WebUI.delay(5)
+
+WebUI.click(findTestObject(null))
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Allowances/button_Add Allowance'), 2)
+
+WebUI.click(findTestObject('Navigations/Navigation - Allowances/button_Add Allowance'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('Action', false)
 

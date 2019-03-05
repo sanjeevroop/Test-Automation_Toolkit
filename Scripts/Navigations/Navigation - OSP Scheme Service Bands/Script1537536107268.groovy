@@ -28,3 +28,7 @@ WebUI.delay(2)
 //verify text
 WebUI.verifyTextPresent('Select Scheme to maintain ', false)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - OSP Scheme Service Bands/Search'))
+
+WebUI.verifyTextPresent('Select Scheme to maintain ', false)
+

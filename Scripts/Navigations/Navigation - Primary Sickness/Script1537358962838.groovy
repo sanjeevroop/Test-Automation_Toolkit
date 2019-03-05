@@ -29,3 +29,7 @@ WebUI.verifyTextPresent('PRIMARY SICKNESS REASONS', false)
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Primary Sickness/a_Add Primary Sickness'), 10)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - Primary Sickness/Search'))
+
+WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Primary Sickness/a_Add Primary Sickness'), 0)
+

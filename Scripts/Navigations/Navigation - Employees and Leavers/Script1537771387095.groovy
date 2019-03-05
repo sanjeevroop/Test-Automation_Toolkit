@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navigations/Navigation - GDPR/span_Your Starter  Leavers'))
+WebUI.click(findTestObject('Navigations/Navigation - Starters/span_Your Starter  Leavers'))
 
 WebUI.delay(3)
 
@@ -24,4 +24,10 @@ WebUI.click(findTestObject('Navigations/Navigation - Employees and Leavers/a_Emp
 WebUI.delay(3)
 
 WebUI.verifyTextPresent('Employee Details', false)
+
+WebUI.scrollToElement(findTestObject('Navigations/Navigation - Employees and Leavers/button_Save'), 0)
+
+WebUI.click(findTestObject('Navigations/Navigation - Employees and Leavers/button_Save'))
+
+WebUI.verifyTextPresent('EMPLOYEES & LEAVERS', false)
 

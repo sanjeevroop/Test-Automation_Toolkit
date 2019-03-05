@@ -17,3 +17,7 @@ WebUI.click(findTestObject('Navigations/Navigation - SDWorx Allowance Mapping/la
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - SDWorx Allowance Mapping/SearchTextbox'), 0)
 
+WebUI.doubleClick(findTestObject('Navigations/Navigation - SDWorx Allowance Mapping/SearchTextbox'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('SDWorx Allowance Mapping', false)
+

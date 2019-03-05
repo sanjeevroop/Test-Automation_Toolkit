@@ -34,3 +34,5 @@ WebUI.click(findTestObject('Navigations/Navigation - Pay Groups/a_Pay Groups'))
 
 WebUI.verifyElementPresent(findTestObject('Navigations/Navigation - Pay Groups/a_Add Paygroup'), 0)
 
+WebUI.click(findTestObject('Navigations/Navigation - Tax Groups/SearchButton'))
+

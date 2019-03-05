@@ -20,12 +20,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 //WebUI.openBrowser('')
-
 //WebUI.navigateToUrl('https://login.microsoftonline.com/7ef41b2d-b0df-48c8-8b0c-c6497fdf26ac/oauth2/authorize?client_id=f6722b0a-c5be-4f78-99b5-b3c01917fbfe&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DU3Vo-7vvF3nWewBrDoXKTd2aYpNb57z1x7LsJCavwSF3IJskfNCxvChQJyAZ4ze85MPOksm-vt0Is-NdeKmLZCy2YTDxFyHZ4ehWzVoEj2tOQrhCNB6HLyt_OvayqOdiCkqCcha1q_skK5NXBGgPfw&nonce=636697477198239726.ZjRkOGMyYWMtNTgzNC00MjY1LWI3M2EtOTNlZDRhYmE3YzhjYjA3YWVjMzEtNjhjNC00YTc5LWE5MTAtMzhhNjkxYjhjMjI1&x-client-SKU=ID_NET451&x-client-ver=5.2.1.0')
-
 //WebUI.setText(findTestObject('Navigations/Navigation - Deduction/input_loginfmt'), 
-    //'Sanjeev@sdworx.com')
-
+//'Sanjeev@sdworx.com')
 //WebUI.click(findTestObject('Navigations/Navigation - Deduction/input_idSIButton9'))
 WebUI.delay(5)
 
@@ -35,5 +32,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Navigations/Navigation - Deduction/a_Deductions'))
 
-WebUI.doubleClick(findTestObject('Navigations/Navigation - Deduction/input'))
+WebUI.click(findTestObject('Navigations/Navigation - Deduction/a_Add Deduction'))
+
+WebUI.verifyTextPresent('Action', false)
 

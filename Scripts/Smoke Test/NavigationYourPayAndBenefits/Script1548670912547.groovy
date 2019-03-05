@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Smoke Test/ValidLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Navigations/Navigation - Allowances'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Navigations/Navigation - Allowances'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Navigations/Navigation - Earnings Accumulators'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Navigations/Navigation - Earnings Accumulators'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Navigations/Navigation - Hours Accumulators'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -29,9 +29,9 @@ WebUI.callTestCase(findTestCase('Navigations/Navigation - Deduction'), [:], Fail
 
 WebUI.callTestCase(findTestCase('Navigations/Navigation - Other Options'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Navigations/Navigation - Pension'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Navigations/Navigation - Pension'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Navigations/Navigation - Auto Enrolment Pension Rules'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Navigations/Navigation - Auto Enrolment Pension Rules'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Navigations/Navigation - Payroll Rates'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -51,5 +51,5 @@ WebUI.callTestCase(findTestCase('Navigations/Navigation - Currencies'), [:], Fai
 
 WebUI.callTestCase(findTestCase('Navigations/Navigation - Bank Indemnity'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

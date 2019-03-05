@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.openBrowser('https://implementationnp.sdworx.co.uk/')
 //WebUI.navigateToUrl('https://implementationnp.sdworx.co.uk/')
@@ -34,5 +35,7 @@ WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/a_Payroll 
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Navigations/Navigation - Payroll Category/a_Add Category'), 0)
+WebUI.click(findTestObject('Navigations/Navigation - Payroll Category/a_Add Category'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('Action', false)
 

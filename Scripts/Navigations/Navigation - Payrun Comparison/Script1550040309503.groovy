@@ -13,11 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Navigations/Navigation - Payrun Comparison/label_Payrun Comparison'))
 
 WebUI.waitForPageLoad(30)
 
 WebUI.verifyTextPresent('Client Payroll Pay Period *', false)
 
-WebUI.verifyTextPresent('Client Payroll Pay Period *', false)
+WebUI.verifyTextPresent('SDWorx Payroll Pay Period *', false)
 
